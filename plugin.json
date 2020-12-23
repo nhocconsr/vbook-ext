@@ -12,6 +12,15 @@
           "source": "https://truyennhieu.com",
           "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/icon.png",
           "description": "Đọc truyện trên trang truyennhieu.com"
-        }
+        },
+        {
+            "name": "Say Hentai",
+            "author": "Nhocconsr",
+            "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
+            "version": 1,
+            "source": "https://sayhentai.net",
+            "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
+            "description": "Đọc truyện trên trang Sayhentai.net"
+          }
     ]
 }
