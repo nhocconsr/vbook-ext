@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "author": "Nhocconsr",
+        "description": ""
+    },
+    "data": [
+        {
+          "name": "Truyện Nhiều",
+          "author": "Nhocconsr",
+          "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenhieu/plugin.zip",
+          "version": 1,
+          "source": "https://truyennhieu.com",
+          "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenhieu/icon.png",
+          "description": "Đọc truyện trên trang truyennhieu.com"
+        }
+    ]
+}
