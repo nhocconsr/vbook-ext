@@ -3,7 +3,7 @@
     "name": "Truyện Nhiều",
     "author": "Nhocconsr",
     "version": 1,
-    "source": "https://truyenhieu.com",
+    "source": "https://truyennhieu.com",
     "regexp": "(www.)?truyennhieu.com/[^/]+/?",
     "description": "Đọc truyện trên trang Truyennhieu.com",
     "local": "vi-VN",
