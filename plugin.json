@@ -21,6 +21,16 @@
             "source": "https://sayhentai.net",
             "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
             "description": "Đọc truyện trên trang Sayhentai.net"
-          }
+        },
+        {
+          "name": "ManhwaHentai",
+          "author": "Nhocconsr",
+          "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/plugin.zip",
+          "version": 1,
+          "source": "https://manhwahentai.me",
+          "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/icon.png",
+          "description": "Đọc truyện trên trang Manhwahentai.me",
+          "tag": "nsfw"
+        }
     ]
 }
