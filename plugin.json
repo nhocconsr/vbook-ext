@@ -14,15 +14,6 @@
         "description": "Đọc truyện trên trang Sangtacviet.com"
       },
       {
-        "name": "Truyện Nhiều",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/plugin.zip",
-        "version": 1,
-        "source": "https://truyennhieu.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/icon.png",
-        "description": "Đọc truyện trên trang truyennhieu.com"
-      },
-      {
         "name": "Truyện Tranh LH",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/plugin.zip",
@@ -30,6 +21,24 @@
         "source": "https://truyentranhlh.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/icon.png",
         "description": "Đọc truyện trên trang Truyentranhlh.net"
+      },
+      {
+        "name": "Truyện Nhiều",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/plugin.zip",
+        "version": 1,
+        "source": "https://truyennhieu.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/icon.png",
+        "description": "Đọc truyện trên trang Truyennhieu.com"
+      },
+      {
+        "name": "Truyện Dịch",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
+        "version": 1,
+        "source": "https://truyennhieu.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
+        "description": "Đọc truyện trên trang Truyendich.org"
       },
       {
         "name": "Say Hentai",
