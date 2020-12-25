@@ -36,7 +36,7 @@
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
         "version": 1,
-        "source": "https://truyennhieu.com",
+        "source": "https://truyendich.org",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
         "description": "Đọc truyện trên trang Truyendich.org"
       },
