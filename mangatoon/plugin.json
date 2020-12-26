@@ -4,7 +4,7 @@
     "author": "Nhocconsr",
     "version": 1,
     "source": "https://mangatoon.mobi",
-    "regexp": "(www.)?https://mangatoon.mobi.*",
+    "regexp": "(www.)?mangatoon.mobi.*",
     "description": "Đọc truyện trên trang Mangatoon.mobi",
     "local": "vi-VN",
     "language": "javascript",
