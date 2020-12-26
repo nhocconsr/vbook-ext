@@ -69,6 +69,16 @@
         "tag": "nsfw"
       },
       {
+        "name": "Read Manhwa",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/readmanhwa/plugin.zip",
+        "version": 1,
+        "source": "https://readmanhwa.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/readmanhwa/icon.png",
+        "description": "Đọc truyện trên trang readmanhwa.com",
+        "tag": "nsfw"
+      },
+      {
         "name": "ManhwaHentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/plugin.zip",

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Read Manhwa",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://readmanhwa.com",
+    "regexp": "(www.)?readmanhwa.com/en.*",
+    "description": "Đọc truyện trên trang readmanhwa.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic",
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
