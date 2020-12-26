@@ -41,6 +41,15 @@
         "description": "Đọc truyện trên trang Truyendich.org"
       },
       {
+        "name": "Học Viện Truyện Tranh",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/plugin.zip",
+        "version": 1,
+        "source": "https://hocvientruyentranh.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/icon.png",
+        "description": "Đọc truyện trên trang hocvientruyentranh.net"
+      },
+      {
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
