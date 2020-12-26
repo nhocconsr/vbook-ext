@@ -59,6 +59,15 @@
         "description": "Đọc truyện trên trang mangatoon.mobi"
       },
       {
+        "name": "LoveHug (Raw)",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lovehug/plugin.zip",
+        "version": 1,
+        "source": "https://lovehug.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lovehug/icon.png",
+        "description": "Đọc truyện trên trang lovehug.net"
+      },
+      {
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",

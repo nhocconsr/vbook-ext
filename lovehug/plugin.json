@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "LoveHug (Raw)",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://lovehug.net",
+    "regexp": "(www.)?lovehug.net.*",
+    "description": "Đọc truyện trên trang lovehug.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
