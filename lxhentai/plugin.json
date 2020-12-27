@@ -2,7 +2,7 @@
   "metadata": {
     "name": "LxHentai",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://lxhentai.com",
     "regexp": "(www.)?lxhentai.com.*",
     "description": "Đọc truyện trên trang lxhentai.com",
