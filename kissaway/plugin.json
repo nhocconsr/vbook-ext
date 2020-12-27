@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "KissAway (Raw)",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://kissaway.net",
+    "regexp": "(www.)?kissaway.net.*",
+    "description": "Đọc truyện trên trang kissaway.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

@@ -68,6 +68,15 @@
         "description": "Đọc truyện trên trang lovehug.net"
       },
       {
+        "name": "KissAway (Raw)",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/plugin.zip",
+        "version": 1,
+        "source": "https://kissaway.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/icon.png",
+        "description": "Đọc truyện trên trang kissaway.net"
+      },
+      {
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
