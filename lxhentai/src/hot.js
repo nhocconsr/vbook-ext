@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://lxhentai.com/story/index.php?p='+page+'&hot').html();
+    const doc = Http.get(url+'?p='+page+'&hot').html();
 
     var next = doc.select(".pagination").select("li.active + li").text()
 
@@ -11,7 +11,7 @@ function execute(url, page) {
         var e = el.get(i);
         data.push({
             name: e.select("a").last().text(),
-            link: e.select("a").first().attr("href"),
+            link: e.select("a").last().attr("href"),
             cover: e.select(".py-2 > div").first().attr("style").split("'")[1],
             description: e.select(".newestChapter a").first().text(),
             host: "https://lxhentai.com"
