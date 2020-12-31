@@ -15,7 +15,7 @@ function execute(key, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select(".tab-thumb img").first().attr("src"),
             description: e.select(".chapter a").first().text(),
-            host: "https://hentai2read.com"
+            host: "https://manhwahentai.me"
         })
     }
 
