@@ -133,6 +133,16 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/icon.png",
         "description": "Đọc truyện trên trang Manhwahentai.me",
         "tag": "nsfw"
+      },
+      {
+        "name": "Hentai Cube",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/plugin.zip",
+        "version": 1,
+        "source": "https://hentaicube.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
+        "description": "Đọc truyện trên trang hentaicube.net",
+        "tag": "nsfw"
       }
     ]
 }

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Hentai Cube",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://hentaicube.net",
+    "regexp": "(www.)?hentaicube.net.*",
+    "description": "Đọc truyện trên trang hentaicube.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic",
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
