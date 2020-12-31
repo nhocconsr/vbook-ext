@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang Sangtacviet.com"
       },
       {
+        "name": "Truyện Tiki",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/plugin.zip",
+        "version": 1,
+        "source": "https://truyentiki.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
+        "description": "Đọc truyện trên trang truyentiki.com"
+      },
+      {
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
