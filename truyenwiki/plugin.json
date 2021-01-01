@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Wiki",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyenwiki.net",
+    "regexp": "(www.)?truyenwiki.net.*",
+    "description": "Đọc truyện trên trang truyenwiki.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type" : "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

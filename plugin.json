@@ -23,6 +23,15 @@
         "description": "Đọc truyện trên trang truyentiki.com"
       },
       {
+        "name": "Truyện Wiki",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/plugin.zip",
+        "version": 1,
+        "source": "https://truyenwiki.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
+        "description": "Đọc truyện trên trang truyenwiki.net"
+      },
+      {
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
