@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Z",
+    "author": "vBook",
+    "version": 1,
+    "source": "https://truyenz.info",
+    "regexp": "(www.)?truyenz.info.*",
+    "description": "Đọc truyện trên trang truyenz.info",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
