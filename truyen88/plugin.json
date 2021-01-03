@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện 88",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyen88.net",
+    "regexp": "(www.)?truyen88.net.*",
+    "description": "Đọc truyện trên trang truyen88.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type" : "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

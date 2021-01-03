@@ -77,6 +77,15 @@
         "description": "Đọc truyện trên trang hocvientruyentranh.net"
       },
       {
+        "name": "Truyện 88",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen88/plugin.zip",
+        "version": 1,
+        "source": "https://truyen88.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen88/icon.png",
+        "description": "Đọc truyện trên trang truyen88.net"
+      },
+      {
         "name": "Truyện Z",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/plugin.zip",
