@@ -95,6 +95,15 @@
         "description": "Đọc truyện trên trang truyenz.info"
       },
       {
+        "name": "Việt Comic",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietcomic/plugin.zip",
+        "version": 1,
+        "source": "https://vietcomic.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietcomic/icon.png",
+        "description": "Đọc truyện trên trang vietcomic.net"
+      },
+      {
         "name": "Manga Toon",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangatoon/plugin.zip",
