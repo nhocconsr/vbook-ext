@@ -151,6 +151,16 @@
         "tag": "nsfw"
       },
       {
+        "name": "Manhwa Manga",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwamanga/plugin.zip",
+        "version": 1,
+        "source": "https://manhwamanga.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwamanga/icon.png",
+        "description": "Đọc truyện trên trang manhwamanga.net",
+        "tag": "nsfw"
+      },
+      {
         "name": "Read Manhwa",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/readmanhwa/plugin.zip",
