@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Việt Comic",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://vietcomic.net",
     "regexp": "(www.)?vietcomic.net.*",
     "description": "Đọc truyện trên trang vietcomic.net",
@@ -13,6 +13,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
