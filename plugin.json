@@ -86,6 +86,15 @@
         "description": "Đọc truyện trên trang truyen88.net"
       },
       {
+        "name": "Ham Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
+        "version": 1,
+        "source": "https://hamtruyen.vn",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
+        "description": "Đọc truyện trên trang Hamtruyen.vn"
+      },
+      {
         "name": "Truyện Z",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/plugin.zip",
