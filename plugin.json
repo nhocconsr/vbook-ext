@@ -122,6 +122,15 @@
         "description": "Đọc truyện trên trang mangatoon.mobi"
       },
       {
+        "name": "Wuxia World",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wuxiaworld/plugin.zip",
+        "version": 1,
+        "source": "https://www.wuxiaworld.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wuxiaworld/icon.png",
+        "description": "Đọc truyện trên trang www.wuxiaworld.com"
+      },
+      {
         "name": "LoveHug (Raw)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lovehug/plugin.zip",
