@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Top 1",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "http://truyentop1.com",
+    "regexp": "(www.)?truyentop1.com.*",
+    "description": "Đọc truyện trên trang truyentop1.com",
+    "local": "vi-VN",
+    "language": "javascript",
+	"type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

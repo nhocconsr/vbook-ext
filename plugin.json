@@ -50,6 +50,15 @@
         "description": "Đọc truyện trên trang khotruyentranh.com"
       },
       {
+        "name": "Truyện Top 1",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/plugin.zip",
+        "version": 1,
+        "source": "http://truyentop1.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/icon.png",
+        "description": "Đọc truyện trên trang truyentop1.com"
+      },
+      {
         "name": "Truyện Tranh LH",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/plugin.zip",
