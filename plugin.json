@@ -68,6 +68,15 @@
         "description": "Đọc truyện trên trang Truyentranhlh.net"
       },
       {
+        "name": "Truyện Tranh Net",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranh/plugin.zip",
+        "version": 1,
+        "source": "https://truyentranh.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranh/icon.png",
+        "description": "Đọc truyện trên trang Truyentranh.net"
+      },
+      {
         "name": "Truyện Nhiều",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/plugin.zip",

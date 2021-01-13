@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Tranh Net",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyentranh.net",
+    "regexp": "(www.)?truyentranh.net.*",
+    "description": "Đọc truyện trên trang Truyentranh.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
