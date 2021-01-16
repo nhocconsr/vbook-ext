@@ -125,7 +125,7 @@
         "name": "Truyện Z",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://truyenz.info",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/icon.png",
         "description": "Đọc truyện trên trang truyenz.info"

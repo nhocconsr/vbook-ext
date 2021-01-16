@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "Truyện Z",
-    "author": "vBook",
-    "version": 1,
+    "author": "Nhocconsr",
+    "version": 2,
     "source": "https://truyenz.info",
     "regexp": "(www.)?truyenz.info.*",
     "description": "Đọc truyện trên trang truyenz.info",
