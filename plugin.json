@@ -44,7 +44,7 @@
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://khotruyentranh.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
         "description": "Đọc truyện trên trang khotruyentranh.com"
