@@ -1,7 +1,7 @@
 {
     "metadata": {
         "author": "Nhocconsr",
-        "description": ""
+        "description": "Thích là nhích ^^!"
     },
     "data": [
       {
@@ -20,7 +20,7 @@
         "version": 1,
         "source": "https://thichtruyen.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thichtruyen/icon.png",
-        "description": "Đọc truyện trên trang thichtruyen.vn"
+        "description": "Đọc truyện trên trang Thichtruyen.vn"
       },
       {
         "name": "Truyện Tiki",
@@ -29,7 +29,7 @@
         "version": 1,
         "source": "https://truyentiki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
-        "description": "Đọc truyện trên trang truyentiki.com"
+        "description": "Đọc truyện trên trang Truyentiki.com"
       },
       {
         "name": "Truyện Wiki",
@@ -38,7 +38,7 @@
         "version": 1,
         "source": "https://truyenwiki.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
-        "description": "Đọc truyện trên trang truyenwiki.net"
+        "description": "Đọc truyện trên trang Truyenwiki.net"
       },
       {
         "name": "Kho Truyện Tranh",
@@ -47,7 +47,7 @@
         "version": 2,
         "source": "https://khotruyentranh.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
-        "description": "Đọc truyện trên trang khotruyentranh.com"
+        "description": "Đọc truyện trên trang Khotruyentranh.com"
       },
       {
         "name": "Truyện Top 1",
@@ -56,7 +56,7 @@
         "version": 1,
         "source": "http://truyentop1.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/icon.png",
-        "description": "Đọc truyện trên trang truyentop1.com"
+        "description": "Đọc truyện trên trang Truyentop1.com"
       },
       {
         "name": "Truyện Tranh LH",
@@ -86,6 +86,15 @@
         "description": "Đọc truyện trên trang Truyennhieu.com"
       },
       {
+        "name": "Truyện Thôi",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenthoi/plugin.zip",
+        "version": 1,
+        "source": "https://truyenthoi.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenthoi/icon.png",
+        "description": "Đọc truyện trên trang Truyenthoi.com"
+      },
+      {
         "name": "Truyện Dịch",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
@@ -101,7 +110,7 @@
         "version": 1,
         "source": "https://hocvientruyentranh.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/icon.png",
-        "description": "Đọc truyện trên trang hocvientruyentranh.net"
+        "description": "Đọc truyện trên trang Hocvientruyentranh.net"
       },
       {
         "name": "Truyện 88",
@@ -110,7 +119,7 @@
         "version": 1,
         "source": "https://truyen88.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen88/icon.png",
-        "description": "Đọc truyện trên trang truyen88.net"
+        "description": "Đọc truyện trên trang Truyen88.net"
       },
       {
         "name": "Ham Truyện",
@@ -128,7 +137,7 @@
         "version": 2,
         "source": "https://truyenz.info",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/icon.png",
-        "description": "Đọc truyện trên trang truyenz.info"
+        "description": "Đọc truyện trên trang Truyenz.info"
       },
       {
         "name": "Việt Comic",
@@ -137,7 +146,7 @@
         "version": 2,
         "source": "https://vietcomic.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietcomic/icon.png",
-        "description": "Đọc truyện trên trang vietcomic.net"
+        "description": "Đọc truyện trên trang Vietcomic.net"
       },
       {
         "name": "Manga Toon",
@@ -146,7 +155,7 @@
         "version": 1,
         "source": "https://mangatoon.mobi",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangatoon/icon.png",
-        "description": "Đọc truyện trên trang mangatoon.mobi"
+        "description": "Đọc truyện trên trang Mangatoon.mobi"
       },
       {
         "name": "Wuxia World",
@@ -164,7 +173,7 @@
         "version": 1,
         "source": "https://lovehug.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lovehug/icon.png",
-        "description": "Đọc truyện trên trang lovehug.net"
+        "description": "Đọc truyện trên trang Lovehug.net"
       },
       {
         "name": "KissAway (Raw)",
@@ -173,7 +182,7 @@
         "version": 1,
         "source": "https://kissaway.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/icon.png",
-        "description": "Đọc truyện trên trang kissaway.net"
+        "description": "Đọc truyện trên trang Kissaway.net"
       },
       {
         "name": "Say Hentai",
@@ -192,7 +201,7 @@
         "version": 2,
         "source": "https://lxhentai.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
-        "description": "Đọc truyện trên trang lxhentai.com",
+        "description": "Đọc truyện trên trang Lxhentai.com",
         "tag": "nsfw"
       },
       {
@@ -202,7 +211,7 @@
         "version": 1,
         "source": "https://manhwamanga.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwamanga/icon.png",
-        "description": "Đọc truyện trên trang manhwamanga.net",
+        "description": "Đọc truyện trên trang Manhwamanga.net",
         "tag": "nsfw"
       },
       {
@@ -212,7 +221,7 @@
         "version": 1,
         "source": "https://readmanhwa.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/readmanhwa/icon.png",
-        "description": "Đọc truyện trên trang readmanhwa.com",
+        "description": "Đọc truyện trên trang Readmanhwa.com",
         "tag": "nsfw"
       },
       {
@@ -232,7 +241,7 @@
         "version": 1,
         "source": "https://hentaicube.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
-        "description": "Đọc truyện trên trang hentaicube.net",
+        "description": "Đọc truyện trên trang Hentaicube.net",
         "tag": "nsfw"
       }
     ]

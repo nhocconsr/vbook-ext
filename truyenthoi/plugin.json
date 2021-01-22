@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Thôi",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyenthoi.com",
+    "regexp": "(www.)?truyenthoi.com.*",
+    "description": "Đọc truyện trên trang Truyenthoi.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
