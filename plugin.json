@@ -95,6 +95,15 @@
         "description": "Đọc truyện trên trang Truyenthoi.com"
       },
       {
+        "name": "Hố Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/plugin.zip",
+        "version": 1,
+        "source": "https://hotruyen.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/icon.png",
+        "description": "Đọc truyện trên trang Hotruyen.com"
+      },
+      {
         "name": "Truyện Dịch",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
