@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Truyện Nhiều",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyennhieu.com",
     "regexp": "(www.)?truyennhieu.com/[^/]+/?",
     "description": "Đọc truyện trên trang Truyennhieu.com",
