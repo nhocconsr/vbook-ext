@@ -23,6 +23,15 @@
         "description": "Đọc truyện trên trang Thichtruyen.vn"
       },
       {
+        "name": "123 Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
+        "version": 1,
+        "source": "https://123truyen.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/icon.png",
+        "description": "Đọc truyện trên trang 123truyen.com"
+      },
+      {
         "name": "Truyện Tiki",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/plugin.zip",

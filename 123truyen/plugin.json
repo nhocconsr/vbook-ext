@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "123 Truyện",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://123truyen.com",
+    "regexp": "(www.)?123truyen.com.*",
+    "description": "Đọc truyện trên trang 123truyen.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type" : "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
