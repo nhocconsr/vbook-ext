@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "20xs",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.20xs.org",
+    "regexp": "(www.)?20xs.org.*",
+    "description": "Đọc truyện trên trang www.20xs.org",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
