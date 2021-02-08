@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "69Shu",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.69shu.io",
+    "regexp": "(www.)?69shu.io.*",
+    "description": "Đọc truyện trên trang 69shu.io",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
