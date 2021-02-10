@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "9txs",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://9txs.com",
+    "regexp": "(www.)?9txs.com.*",
+    "description": "Đọc truyện trên trang 9txs.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
