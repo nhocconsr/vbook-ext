@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "bFaloo",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://b.faloo.com",
+    "regexp": "(www.)?b.faloo.com.*",
+    "description": "Đọc truyện trên trang b.faloo.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

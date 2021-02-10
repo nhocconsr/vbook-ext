@@ -288,6 +288,15 @@
         "source": "https://9txs.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/icon.png",
         "description": "Đọc truyện trên trang 9txs.com"
+      },
+      {
+        "name": "bFaloo",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bfaloo/plugin.zip",
+        "version": 1,
+        "source": "https://b.faloo.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bfaloo/icon.png",
+        "description": "Đọc truyện trên trang b.faloo.com"
       }
     ]
 }
