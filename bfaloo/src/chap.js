@@ -4,5 +4,5 @@ function execute(url) {
     var htm = doc.select(".noveContent").html();
     htm = htm.replace(/<a[^>]*>([^<]+)<\/a>/g,'');
     htm = htm.replace(/&(nbsp|amp|quot|lt|gt);/g, "");
-    return Response.success(doc.find('.noveContent p'));
+    return Response.success(htm);
 }
