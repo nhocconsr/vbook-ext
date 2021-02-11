@@ -293,7 +293,7 @@
         "name": "bFaloo",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bfaloo/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://b.faloo.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bfaloo/icon.png",
         "description": "Đọc truyện trên trang b.faloo.com"

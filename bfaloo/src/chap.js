@@ -1,6 +1,5 @@
 function execute(url) {
     var doc = Http.get(url).html();
-    doc.find('.noveContent p')
     doc.select(".noveContent p").last().remove();
     var htm = doc.select(".noveContent").html();
     htm = htm.replace(/<a[^>]*>([^<]+)<\/a>/g,'');

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "bFaloo",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://b.faloo.com",
     "regexp": "(www.)?b.faloo.com.*",
     "description": "Đọc truyện trên trang b.faloo.com",
