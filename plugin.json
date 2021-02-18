@@ -122,6 +122,15 @@
         "description": "Đọc truyện trên trang Truyendich.org"
       },
       {
+        "name": "Truyện Dịch Giá Rẻ",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/plugin.zip",
+        "version": 1,
+        "source": "http://truyendichgiare.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/icon.png",
+        "description": "Đọc truyện trên trang Truyendichgiare.com"
+      },
+      {
         "name": "Học Viện Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/plugin.zip",
