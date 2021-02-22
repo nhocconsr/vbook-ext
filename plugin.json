@@ -315,7 +315,15 @@
         "source": "https://www.imiaobige.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/icon.png",
         "description": "Đọc truyện trên trang www.imiaobige.com"
+      },
+      {
+        "name": "Tadu",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/plugin.zip",
+        "version": 1,
+        "source": "https://www.tadu.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/icon.png",
+        "description": "Đọc truyện trên trang www.tadu.com"
       }
-      
     ]
 }
