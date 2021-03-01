@@ -41,6 +41,15 @@
         "description": "Đọc truyện trên trang Truyentiki.com"
       },
       {
+        "name": "Truyện A",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
+        "version": 1,
+        "source": "https://truyena.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
+        "description": "Đọc truyện trên trang Truyena.com"
+      },
+      {
         "name": "Truyện Wiki",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/plugin.zip",

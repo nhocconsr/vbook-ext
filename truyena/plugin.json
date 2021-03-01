@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện A",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyena.com",
+    "regexp": "(www.)?truyena.com.*",
+    "description": "Đọc truyện trên trang truyena.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type" : "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
