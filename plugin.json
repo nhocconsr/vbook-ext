@@ -317,6 +317,15 @@
         "description": "Đọc truyện trên trang b.faloo.com"
       },
       {
+        "name": "Shu05",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shu05/plugin.zip",
+        "version": 1,
+        "source": "http://www.shu05.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shu05/icon.png",
+        "description": "Đọc truyện trên trang www.shu05.com"
+      },
+      {
         "name": "imiaobige",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/plugin.zip",
