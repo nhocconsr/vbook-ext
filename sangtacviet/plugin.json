@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Sáng Tác Việt",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "http://sangtacviet.com",
     "regexp": "(www.)?sangtacviet.com/[a-z]+/[a-z]+/\\d+/\\d+/?$",
-    "description": "Đọc truyện trên trang Sáng Tác Việt\nVer 2: Update load name nhưng load chap sẽ chậm hơn\n Cài đặt thời gian nghỉ 5-10s số luồng 2 threads",
+    "description": "Đọc truyện trên trang Sáng Tác Việt\nVer 2: Update load mỗi truyện thôi. Do bên kia chặn rồi ^^! \n Cài đặt thời gian nghỉ 5-10s số luồng 1 threads",
     "local": "vi-VN",
     "language": "javascript",
     "type": "novel"

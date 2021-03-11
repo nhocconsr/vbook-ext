@@ -1,17 +1,49 @@
 function execute(url) {
-    var browser = Engine.newBrowser()
-    browser.launch(url + '/', 20000)
-    browser.waitUrl(".*?sangtacviet.com/index.php.*?",  20000)
-    const doc  = browser.html()
-    var content = doc.select(".contentbox").first().html();
-    var content = content.replace(/&(nbsp|amp|quot|lt|gt);/g, "");
-    var content = content.replace(/(nbsp|amp|quot|lt|gt|bp);/g, "");
-    var content = content.replace("@Bạn đang đọc bản được lưu trong hệ thống", "");
-    var content = content.replace("UUKANSHU đọc sách www.uukanshu.com", "");
-    var content = content.replace("69 sách a www.69shu.org, đổi mới nhanh nhất Chương mới nhất!", "");
-    var content = content.replace(/<\/?i.*?>/g, "");
-    var content = content.replace(/\s{2,}/g, " ");
-    var content = content.replace(/<div\s+class="ad_content">[\S\s]*?<\/div>/gi, " "); 
-    browser.close()
-    return Response.success(content);
+    var doc = Http.get(url + "/").html();
+    var html = doc.html();
+
+    var bookId = html.match(/bookid=(\d+);/);
+    if (bookId) bookId = bookId[1];
+
+    var bookHost = html.match(/bookhost=\"(.*?)\";/);
+    if (bookHost) bookHost = bookHost[1];
+
+    var currentidc = html.match(/currentidc=\"(.*?)\";/);
+    if (currentidc) currentidc = currentidc[1];
+
+    var currentid = html.match(/currentid=\"(.*?)\";/);
+    if (currentid) currentid = currentid[1];
+
+    var booksty = html.match(/booksty=(\d+);/);
+    if (booksty) booksty = booksty[1];
+
+    var data = Http.get("http://sangtacviet.com/index.php")
+        .params({
+            sajax: "readchapter",
+            bookid: bookId,
+            h: bookHost,
+            c2: currentidc,
+            c: currentid,
+            sty: booksty
+        }).string();
+
+    var json = JSON.parse(data);
+
+    var htm = json["data"];
+    var info = json["info"];
+    var err = json["err"];
+    if (htm) {
+        var chapterName = json["chaptername"];
+        htm = htm.substring(htm.indexOf('</p>')+7);
+        htm = htm.replace(/&(nbsp|amp|quot|lt|gt);/g, "");
+        htm = htm.replace(/(nbsp|amp|quot|lt|gt|bp);/g, "");
+        htm = htm.replace("@Bạn đang đọc bản được lưu trong hệ thống", "");
+        htm = htm.replace(/<\/?i.*?>/g, "");
+        htm = htm.replace(/\s{2,}/g, " ");
+        return Response.success(htm, chapterName);
+    } else if (info) {
+        return Response.error(info);
+    } if (err) {
+        return Response.error(err);
+    }
 }
