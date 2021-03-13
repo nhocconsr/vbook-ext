@@ -4,7 +4,7 @@
     "author": "Nhocconsr",
     "version": 1,
     "source": "https://truyenwiki.com",
-    "regexp": "(www.)?truyenwiki.com/[^/]+\\d+.html",
+    "regexp": "(www.)?truyenwiki.com.*",
     "description": "Đọc truyện trên trang Truyenwiki.com",
     "local": "vi-VN",
     "language": "javascript",
