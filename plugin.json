@@ -326,6 +326,15 @@
         "description": "Đọc truyện trên trang b.faloo.com"
       },
       {
+        "name": "Shuquge",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shuquge/plugin.zip",
+        "version": 1,
+        "source": "https://www.shuquge.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shuquge/icon.png",
+        "description": "Đọc truyện trên trang shuquge.com"
+      },
+      {
         "name": "Shu05",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/shu05/plugin.zip",
