@@ -344,6 +344,15 @@
         "description": "Đọc truyện trên trang www.shu05.com"
       },
       {
+        "name": "230Book",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/plugin.zip",
+        "version": 1,
+        "source": "http://www.230book.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/icon.png",
+        "description": "Đọc truyện trên trang www.230book.com"
+      },
+      {
         "name": "imiaobige",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/plugin.zip",

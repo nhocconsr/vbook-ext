@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "230Book",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.230book.com",
+    "regexp": "(www.)?230book.com.*",
+    "description": "Đọc truyện trên trang 230book.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
