@@ -4,6 +4,7 @@ Extensions cho app Vbook App.
 Tải app tại : https://bit.ly/vbookapp
 
 Link extension: ```https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json```
+
 ## Hướng dẫn
 * Mở phần mở rộng trong app
 
