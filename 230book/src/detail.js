@@ -1,5 +1,5 @@
 function execute(url) {
-    const doc = Http.get(url).html('gbk');
+    const doc = Http.get(url+'/').html('gbk');
 
     return Response.success({
         name: doc.select("#info h1").text(),

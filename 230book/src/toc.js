@@ -1,5 +1,5 @@
 function execute(url) {
-    var doc = Http.get(url).html('gbk');
+    var doc = Http.get(url+'/').html('gbk');
 
     var el = doc.select("ul._chapter li a")
     const data = [];
