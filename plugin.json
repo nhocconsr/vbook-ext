@@ -230,6 +230,15 @@
         "description": "Đọc truyện trên trang Kissaway.net"
       },
       {
+        "name": "MangaNelo",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manganelo/plugin.zip",
+        "version": 1,
+        "source": "https://manganelo.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manganelo/icon.png",
+        "description": "Đọc truyện trên trang Manganelo.com"
+      },
+      {
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "MangaNelo",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://manganelo.com",
+    "regexp": "(www.)?manganelo.com.*",
+    "description": "Đọc truyện trên trang manganelo.com",
+    "local": "en-EN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
