@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Truyện Wiki Com",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyenwiki.com",
-    "regexp": "(www.)?truyenwiki.com.*",
+    "regexp": "(www.)?truyenwiki.com/truyen/\\d+",
     "description": "Đọc truyện trên trang Truyenwiki.com",
     "local": "vi-VN",
     "language": "javascript",
@@ -14,6 +14,7 @@
     "home": "home.js",
     "detail": "detail.js",
     "search": "search.js",
+    "page": "page.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

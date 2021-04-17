@@ -3,9 +3,9 @@ function execute(url) {
     return Response.success({
         name: doc.select("h1").text(),
         cover: doc.select(".book3d img").first().attr("data-src"),
-        author: doc.select(".info span").get(1).text(),
+        author: doc.select("#thong_tin th").get(0).text(),
         description: doc.select(".gioi_thieu").html(),
-        detail: doc.select(".info").get(1).text(),
+        detail: doc.select("#thong_tin").text(),
         host: "https://truyenwiki.com"
     });
 }
