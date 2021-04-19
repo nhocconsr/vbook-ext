@@ -13,7 +13,7 @@ function execute(url, page) {
             name: e.select(".searchbooktitle").first().text(),
             link: e.select("a").first().attr("href"),
             cover: e.select("img").first().attr("src"),
-            description: e.select(".searchbookauthor").first().text(),
+            description: e.select(".searchtag").first().text(),
             host: "http://sangtacviet.com"
         })
     }

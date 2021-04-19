@@ -8,7 +8,7 @@
         "name": "Sáng Tác Việt",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sangtacviet/plugin.zip",
-        "version": 4,
+        "version": 5,
         "source": "http://sangtacviet.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sangtacviet/icon.png",
         "description": "Đọc truyện trên trang Sangtacviet.com"
