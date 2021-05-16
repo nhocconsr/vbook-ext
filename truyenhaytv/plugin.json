@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "Truyện Hay TV",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyenhaytv.com",
+    "regexp": "(www.)?truyenhaytv.com.*",
+    "description": "Đọc truyện trên trang truyenhaytv.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

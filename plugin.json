@@ -68,6 +68,15 @@
         "description": "Đọc truyện trên trang Khotruyentranh.com"
       },
       {
+        "name": "Truyện Hay TV",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenhaytv/plugin.zip",
+        "version": 1,
+        "source": "https://truyenhaytv.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenhaytv/icon.png",
+        "description": "Đọc truyện trên trang Truyenhaytv.com"
+      },
+      {
         "name": "Truyện Top 1",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/plugin.zip",
