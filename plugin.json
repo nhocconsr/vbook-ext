@@ -89,7 +89,7 @@
         "name": "Truyện Tranh LH",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://truyentranhlh.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/icon.png",
         "description": "Đọc truyện trên trang Truyentranhlh.net"

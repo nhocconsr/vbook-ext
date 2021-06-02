@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Truyện Tranh LH",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyentranhlh.net",
-    "regexp": "(www.)?truyentranhlh.net/truyen/[^/]+/?",
+    "regexp": "(www.)?truyentranhlh.net/truyen-tranh/[^/]+/?",
     "description": "Đọc truyện trên trang truyentranhlh.net",
     "local": "vi-VN",
     "language": "javascript",
