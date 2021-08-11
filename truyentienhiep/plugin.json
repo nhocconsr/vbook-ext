@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Truyện Tiên Hiệp",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyentienhiep.net/",
+    "regexp": "(www.)?truyentienhiep.net/[0-9a-z-]+/?$*",
+    "description": "Đọc truyện trên trang truyentienhiep.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

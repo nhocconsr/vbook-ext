@@ -59,6 +59,15 @@
         "description": "Đọc truyện trên trang Truyenwiki.net"
       },
       {
+        "name": "Truyện Tiên Hiệp",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/plugin.zip",
+        "version": 1,
+        "source": "https://truyentienhiep.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/icon.png",
+        "description": "Đọc truyện trên trang truyentienhiep.net"
+      },
+      {
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
