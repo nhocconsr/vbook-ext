@@ -212,15 +212,6 @@
         "description": "Đọc truyện trên trang Vietcomic.net"
       },
       {
-        "name": "Manga Toon",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangatoon/plugin.zip",
-        "version": 1,
-        "source": "https://mangatoon.mobi",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangatoon/icon.png",
-        "description": "Đọc truyện trên trang Mangatoon.mobi"
-      },
-      {
         "name": "Wuxia World",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wuxiaworld/plugin.zip",
