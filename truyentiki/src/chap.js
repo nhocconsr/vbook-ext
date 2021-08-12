@@ -7,6 +7,7 @@ function execute(url) {
         chp_id : chpId,
     }).string();
     var data = JSON.parse(json);
-
-    return Response.success(data['chp_content_cv']);
+    var content = data['chp_content_cv'];
+    var content = content.replace(/<\/?i.*?>/g, "");
+    return Response.success(content);
 }
