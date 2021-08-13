@@ -8,7 +8,7 @@ function execute(url) {
         data.push({
             name: e.select("a").text(),
             url: url+'/'+e.attr("href"),
-            host: "http://www.230book.com"
+            host: "http://www.230book.net"
         })
     }
 

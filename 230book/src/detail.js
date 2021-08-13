@@ -7,6 +7,6 @@ function execute(url) {
         author: doc.select("#info p").first().text(),
         description: doc.select("#intro").text(),
         detail: doc.select("#info p").get(0).text()+'<br>'+doc.select("#info p").get(1).text(),
-        host: "http://www.230book.com"
+        host: "http://www.230book.net"
     });
 }

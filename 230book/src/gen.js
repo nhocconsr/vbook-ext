@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get("https://www.230book.com/"+url+page+".html").html('gbk');
+    const doc = Http.get("https://www.230book.net/"+url+page+".html").html('gbk');
 
     var next = doc.select(".pagelink").select("strong + a").text();
 
@@ -14,9 +14,9 @@ function execute(url, page) {
         data.push({
             name: e.select(".s2 a").first().text(),
             link: e.select(".s2 a").first().attr("href"),
-            cover: 'http://www.230book.com/files/article/image/'+fol+'/'+booKId+'/'+booKId+'s.jpg',
+            cover: 'http://www.230book.net/files/article/image/'+fol+'/'+booKId+'/'+booKId+'s.jpg',
             description: e.select(".s5").text(),
-            host: "http://www.230book.com"
+            host: "http://www.230book.net"
         })
     }
 
