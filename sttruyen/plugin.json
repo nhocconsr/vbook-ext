@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "ST Truyện",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://sttruyen.com",
+    "regexp": "(www.)?truyena.com.*",
+    "description": "Đọc truyện tại trang Sttruyen.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

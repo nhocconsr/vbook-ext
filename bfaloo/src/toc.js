@@ -1,6 +1,6 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-
+    const nUrl = url.replace('wap','b');
+    var doc = Http.get(nUrl).html();
     var el = doc.select(".DivTable .DivTd a")
     const data = [];
     for (var i = 0;i < el.size(); i++) {

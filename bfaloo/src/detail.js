@@ -1,6 +1,6 @@
 function execute(url) {
-    const doc = Http.get(url).html();
-
+    const nUrl = url.replace('wap','b');
+    const doc = Http.get(nUrl).html();
     return Response.success({
         name: doc.select("h1#novelName").text(),
         cover: doc.select(".T-L-T-Img img").first().attr("src"),
