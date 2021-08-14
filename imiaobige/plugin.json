@@ -2,9 +2,9 @@
   "metadata": {
     "name": "imiaobige",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://www.imiaobige.com",
-    "regexp": "(www.)?imiaobige.com.*",
+    "regexp": "(www.)?imiaobige.com/novel/\\d+.html",
     "description": "Đọc truyện trên trang www.imiaobige.com",
     "local": "vi-VN",
     "language": "javascript",

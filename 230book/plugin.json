@@ -2,7 +2,7 @@
   "metadata": {
     "name": "230Book",
     "author": "Nhocconsr",
-    "version": 5,
+    "version": 6,
     "source": "https://www.230book.net",
     "regexp": "(www.|m.)?((230book.net/book/\\d+/)|(230book.net/book/\\d+))",
     "description": "Đọc truyện trên trang 230book.net",
