@@ -1,6 +1,6 @@
 function execute(url) {
-    var doc = Http.get(url+'/').html('gbk');
-
+    const doc = Http.get(url+'/').html('gbk');
+    
     var el = doc.select("ul._chapter li a")
     const data = [];
     for (var i = 0;i < el.size(); i++) {

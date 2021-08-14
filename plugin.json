@@ -374,7 +374,7 @@
         "name": "230Book",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "http://www.230book.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/icon.png",
         "description": "Đọc truyện trên trang www.230book.net"

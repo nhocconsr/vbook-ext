@@ -1,6 +1,5 @@
 function execute(url) {
     const doc = Http.get(url+'/').html('gbk');
-
     return Response.success({
         name: doc.select("#info h1").text(),
         cover: doc.select("#fmimg img").first().attr("src"),
