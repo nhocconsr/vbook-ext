@@ -6,6 +6,6 @@ function execute(url) {
         author: doc.select("table > tbody > tr:nth-child(2)").first().text(),
         description: doc.select("#active").html().replace(/<div id="func-btns">(.*?)<\/div>/g, ''),
         detail: doc.select("table > tbody > tr:nth-child(2)").html()+'<br>'+doc.select("table > tbody > tr:nth-child(3)").html()+'<br>'+doc.select("table > tbody > tr:nth-child(4)").html(),
-        host: "https://truyen88.net",
+        host: "https://truyen88.pro",
     });
 }

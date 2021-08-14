@@ -13,7 +13,7 @@ function execute(url, page) {
             link: e.select(".story-name a").first().attr("href"),
             cover: e.select("img").first().attr("src"),
             description: e.select(".col-xs-8.col-sm-8.col-md-8.col-lg-8 > p:nth-child(3)").first().text().split('| ')[1],
-            host: "https://truyen88.net"
+            host: "https://truyen88.pro"
         })
     }
     return Response.success(data, next)

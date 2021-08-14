@@ -1,6 +1,6 @@
 function execute() {
-    const doc = Http.get("https://truyen88.net").html();
-    const el = doc.select('.category-sidebar a')
+    const doc = Http.get("https://truyen88.pro/the-loai/tien-hiep").html();
+    const el = doc.select('div.category-sidebar a')
 ;
     const data = [];
     for (var i = 0; i < el.size(); i++) {

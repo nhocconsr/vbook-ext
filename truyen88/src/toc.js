@@ -11,7 +11,7 @@ function execute(url) {
         list.push({
             name: chap['name'],
             url: 'https://api.truyen88.net/api/content-chapter/' + chap['id'],
-            host: "https://truyen88.net"
+            host: "https://truyen88.pro"
         })
     }
 

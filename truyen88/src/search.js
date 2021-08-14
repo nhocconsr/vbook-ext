@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '0';
-    const doc = Http.get('https://truyen88.net/search').params({
+    const doc = Http.get('https://truyen88.pro/search').params({
         key : key,
         page: page,
     }).html()
@@ -16,7 +16,7 @@ function execute(key, page) {
             link: e.select(".story-name a").first().attr("href"),
             cover: e.select("img").first().attr("src"),
             description: e.select(".col-xs-7.col-sm-7.col-md-7.col-lg-7 > p:nth-child(3)").first().text().split('|')[1],
-            host: "https://truyen88.net"
+            host: "https://truyen88.pro"
         })
     }
     return Response.success(data, next)
