@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "GetTruyen",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://gettruyen.com",
+    "regexp": "(www.)?gettruyen.com/[^/+]+",
+    "description": "Đọc truyện tại trang gettruyen.com :D",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
