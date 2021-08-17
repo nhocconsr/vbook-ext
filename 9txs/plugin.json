@@ -2,10 +2,10 @@
   "metadata": {
     "name": "9txs",
     "author": "Nhocconsr",
-    "version": 1,
-    "source": "https://9txs.com",
-    "regexp": "(www.)?9txs.com.*",
-    "description": "Đọc truyện trên trang 9txs.com",
+    "version": 2,
+    "source": "https://9txs.org",
+    "regexp": "(www.)?9txs.org/book/\\d+.html",
+    "description": "Đọc truyện trên trang 9txs.org",
     "local": "vi-VN",
     "language": "javascript",
     "type": "chinese_novel"

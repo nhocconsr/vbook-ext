@@ -347,10 +347,10 @@
         "name": "9txs",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/plugin.zip",
-        "version": 1,
-        "source": "https://9txs.com",
+        "version": 2,
+        "source": "https://9txs.org",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/icon.png",
-        "description": "Đọc truyện trên trang 9txs.com"
+        "description": "Đọc truyện trên trang 9txs.org"
       },
       {
         "name": "bFaloo",

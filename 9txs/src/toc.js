@@ -7,8 +7,8 @@ function execute(url) {
         var e = el.get(i);
         data.push({
             name: e.select("a").text(),
-            url: 'https://9txs.com'+e.attr("href"),
-            host: "https://9txs.com"
+            url: 'https://9txs.org'+e.attr("href"),
+            host: "https://9txs.org"
         })
     }
 
