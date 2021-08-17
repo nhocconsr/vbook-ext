@@ -8,6 +8,13 @@ function execute(url) {
     }).string();
     var data = JSON.parse(json);
     var content = data['chp_content_cv'];
-    var content = content.replace(/<\/?i.*?>/g, "");
-    return Response.success(content);
+    if (content){
+        var content = content.replace(/<\/?i.*?>/g, "");
+        return Response.success(content);
+    }else if (content = data['chp_content_gg']) {
+        var content = content.replace(/<\/?i.*?>/g, "");
+        return Response.success(content);
+    }else{
+        return Response.success('Chương này không có hoặc đang được cập nhật, bạn vui lòng thử lại sau 3 giây !');
+    }
 }

@@ -2,9 +2,9 @@
   "metadata": {
     "name": "GetTruyen",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://gettruyen.com",
-    "regexp": "(www.)?gettruyen.com/[^/+]+",
+    "regexp": "(www.)?((gettruyen.com/[^/+]+/)|(gettruyen.com/[^/+]+))",
     "description": "Đọc truyện tại trang gettruyen.com :D",
     "local": "vi-VN",
     "language": "javascript",

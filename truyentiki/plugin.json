@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Truyện Tiki",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://truyentiki.com",
-    "regexp": "(www.)?truyentiki.com.*",
+    "regexp": "(www.)?((truyentiki.com/[^/+]+/)|(truyentiki.com/[^/+]+))",
     "description": "Đọc truyện trên trang Truyentiki.com",
     "local": "vi-VN",
     "language": "javascript",
