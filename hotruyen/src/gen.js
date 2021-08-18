@@ -7,14 +7,14 @@ function execute(url, page) {
 
     var next = doc.select(".pagination").select("li.active + li").text()
 
-    const el = doc.select("#searchresult .sitem")
+    const el = doc.select("#newupdate .uitem")
 
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
         data.push({
-            name: e.select(".title a").first().text(),
-            link: e.select(".title a").first().attr("href"),
+            name: e.select(".title").first().text(),
+            link: e.select("a").first().attr("href"),
             cover: e.select("img").first().attr("data-src"),
             description: e.select(".author").first().text(),
             host: "https://hotruyen.com"
