@@ -1,15 +1,15 @@
 function execute(url) {
-    var slug = url.split('/')[4];
-    const json = Http.get('https://truyendich.org/secure/items/show/'+slug).string()
-    var book = JSON.parse(json);
-    var allChap = book.item['latest_chapter'];
+    var doc = Http.get(url).html();
+    var el = doc.select("ul.list-chapter > li a");
     const data = [];
-    for (var i = 1; i <= allChap ; i++){
+    for (var i = 0; i < el.size(); i++) {
+        var e = el.get(i);
         data.push({
-            name: 'Chương ' + i,
-            url: url + '/' + i,
+            name: e.select("a").text(),
+            url: e.attr("href"),
             host: "https://truyendich.org"
         })
     }
+
     return Response.success(data);
 }

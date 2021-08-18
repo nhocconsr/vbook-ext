@@ -1,26 +1,20 @@
-function execute(url, page){
-    const cate = url.split('/')[1];
-    if(!page) page = '1';
-    const json = Http.get('https://truyendich.org/secure/items').params({
-        category: cate,
-        page: page
-    }).string()
-    var data = JSON.parse(json);
-	var next = data.pagination['next_page_url'].split('=')[1];
+function execute(url, page) {
+    if (!page) page = '1';
+    const doc = Http.get('https://truyendich.org/loc-truyen').params({'the-loai': url,'page':page}).html()
 
-    var chapList = data.pagination.data;
-    const list = [];
-    for (var i = 0; i < chapList.length; i++) {
-        var chap = chapList[i]
-        list.push({
-            name: chap['name'],
-            link: "doc-truyen/"+chap['slug'],
-            cover: chap['poster'],
-            description: 'Chương '+chap['latest_chapter'],
+    var next = doc.select(".product__pagination").select("a.current-page + a").text()
+    const el = doc.select(".product__page__content .product__item")
+
+    const data = [];
+    for (var i = 0; i < el.size(); i++) {
+        var e = el.get(i);
+        data.push({
+            name: e.select("h5 a").first().text(),
+            link: e.select("h5 a").first().attr("href"),
+            cover: e.select("a div").attr("data-image"),
+            description: e.select(".ep").first().text(),
             host: "https://truyendich.org"
         })
     }
-
-    return Response.success(list, next)
-
+    return Response.success(data,next)
 }

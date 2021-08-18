@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://truyendich.org/loc-truyen').params({'status': url,'page':page}).html()
+    const doc = Http.get('https://truyendich.org/loc-truyen').params({'sort': url,'page':page}).html()
 
     var next = doc.select(".product__pagination").select("a.current-page + a").text()
     const el = doc.select(".product__page__content .product__item")

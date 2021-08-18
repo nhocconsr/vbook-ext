@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Truyện Dịch",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyendich.org",
-    "regexp": "(www.)?truyendich.org.*",
+    "regexp": "(www.)?truyendich.org/doc-truyen/[0-9a-z-]+",
     "description": "Đọc truyện trên trang Truyendich.org",
     "local": "vi-VN",
     "language": "javascript",

@@ -1,13 +1,12 @@
 function execute() {
-    const json = Http.get("https://truyendich.org/secure/categories?per_page=1000").string();
-    const el = JSON.parse(json);
-    var es = el.pagination.data;
+    const doc = Http.get("https://truyendich.org").html();
+    const el = doc.select(".dropdown li a");
     const data = [];
-    for (var i = 0; i < es.length; i++) {
-        var e = es[i];
+    for (var i = 7; i < el.size(); i++) {
+        var e = el.get(i);
         data.push({
-           title: e['name'],
-           input: e['slug'],
+           title: e.text(),
+           input: e.attr('href').split(/[=&]/)[1],
            script: 'cat.js'
         });
     }
