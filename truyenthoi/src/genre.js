@@ -1,5 +1,5 @@
 function execute() {
-    const doc = Http.get("https://truyenthoi.com").html();
+    const doc = Http.get("https://truyenthoi.net").html();
     const el = doc.select('.list-truyen .index-cate')
 ;
     const data = [];

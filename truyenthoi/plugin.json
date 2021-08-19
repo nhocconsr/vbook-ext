@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Truyện Thôi",
     "author": "Nhocconsr",
-    "version": 1,
-    "source": "https://truyenthoi.com",
-    "regexp": "(www.)?truyenthoi.com.*",
+    "version": 2,
+    "source": "https://truyenthoi.net",
+    "regexp": "(www.)?truyenthoi.net/[0-9a-z-]+.html",
     "description": "Đọc truyện trên trang Truyenthoi.net",
     "local": "vi-VN",
     "language": "javascript",

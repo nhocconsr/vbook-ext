@@ -143,10 +143,10 @@
         "name": "Truyện Thôi",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenthoi/plugin.zip",
-        "version": 1,
-        "source": "https://truyenthoi.com",
+        "version": 2,
+        "source": "https://truyenthoi.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenthoi/icon.png",
-        "description": "Đọc truyện trên trang Truyenthoi.com"
+        "description": "Đọc truyện trên trang Truyenthoi.net"
       },
       {
         "name": "Truyện Wiki Com",

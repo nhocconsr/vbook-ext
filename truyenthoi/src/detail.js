@@ -6,6 +6,6 @@ function execute(url) {
         author: doc.select(".info-chitiet").first().text(),
         description: doc.select(".desc-text").html(),
         detail: doc.select(".info").html(),
-        host: "https://truyenthoi.com"
+        host: "https://truyenthoi.net"
     });
 }

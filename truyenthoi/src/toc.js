@@ -1,7 +1,7 @@
 function execute(url) {
     var doc = Http.get(url).html();
     const bookId = doc.select("input[id=id_post]").first().attr("value")
-    var adoc = Http.post("https://truyenthoi.com/wp-admin/admin-ajax.php").params({
+    var adoc = Http.post("https://truyenthoi.net/wp-admin/admin-ajax.php").params({
         action:  "tw_ajax",
         type:  "list_chap",
         id: bookId
@@ -13,7 +13,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url: e.attr("value"),
-            host: "https://truyenthoi.com"
+            host: "https://truyenthoi.net"
         })
     }
 

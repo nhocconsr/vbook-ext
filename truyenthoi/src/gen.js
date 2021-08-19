@@ -14,7 +14,7 @@ function execute(url, page) {
             link: e.select(".caption a").first().attr("href"),
             cover: e.select(".each_truyen img").first().attr("src"),
             description: e.select(".chapter-name").first().text(),
-            host: "https://truyenthoi.com"
+            host: "https://truyenthoi.net"
         })
     }
 
