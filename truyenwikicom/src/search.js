@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://truyenwiki.com/tim-kiem/page/'+page+'/?title='+key+'&author=yes&keyword=yes&he_liet=yes&status=all&time=update').html()
+    const doc = Http.get('https://truyenwiki1.com/tim-kiem/page/'+page+'/?title='+key+'&author=yes&keyword=yes&he_liet=yes&status=all&time=update').html()
 
     var next = doc.select(".pagination").select("li.active + li").text()
 
@@ -14,7 +14,7 @@ function execute(key, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select("a img").first().attr("data-src"),
             description: e.select(".content p span").get(1).text(),
-            host: "https://truyenwiki.com"
+            host: "https://truyenwiki1.com"
         })
     }
 

@@ -6,6 +6,6 @@ function execute(url) {
         author: doc.select("#thong_tin th").get(0).text(),
         description: doc.select(".gioi_thieu").html(),
         detail: doc.select("#thong_tin").text(),
-        host: "https://truyenwiki.com"
+        host: "https://truyenwiki1.com"
     });
 }

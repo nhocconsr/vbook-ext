@@ -152,7 +152,7 @@
         "name": "Truyện Wiki Com",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwikicom/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://truyenwiki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwikicom/icon.png",
         "description": "Đọc truyện trên trang truyenwiki.com"

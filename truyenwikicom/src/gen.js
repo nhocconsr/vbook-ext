@@ -14,7 +14,7 @@ function execute(url, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select("a img").first().attr("data-src"),
             description: e.select(".content p span").get(1).text(),
-            host: "https://truyenwiki.com"
+            host: "https://truyenwiki1.com"
         })
     }
 

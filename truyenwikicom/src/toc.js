@@ -8,7 +8,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://truyenwiki.com"
+            host: "https://truyenwiki1.com"
         })
     }
 
