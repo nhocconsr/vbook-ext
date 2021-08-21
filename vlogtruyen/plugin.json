@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Vlog Truyện",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://vlogtruyen.net",
+    "regexp": "(www.)?vlogtruyen.net/[^/]+.html",
+    "description": "Đọc truyện tại vlogtruyen.net",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
