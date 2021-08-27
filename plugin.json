@@ -260,7 +260,7 @@
         "name": "KissAway (Raw)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://kissaway.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/icon.png",
         "description": "Đọc truyện trên trang Kissaway.net"
