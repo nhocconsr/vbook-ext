@@ -2,10 +2,10 @@
   "metadata": {
     "name": "KissAway (Raw)",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://kissaway.net",
-    "regexp": "(www.)?kissaway.net.*",
-    "description": "Đọc truyện trên trang kissaway.net",
+    "regexp": "(www.)?kissaway.net/[a-z-]+.html",
+    "description": "Đọc truyện trên trang kissaway.net. Nếu bị lỗi extention bạn có thể báo cáo qua email: phamgiavang@gmail.com",
     "local": "vi-VN",
     "language": "javascript",
     "type": "comic"

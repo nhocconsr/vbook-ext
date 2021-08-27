@@ -6,7 +6,11 @@ function execute(url) {
 
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
-        data.push(e.attr("data-original"));
+        var linkImg = e.attr("data-aload").replace('\n\r','')
+        data.push({
+        "link": linkImg,
+        "referer": "https://kissaway.net"
+    });
     }
     return Response.success(data);
 }
