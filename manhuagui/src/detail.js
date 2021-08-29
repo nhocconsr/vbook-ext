@@ -1,5 +1,6 @@
 function execute(url) {
-    const doc = Http.get(url).html()
+    const nUrl = url.replace('m.','www.');
+    const doc = Http.get(nUrl).html();
 
     return Response.success({
         name: doc.select("h1").text(),
