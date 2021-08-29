@@ -14,13 +14,22 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "Manhua Gui",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
+        "version": 1,
+        "source": "https://www.manhuagui.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
+        "description": "Đọc truyện trên trang manhuagui.com"
+      },
+      {
         "name": "Fanqie Novel",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/plugin.zip",
         "version": 1,
-        "source": "https://vlogtruyen.net",
+        "source": "https://fanqienovel.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/icon.png",
-        "description": "Đọc truyện trên trang vlogtruyen.net"
+        "description": "Đọc truyện trên trang fanqienovel.com"
       },
       {
         "name": "GetTruyen",

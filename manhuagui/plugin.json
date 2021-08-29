@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Manhua Gui",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.manhuagui.com",
+    "regexp": "(www.)?(m.)?manhuagui.com/comic/\\d+/?",
+    "description": "Đọc truyện tại site manhuagui.com. Nếu có lỗi vui lòng liên hệ email : Phamgiavang@gmail.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
