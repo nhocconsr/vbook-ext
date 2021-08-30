@@ -14,7 +14,7 @@ function execute(url, page) {
             name: e.select("h5").first().text(),
             link: e.select("a").first().attr("href"),
             cover: img,
-            description: e.select(".mt-1").get(3).text().split(': ')[1],
+            description: e.select("a[href~=tacgia]").text(),
             host: "https://sttruyen.com"
         })
     }

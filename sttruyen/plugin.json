@@ -4,8 +4,8 @@
     "author": "Nhocconsr",
     "version": 1,
     "source": "https://sttruyen.com",
-    "regexp": "(www.)?truyena.com.*",
-    "description": "Đọc truyện tại trang Sttruyen.com",
+    "regexp": "(www.)?sttruyen.com/story/.*?.html",
+    "description": "Đọc truyện tại trang sttruyen.com.Nếu extention bị lỗi vui lòng liên hệ email: Phamgiavang@gmail.com",
     "local": "vi-VN",
     "language": "javascript",
     "type": "novel"

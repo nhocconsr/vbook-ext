@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "ST Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/plugin.zip",
+        "version": 1,
+        "source": "https://sttruyen.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/icon.png",
+        "description": "Đọc truyện trên trang sttruyen.com"
+      },
+      {
         "name": "Manhua Gui",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
