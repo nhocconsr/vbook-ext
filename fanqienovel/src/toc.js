@@ -1,7 +1,6 @@
 function execute(url) {
-    const Burl = url.replace('?force_mobile=1','');
     const reader = 'https://fanqienovel.com/reader/';
-    const idBook = Burl.split('/').pop();
+    const idBook = url.match(/\d+/)[0];
     const json = Http.get('https://fanqienovel.com/api/reader/directory/detail').params({bookId: idBook}).string();
     if (json) {
         var allChap = JSON.parse(json).data.chapterListWithVolume[0];
