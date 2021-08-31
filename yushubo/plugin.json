@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "YuShuBo",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.yushubo.com/",
+    "regexp": "(www.)?(m.)?yushubo.com/book_\\d+.html",
+    "description": "Đọc truyện tại trang yushubo. Nếu extention có vấn đề vui lòng liên hệ theo email : phamgiavang@gmail.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

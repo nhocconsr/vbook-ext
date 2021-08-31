@@ -23,6 +23,15 @@
         "description": "Đọc truyện trên trang sttruyen.com"
       },
       {
+        "name": "YuShuBo",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
+        "version": 1,
+        "source": "https://www.yushubo.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
+        "description": "Đọc truyện trên trang yushubo.com"
+      },
+      {
         "name": "Manhua Gui",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
