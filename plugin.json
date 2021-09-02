@@ -41,6 +41,15 @@
         "description": "Đọc truyện trên trang manhuagui.com"
       },
       {
+        "name": "Hentai Dexy",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaidexy/plugin.zip",
+        "version": 1,
+        "source": "https://hentaidexy.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaidexy/icon.png",
+        "description": "Đọc truyện trên trang hentaidexy.com"
+      },
+      {
         "name": "Fanqie Novel",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/plugin.zip",

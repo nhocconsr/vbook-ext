@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Hentai Dexy",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://hentaidexy.com",
+    "regexp": "(www.)?hentaidexy.com/read/[0-9a-z-]+/?",
+    "description": "Nếu có lỗi vui lòng liên hệ email : phamgiavang@gmail.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
