@@ -3,15 +3,17 @@ function execute(url) {
     const idBook = url.match(/\d+/)[0];
     const json = Http.get('https://fanqienovel.com/api/reader/directory/detail').params({bookId: idBook}).string();
     if (json) {
-        var allChap = JSON.parse(json).data.chapterListWithVolume[0];
+        var allChap = JSON.parse(json).data.chapterListWithVolume;
         const list = [];
-        for (var i = 0; i < allChap.length ; i++){
-            var chap = allChap[i];
-            list.push({
-                name: chap['title'],
-                url: reader+chap['itemId'],
-                host: "https://fanqienovel.com"
-            })
+        for(var book in allChap){
+            for (var chapter in allChap[book]){
+                var item = allChap[book][chapter];
+                list.push({
+                    name: item['title'],
+                    url: reader+item['itemId'],
+                    host: "https://fanqienovel.com"
+                })
+            }
         }
         return Response.success(list);
     }
