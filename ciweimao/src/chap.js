@@ -31,5 +31,4 @@ function execute(url){
         var html = 'Đây là chương VIP. Nếu muốn đọc mời bạn mua trên web để đọc ^^! <br>Vì mình không có VIP nên không rõ có load được chương VIP đã mua không!<br> Nếu bạn đã mua chương mà không đọc được có thể liên hệ qua email : Phamgiavang@gmail.com'
         return Response.success(html);
     }
-    return Response.success(checkPay)
 }
