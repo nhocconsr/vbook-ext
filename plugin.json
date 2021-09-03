@@ -32,6 +32,15 @@
         "description": "Đọc truyện trên trang yushubo.com"
       },
       {
+        "name": "CiWeiMao",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ciweimao/plugin.zip",
+        "version": 1,
+        "source": "https://www.ciweimao.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ciweimao/icon.png",
+        "description": "Đọc truyện trên trang www.ciweimao.com"
+      },
+      {
         "name": "Manhua Gui",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",

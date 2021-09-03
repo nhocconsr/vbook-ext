@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "CiWeiMao",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.ciweimao.com",
+    "regexp": "(www.)?(wap.)?ciweimao.com/book/\\d+",
+    "description": "Đọc truyện tại trang Ciweimao.com. Nếu lỗi extention vui lòng liên hệ email : Phamgiavang@gmail.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
