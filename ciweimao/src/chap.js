@@ -7,12 +7,12 @@ function execute(url){
     Console.log(checkPay)
     if(checkPay === null){
         var getKey = Http.post('https://www.ciweimao.com/chapter/ajax_get_session_code').headers({
-        "Referer": url
-        }).params({
+            "Referer": url
+            }).params({
                 "chapter_id": chapId,
             }).string();
-            var access_key = JSON.parse(getKey).chapter_access_key
-            var json = Http.post('https://www.ciweimao.com/chapter/get_book_chapter_detail_info').headers({
+        var access_key = JSON.parse(getKey).chapter_access_key
+        var json = Http.post('https://www.ciweimao.com/chapter/get_book_chapter_detail_info').headers({
             "Referer": url
         }).params({
             "chapter_id" : chapId,
