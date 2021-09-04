@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "WebNovel (Novel)",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.webnovel.com",
+    "regexp": "(www.)?(m.)?webnovel.com/book/.*",
+    "description": "Đọc truyện chữ tại www.webnovel.com. Chỉ đọc truyện chữ ^^!",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
