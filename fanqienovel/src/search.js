@@ -6,10 +6,11 @@ function execute(key, page) {
             filter: '127,127,127',
             page_count : '18',
             page_index : page,
-            sort : url,
+            query_type : 0,
             query_word : key
         })
         .string();
+    Console.log(json)
     if(json){
         var data = JSON.parse(json).data
         var allBook = data.search_book_data_list
