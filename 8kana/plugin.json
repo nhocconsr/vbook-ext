@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Tên extension",
+    "author": "Tác giả",
+    "version": 1,
+    "source": "URL nguồn truyện",
+    "regexp": "Regex khớp URL trang truyện",
+    "description": "Mô tả",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
