@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "Novel Buddy",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/novelbuddy/plugin.zip",
+        "version": 1,
+        "source": "https://novelbuddy.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/novelbuddy/icon.png",
+        "description": "Đọc truyện trên trang novelbuddy.com"
+      },
+      {
         "name": "ST Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/plugin.zip",

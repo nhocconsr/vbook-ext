@@ -4,7 +4,7 @@
     "author": "Nhocconsr",
     "version": 1,
     "source": "https://novelbuddy.com",
-    "regexp": "(www.)?novelbuddy.com/",
+    "regexp": "(www.)?novelbuddy.com/[0-9a-z-]+/?$",
     "description": "Mô tả",
     "local": "vi-VN",
     "language": "javascript",
