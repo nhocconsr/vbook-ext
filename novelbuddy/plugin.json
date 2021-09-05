@@ -1,17 +1,18 @@
 {
   "metadata": {
-    "name": "MangaNelo",
+    "name": "Novel Buddy",
     "author": "Nhocconsr",
     "version": 1,
-    "source": "https://manganelo.com",
-    "regexp": "(www.)?manganelo.com.*",
-    "description": "Đọc truyện trên trang manganelo.com",
-    "local": "en-EN",
+    "source": "https://novelbuddy.com",
+    "regexp": "(www.)?novelbuddy.com/",
+    "description": "Mô tả",
+    "local": "vi-VN",
     "language": "javascript",
-    "type": "comic"
+    "type": "novel"
   },
   "script": {
     "home": "home.js",
+    "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
