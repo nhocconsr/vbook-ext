@@ -32,15 +32,6 @@
         "description": "Đọc truyện trên trang yushubo.com"
       },
       {
-        "name": "WebNovel (Novel)",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/webnovel/plugin.zip",
-        "version": 1,
-        "source": "https://www.webnovel.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/webnovel/icon.png",
-        "description": "Đọc truyện trên trang www.webnovel.com (truyện chữ)"
-      },
-      {
         "name": "CiWeiMao",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ciweimao/plugin.zip",
