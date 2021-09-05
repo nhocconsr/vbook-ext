@@ -10,7 +10,6 @@ function execute(key, page) {
             query_word : key
         })
         .string();
-    Console.log(json)
     if(json){
         var data = JSON.parse(json).data
         var allBook = data.search_book_data_list
@@ -25,8 +24,7 @@ function execute(key, page) {
                 host: "https://fanqienovel.com"
             })
         }
-        var next = parseInt(page) + 15;
-        return Response.success(book, next.toString())      
+        return Response.success(book)      
     }
     return null;
 }
