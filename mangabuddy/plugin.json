@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Manga Buddy",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://mangabuddy.com",
+    "regexp": "(www.)?mangabuddy.com/[0-9a-z-]+/?$",
+    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
+    "local": "en-EN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
