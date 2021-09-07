@@ -461,10 +461,10 @@
         "description": "Đọc truyện trên trang www.imiaobige.com"
       },
       {
-        "name": "Tadu",
+        "name": "Tadu (塔读)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://www.tadu.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/icon.png",
         "description": "Đọc truyện trên trang www.tadu.com"
