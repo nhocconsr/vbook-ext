@@ -185,6 +185,15 @@
         "description": "Đọc truyện trên trang Truyentop1.com"
       },
       {
+        "name": "Zing Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/plugin.zip",
+        "version": 1,
+        "source": "https://zingtruyen.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/icon.png",
+        "description": "Đọc truyện trên trang Zingtruyen.net"
+      },
+      {
         "name": "Truyện Tranh LH",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentranhlh/plugin.zip",

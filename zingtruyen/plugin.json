@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Zing Truyện",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://zingtruyen.net",
+    "regexp": "(www.)?zingtruyen.net/story/[0-9a-z-]+/\\d+.html",
+    "description": "Nếu lỗi extention liên hệ email : Phamgiavang@gmail.com hoặc Discord trong Vbook",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
