@@ -1,20 +1,18 @@
 {
   "metadata": {
-    "name": "Tên extension",
+    "name": "MTL Novel",
     "author": "Tác giả",
     "version": 1,
-    "source": "URL nguồn truyện",
-    "regexp": "Regex khớp URL trang truyện",
-    "description": "Mô tả",
+    "source": "https://www.mtlnovel.com",
+    "regexp": "(www.)mtlnovel.com/[0-9a-z-]+/?$",
+    "description": "Lỗi extention liên hệ email: phamgiavang@gmail.com",
     "local": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },
   "script": {
     "home": "home.js",
-    "genre": "genre.js",
     "detail": "detail.js",
-    "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }

@@ -461,10 +461,10 @@
         "description": "Đọc truyện trên trang www.230book.net"
       },
       {
-        "name": "imiaobige",
+        "name": "Imiaobige",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://www.imiaobige.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/icon.png",
         "description": "Đọc truyện trên trang www.imiaobige.com"

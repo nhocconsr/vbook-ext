@@ -1,5 +1,5 @@
 function execute(url) {
-    const bid = url.split('/')[4].split('.')[0];
+    const bid = url.match(/\d+/)[0];
     var doc = Http.get('https://www.imiaobige.com/read/'+bid).html();
 
     var el = doc.select("#readerlists ul li a")

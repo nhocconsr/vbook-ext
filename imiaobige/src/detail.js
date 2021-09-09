@@ -1,6 +1,6 @@
 function execute(url) {
-    const doc = Http.get(url).html();
-
+    const nUrl = url.replace('h5','www')
+    const doc = Http.get(nUrl).html();
     return Response.success({
         name: doc.select(".booktitle h1").text(),
         cover: doc.select("#bookimg img").first().attr("src"),

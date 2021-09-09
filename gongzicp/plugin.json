@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "Tên extension",
-    "author": "Tác giả",
+    "name": "Gongzicp (长佩)",
+    "author": "Nhocconsr",
     "version": 1,
-    "source": "URL nguồn truyện",
-    "regexp": "Regex khớp URL trang truyện",
+    "source": "https://www.gongzicp.com",
+    "regexp": "(www.)?(m.)?gongzicp.com/novel-\\d+.html",
     "description": "Mô tả",
     "local": "vi-VN",
     "language": "javascript",

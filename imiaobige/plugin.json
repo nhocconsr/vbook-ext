@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "imiaobige",
+    "name": "imiaobige  (妙笔阁)",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://www.imiaobige.com",
-    "regexp": "(www.)?imiaobige.com/novel/\\d+.html",
+    "regexp": "(www.)?(h5.)?imiaobige.com/novel/\\d+.html",
     "description": "Đọc truyện trên trang www.imiaobige.com",
     "local": "vi-VN",
     "language": "javascript",
