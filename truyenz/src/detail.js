@@ -1,24 +1,12 @@
 function execute(url) {
     const doc = Http.get(url).html()
-
-    const cate = doc.select(".genres-content a")
-    const category = [];
-    for (var i = 0; i < cate.size(); i++) {
-        var e = cate.get(i)
-        category.push({
-            name: e.text(),
-            link: e.attr("href")
-        })
-    }
-
     return Response.success({
         name: doc.select("h1").text(),
         cover: doc.select(".summary_image img").first().attr("data-src"),
         author: doc.select(".author-content a").first().text(),
-        description: doc.select(".tw-data-text").html(),
-        detail: doc.select(".post-content .post-content_item").html(),
-        category: category,
-        ongoing: doc.select(".post-status").html().indexOf("OnGoing") != -1,
+        description: doc.select(".summary__content p").first().html(),
+        detail:doc.select(".post-content .post-content_item .summary-content").get(2).html()+'<br>Tác giả : '+doc.select(".post-content .post-content_item .summary-content").get(3).text(),
+        ongoing: doc.select(".post-status").html().indexOf("Đang tiến hành") != -1,
         host: "https://truyenz.info"
     });
 }

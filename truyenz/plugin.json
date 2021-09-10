@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "name": "Truyện Z",
+    "name": "Truyện Z (Manga)",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://truyenz.info",
-    "regexp": "(www.)?truyenz.info.*",
+    "regexp": "(www.)?truyenz.info/manga/[0-9a-z-]+/?$",
     "description": "Đọc truyện trên trang truyenz.info",
     "local": "vi-VN",
     "language": "javascript",

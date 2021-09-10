@@ -16,7 +16,7 @@ function execute(url, page) {
             var item = allBook[i]
             book.push({
                 name: item.novel_name,
-                link: 'https://www.gongzicp.com/novel-'+item.novel_id+'.html',
+                link: '/novel-'+item.novel_id+'.html',
                 cover: item.novel_cover,
                 description: item.novel_author,
                 host: "https://www.gongzicp.com"

@@ -4,11 +4,11 @@
     "author": "Nhocconsr",
     "version": 1,
     "source": "https://www.gongzicp.com",
-    "regexp": "(www.)?(m.)?gongzicp.com/novel-\\d+.html",
+    "regexp": "(www.)?(m.)?gongzicp.com/.*",
     "description": "Mô tả",
     "local": "vi-VN",
     "language": "javascript",
-    "type": "novel"
+    "type": "chinese_novel"
   },
   "script": {
     "home": "home.js",
