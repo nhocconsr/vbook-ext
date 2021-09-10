@@ -50,6 +50,15 @@
         "description": "Đọc truyện trên trang yushubo.com"
       },
       {
+        "name": "Wusanzw 【五三】",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wusanzw/plugin.zip",
+        "version": 1,
+        "source": "https://www.wusanzw.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wusanzw/icon.png",
+        "description": "Đọc truyện trên trang www.wusanzw.com"
+      },
+      {
         "name": "CiWeiMao",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ciweimao/plugin.zip",
