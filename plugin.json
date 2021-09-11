@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "Tiên Vực",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
+        "version": 1,
+        "source": "https://tienvuc.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
+        "description": "Đọc truyện trên trang tienvuc.com"
+      },
+      {
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",

@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Tiên Vực",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://tienvuc.com",
+    "regexp": "(www.)?tienvuc.com/[0-9a-z-]+/?$",
+    "description": "Nếu có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
