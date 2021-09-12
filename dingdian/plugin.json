@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "Dingdian 【顶点】",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.dingdian666.com",
+    "regexp": "(www.)?((dingdian666.com/xiaoshuo/\\d+/?$)|(m.dingdian666.com/ebooks/\\d+/?$))",
+    "description": "Nếu lỗi báo cáo email : phamgiavang@gmail.com hoặc discord.Extention này cover méo có đâu nên đừng bảo lỗi nhé :)",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

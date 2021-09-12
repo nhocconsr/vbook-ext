@@ -68,6 +68,15 @@
         "description": "Đọc truyện trên trang www.wusanzw.com"
       },
       {
+        "name": "Dingdian",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/dingdian/plugin.zip",
+        "version": 1,
+        "source": "https://www.dingdian666.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/dingdian/icon.png",
+        "description": "Đọc truyện trên trang www.dingdian666.com"
+      },
+      {
         "name": "CiWeiMao",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ciweimao/plugin.zip",

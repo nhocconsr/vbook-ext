@@ -1,7 +1,7 @@
 function execute(url, page) {
     if (!page) page = '1';
     const doc = Http.get('https://www.wusanzw.com/shuku/0_'+url+'_0_'+page+'.html').html();
-    var next = doc.select("#pagelink").select("strong + a").text().match(/\d+/)[0];;
+    var next = doc.select("#pagelink").select("strong + a").text().match(/\d+/)[0];
     const el = doc.select(".sitebox dl")
     const data = [];
     for (var i = 0; i < el.size(); i++) {
