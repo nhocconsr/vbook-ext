@@ -50,6 +50,15 @@
         "description": "Đọc truyện trên trang sttruyen.com"
       },
       {
+        "name": "Mb TXT 【妙笔】",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
+        "version": 1,
+        "source": "https://www.mbtxt.la",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
+        "description": "Đọc truyện trên trang mbtxt.com"
+      },
+      {
         "name": "YuShuBo",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
@@ -68,7 +77,7 @@
         "description": "Đọc truyện trên trang www.wusanzw.com"
       },
       {
-        "name": "Dingdian",
+        "name": "Dingdian 【顶点】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/dingdian/plugin.zip",
         "version": 1,

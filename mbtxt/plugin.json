@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "Mb TXT 【妙笔】",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.mbtxt.la/",
+    "regexp": "(www.)?mbtxt.la/go/\\d+/?",
+    "description": "Nếu lỗi báo cáo email : phamgiavang@gmail.com hoặc discord",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
