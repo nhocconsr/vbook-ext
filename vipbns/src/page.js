@@ -5,7 +5,7 @@ function execute(url) {
     var list = [];
     if (GBns) {
         for (var i = 1; i <= allPage; i++)
-            list.push("https://api.bachngocsach.com/api/story/"+bookId+"/chapter?per_page=100&page=" + i);
+            list.push("https://api.bachngocsach.com/api/story/"+bookId+"/chapter?per_page=100&page=" + i + "&order_by=asc");
         return Response.success(list);
     }
 
