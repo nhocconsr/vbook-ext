@@ -12,10 +12,10 @@ function execute(url, page) {
         for (var i = 0; i < listStory.length; i++) {
             var chap = listStory[i]
             list.push({
-                name: chap['name'],
-                link: chap['slug']+'/'+chap['id']+'.html',
-                cover: chap['cover'],
-                description: 'Chương '+chap['chapters_count'],
+                name: chap.name,
+                link: chap.slug+'/'+chap.id+'.html',
+                cover: chap.cover,
+                description: chap.author.name,
                 host: "https://vip.bachngocsach.com/truyen/"
             })
         }
