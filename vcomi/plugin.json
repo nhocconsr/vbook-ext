@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "VComi",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://vcomi.co",
+    "regexp": "(www.)?vcomi.co/[a-z-]+.html",
+    "description": "Nếu lỗi extention liên hệ email : Phamgiavang@gmail.com hoặc Discord trong Vbook",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

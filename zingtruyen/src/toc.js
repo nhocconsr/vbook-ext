@@ -1,5 +1,4 @@
 function execute(url) {
-    var nUrl = url.split('/').pop();
     var doc = Http.get(url).html();
     var el = doc.select("#chapters a")
     const data = [];
@@ -11,6 +10,5 @@ function execute(url) {
             host: "https://zingtruyen.net"
         })
     }
-
     return Response.success(data);
 }
