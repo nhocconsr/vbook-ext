@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "VComi",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
+        "version": 1,
+        "source": "https://vcomi.co",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/icon.png",
+        "description": "Đọc truyện trên trang vcomi.co"
+      },
+      {
         "name": "Tiên Vực",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
@@ -53,7 +62,7 @@
         "name": "Mb TXT 【妙笔】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://www.mbtxt.la",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
         "description": "Đọc truyện trên trang mbtxt.com"
@@ -71,7 +80,7 @@
         "name": "Wusanzw 【五三】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wusanzw/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://www.wusanzw.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wusanzw/icon.png",
         "description": "Đọc truyện trên trang www.wusanzw.com"
