@@ -1,5 +1,5 @@
 name: Source request
-description: Suggest a new source for LNReader
+description: Suggest a new source for Vbook
 labels: [Source request]
 body:
     - type: input
