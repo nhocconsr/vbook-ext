@@ -365,15 +365,6 @@
         "description": "Đọc truyện trên trang www.wuxiaworld.com"
       },
       {
-        "name": "LoveHug (Raw)",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lovehug/plugin.zip",
-        "version": 1,
-        "source": "https://lovehug.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lovehug/icon.png",
-        "description": "Đọc truyện trên trang Lovehug.net"
-      },
-      {
         "name": "KissAway (Raw)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/plugin.zip",
