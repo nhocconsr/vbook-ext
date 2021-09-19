@@ -4,7 +4,7 @@ function execute(url, page) {
         listType : 'pagination',
         page : page,
         genre : url,
-        sort : 'views',
+        sort : 'last_update',
         sort_type: 'DESC'
     }).html();
 

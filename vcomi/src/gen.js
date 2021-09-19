@@ -3,7 +3,7 @@ function execute(url, page) {
     const doc = Http.get('https://vcomi.co/manga-list.html').params({
         listType : 'pagination',
         page : page,
-        sort : 'views',
+        sort : 'last_update',
         sort_type: 'DESC'
     }).html();
 

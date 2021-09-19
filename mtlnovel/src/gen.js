@@ -1,11 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://www.mtlnovel.com/'+url+'/').params({
-        orderby : 'date',
-        order : 'desc',
-        status : 'all',
-        pg: page
-    }).html();
+    const doc = Http.get('https://www.mtlnovel.com/novel-list').html();
     if (doc){
         var next = doc.select("#pagination").select('span + a').text()
         const el = doc.select(".m-card .box")
@@ -20,6 +15,6 @@ function execute(url, page) {
                 host: "https://www.mtlnovel.com"
             })
         }
-        return Response.success(data, next)
+        return Response.success(doc, next)
     }
 }
