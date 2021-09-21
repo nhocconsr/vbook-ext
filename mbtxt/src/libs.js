@@ -38,3 +38,11 @@ String.prototype.mayBeFillHost = function(host) {
 
     return host.rtrim('/') + '/' + url.ltrim('/');
 }
+
+//clear rác
+function clean(htm){
+    htm = htm.replace(/(<br>[ |.]<br>)/g,'<br>');
+    htm = htm.replace(/<a[^>]*>([^<]+)<\/a>/g,'');
+    htm = htm.replace(/&(nbsp|amp|quot|lt|gt);/g, "");
+    return htm;
+}

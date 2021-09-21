@@ -62,7 +62,7 @@
         "name": "Mb TXT 【妙笔】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://www.mbtxt.la",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
         "description": "Đọc truyện trên trang mbtxt.com"
