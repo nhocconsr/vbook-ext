@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Mb TXT 【妙笔】",
     "author": "Nhocconsr",
-    "version": 3,
+    "version": 4,
     "source": "https://www.mbtxt.la/",
     "regexp": "(www.)?mbtxt.la/go/\\d+/?",
     "description": "Nếu lỗi báo cáo email : phamgiavang@gmail.com hoặc discord",

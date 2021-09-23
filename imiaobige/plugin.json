@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "imiaobige  (妙笔阁)",
+    "name": "Imiaobige  (妙笔阁)",
     "author": "Nhocconsr",
-    "version": 3,
+    "version": 4,
     "source": "https://www.imiaobige.com",
     "regexp": "(www.)?(h5.)?imiaobige.com/novel/\\d+.html",
     "description": "Đọc truyện trên trang www.imiaobige.com",

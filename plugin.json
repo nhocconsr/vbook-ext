@@ -62,7 +62,7 @@
         "name": "Mb TXT 【妙笔】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://www.mbtxt.la",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
         "description": "Đọc truyện trên trang mbtxt.com"
@@ -500,7 +500,7 @@
         "name": "Imiaobige",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://www.imiaobige.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/imiaobige/icon.png",
         "description": "Đọc truyện trên trang www.imiaobige.com"

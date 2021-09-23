@@ -1,7 +1,6 @@
 function execute(url) {
-    const bid = url.match(/\d+/)[0];
+    const bid = url.match(/novel\/(\d+)/)[1];
     var doc = Http.get('https://www.imiaobige.com/read/'+bid).html();
-
     var el = doc.select("#readerlists ul li a")
     const data = [];
     for (var i = 12;i < el.size(); i++) {

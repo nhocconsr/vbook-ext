@@ -6,7 +6,7 @@ function execute(url) {
         author: doc.select(".booktag a").first().text(),
         description: doc.select(".bookintro").text(),
         detail: doc.select(".booktag a").first().text()+'<br>'+doc.select(".booktag span").last().text(),
-        ongoing : doc.select(".hang_1").html().indexOf("完结") == 1,
+        ongoing : doc.select(".booktag").html().indexOf("连载") != -1,
         host: "https://www.mbtxt.la"
     });
 }
