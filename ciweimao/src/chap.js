@@ -23,8 +23,9 @@ function execute(url){
                 "content": data.chapter_content,
                 "keys": data.encryt_keys,
                 "accessKey": access_key
-            }).replace(/<[^>]*>?/gm, '')
-            .replace(/2fRUR2/g, '')
+            })
+            .replace(/<\/?span[^>]*>(.*?)<\/span>/g,"")
+            .replace(/<[^>]*>?/gm, '')
             .replace(/\n/gi, "<br>");
         return Response.success(html);
     }else{
