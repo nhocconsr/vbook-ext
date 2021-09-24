@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "Fast Manhwa",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastmanhwa/plugin.zip",
+        "version": 1,
+        "source": "https://fastmanhwa.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastmanhwa/icon.png",
+        "description": "Đọc truyện trên trang fastmanhwa.net"
+      },
+      {
         "name": "VComi",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
