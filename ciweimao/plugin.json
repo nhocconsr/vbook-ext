@@ -5,7 +5,7 @@
     "version": 2,
     "source": "https://www.ciweimao.com",
     "regexp": "(www.)?(wap.)?ciweimao.com/book/\\d+",
-    "description": "Đọc truyện tại trang Ciweimao.com. Nếu lỗi extention vui lòng liên hệ email : Phamgiavang@gmail.com",
+    "description": "Đọc truyện tại trang Ciweimao.com. Nếu lỗi extension vui lòng liên hệ email : Phamgiavang@gmail.com",
     "local": "cn-CN",
     "language": "javascript",
     "type": "chinese_novel"
