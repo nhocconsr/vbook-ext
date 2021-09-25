@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "WebToonXYZ",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.webtoon.xyz",
+    "regexp": "(www.)?webtoon.xyz/read/[0-9a-z-]+/?$",
+    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord<br><br>v1 : Website có cloudflare nên nếu không load được truyện thì mở trang nguồn pass cloudflare đã nhé!",
+    "local": "en-EN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

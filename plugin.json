@@ -23,6 +23,15 @@
         "description": "Đọc truyện trên trang fastmanhwa.net"
       },
       {
+        "name": "WebToonXYZ",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/webtoonxyz/plugin.zip",
+        "version": 1,
+        "source": "https://www.webtoon.xyz",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/webtoonxyz/icon.png",
+        "description": "Đọc truyện trên trang webtoon.xyz"
+      },
+      {
         "name": "VComi",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
