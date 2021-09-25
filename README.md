@@ -65,6 +65,8 @@ https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/plugin.json
 | wusanzw                   | https://www.wusanzw.com                    |
 | wuxiaworld                | https://www.wuxiaworld.com                 |
 | yushubo                   | https://www.yushubo.com                    |
+| WebToonXYZ                | https://www.webtoon.xyz                    |
+| FastManhWa                | https://fastmanhwa.net                     |
 
 ## Hướng dẫn cài đặt
 
