@@ -32,6 +32,15 @@
         "description": "Đọc truyện trên trang webtoon.xyz"
       },
       {
+        "name": "LiNovel 【轻小说文库】",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/plugin.zip",
+        "version": 1,
+        "source": "https://www.linovel.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/icon.png",
+        "description": "Đọc truyện trên trang linovel.net"
+      },
+      {
         "name": "VComi",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
