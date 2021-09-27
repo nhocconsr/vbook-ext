@@ -6,7 +6,6 @@ function execute(url, page) {
     const doc = Http.get(url + '/danhsach/P'+ page +'/index.html?sort=3').html();
     var next = doc.select(".pagination").select("li.active + li").text()
     const el = doc.select("ul.listtruyen li > .item_truyennendoc");
-    
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);

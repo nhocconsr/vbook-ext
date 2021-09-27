@@ -1,6 +1,5 @@
 function execute(url) {
-    const doc = Http.get(url).html();
-
+    const doc = Http.get(url.replace('m.','')).html();
     return Response.success({
         name: doc.select("h1.tentruyen").first().text(),
         cover: doc.select(".wrapper_image img").first().attr("src"),
