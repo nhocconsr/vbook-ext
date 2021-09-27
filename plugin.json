@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "Truyện Cool",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/plugin.zip",
+        "version": 1,
+        "source": "https://truyencool.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/icon.png",
+        "description": "Đọc truyện trên trang truyencool.net"
+      },
+      {
         "name": "Fast Manhwa",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastmanhwa/plugin.zip",
