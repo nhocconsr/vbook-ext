@@ -7,7 +7,7 @@ function execute() {
         data.push({
            title: e.text(),
            input: e.attr('href'),
-           script: 'gen.js'
+           script: 'cat.js'
         });
     }
     return Response.success(data);

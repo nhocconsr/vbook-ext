@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Fast Manhwa",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://fastmanhwa.net",
     "regexp": "(www.)?fastmanhwa.net/manga/[0-9a-z-]+/?$",
-    "description": "Đọc truyện tại trang fastmanhwa.net. Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com",
+    "description": "Đọc truyện tại trang fastmanhwa.net. Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com<br><br>v2: Fix lỗi thể loại",
     "local": "en-EN",
     "language": "javascript",
     "type": "comic"
