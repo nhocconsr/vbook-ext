@@ -500,7 +500,7 @@
         "name": "bFaloo",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bfaloo/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://b.faloo.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bfaloo/icon.png",
         "description": "Đọc truyện trên trang b.faloo.com"
