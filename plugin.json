@@ -113,6 +113,16 @@
         "description": "Đọc truyện trên trang yushubo.com"
       },
       {
+        "name": "TsuMiNo",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tsumino/plugin.zip",
+        "version": 1,
+        "source": "https://www.tsumino.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tsumino/icon.png",
+        "description": "Đọc truyện trên trang www.tsumino.com",
+        "tag" : "nsfw"
+      },
+      {
         "name": "Wusanzw 【五三】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wusanzw/plugin.zip",
