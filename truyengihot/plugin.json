@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Gì Hot",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyengihot.net",
+    "regexp": "(www.)?truyengihot.net/[0-9a-z-]+.html",
+    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
