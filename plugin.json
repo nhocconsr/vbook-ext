@@ -20,7 +20,8 @@
         "version": 1,
         "source": "https://truyengihot.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/icon.png",
-        "description": "Đọc truyện trên trang truyengihot.net"
+        "description": "Đọc truyện trên trang truyengihot.net",
+        "tag": "nsfw"
       },
       {
         "name": "Truyện Cool",
