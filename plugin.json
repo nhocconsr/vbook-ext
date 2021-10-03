@@ -17,7 +17,7 @@
         "name": "DouJins",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://doujins.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/icon.png",
         "description": "Đọc truyện trên trang doujins.com",

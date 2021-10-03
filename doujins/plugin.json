@@ -2,10 +2,10 @@
   "metadata": {
     "name": "DouJins",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://doujins.com",
     "regexp": "(www.)?doujins.com/.*/[0-9a-z-]+",
-    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord<br><br> v1: Vì không rõ nó phân loại như thế nào nên làm tạm như thế này.Sử dụng tìm kiếm để tìm thêm truyện nhé ^^!",
+    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord<br><br> v1: Vì không rõ nó phân loại như thế nào nên làm tạm như thế này.Sử dụng tìm kiếm để tìm thêm truyện nhé ^^!<br>v2 : add thêm phần chọn series ở thể loại",
     "local": "en-EN",
     "language": "javascript",
     "type": "comic",
@@ -14,6 +14,7 @@
   "script": {
     "home": "home.js",
     "detail": "detail.js",
+    "genre": "genre.js",
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
