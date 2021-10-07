@@ -152,6 +152,15 @@
         "description": "Đọc truyện trên trang www.wusanzw.com"
       },
       {
+        "name": "PTWXC 【飄天文學】",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ptwxc/plugin.zip",
+        "version": 1,
+        "source": "https://www.ptwxc.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ptwxc/icon.png",
+        "description": "Đọc truyện trên trang www.ptwxc.com"
+      },
+      {
         "name": "Dingdian 【顶点】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/dingdian/plugin.zip",
