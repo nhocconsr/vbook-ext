@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Fanqie Novel",
     "author": "Nhocconsr",
-    "version": 4,
+    "version": 5,
     "source": "https://fanqienovel.com",
     "regexp": "(wwww.)?((fanqienovel.com/page/\\d+)|(fanqienovel.com/page/\\d+.*?))",
-    "description": "Đọc truyện tại trang fanqienovel.com",
-    "local": "vi-VN",
+    "description": "v5 : remove tạm thời xem site nó thay đổi gì không",
+    "local": "cn-CN",
     "language": "javascript",
     "type": "chinese_novel"
   },
