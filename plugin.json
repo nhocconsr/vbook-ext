@@ -27,7 +27,7 @@
         "name": "Truyện Gì Hot",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://truyengihot.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/icon.png",
         "description": "Đọc truyện trên trang truyengihot.net",
