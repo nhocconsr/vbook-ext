@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "CManga",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangotop/plugin.zip",
+        "version": 1,
+        "source": "https://cmangotop.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangotop/icon.png",
+        "description": "Đọc truyện trên trang cmangotop.com"
+      },
+      {
         "name": "DouJins",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/plugin.zip",
