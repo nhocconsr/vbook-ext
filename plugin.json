@@ -16,11 +16,11 @@
       {
         "name": "CManga",
         "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangotop/plugin.zip",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/plugin.zip",
         "version": 1,
-        "source": "https://cmangotop.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangotop/icon.png",
-        "description": "Đọc truyện trên trang cmangotop.com"
+        "source": "https://cmangatop.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/icon.png",
+        "description": "Đọc truyện trên trang cmangatop.com"
       },
       {
         "name": "DouJins",
