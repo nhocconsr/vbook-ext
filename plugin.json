@@ -263,7 +263,7 @@
         "name": "Truyện A",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://truyena.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
         "description": "Đọc truyện trên trang Truyena.com"
