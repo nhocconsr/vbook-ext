@@ -23,6 +23,15 @@
         "description": "Đọc truyện trên trang sangtacviet.com"
       },
       {
+        "name": "Truyện 3S",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen3s/plugin.zip",
+        "version": 1,
+        "source": "https://truyen3s.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen3s/icon.png",
+        "description": "Đọc truyện trên trang truyen3s.com"
+      },
+      {
         "name": "CManga",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/plugin.zip",
