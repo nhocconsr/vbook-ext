@@ -21,8 +21,8 @@ function execute(url) {
     });
     var data = request.string();
     var content = JSON.parse(data).data;
-    content = content.replace(/<i t=''h=''v='(.*?)'>(.*?)<\/i>/g,'')
-    content = content.replace(/đạo ?<\/i>:/g, "nói</i>:");
+    content = content.replace(/<i t=''h=''v='(.*?)'.*?>(.*?)<\/i>/g,'');
+    content = content.replace(/<i h=''t=''v='(.*?)'.*?>(.*?)<\/i>/g,'');
     content = content.replace(/<\/?i.*?>/g, "");
     content = content.replace(/<span.*?>(.*?)<\/span>(<br>)?/g, "");
     //content = content.replace(/<\/?p.*?>/g, "");
