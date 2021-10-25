@@ -2,10 +2,10 @@
     "metadata": {
         "name": "STV Limited",
         "author": "Nhocconsr",
-        "version": 1,
+        "version": 2,
         "source": "https://sangtacviet.com",
         "regexp": "(www.)?sangtacviet.com/truyen/([a-zA-Z0-9])+/\\d+/\\d+/?$",
-        "description": "Xoá quảng cáo khắm l** và site nhiều rác quá đéo lọc được hết đâu",
+        "description": "Updated ^^!. Fix nằm vùng",
         "local": "vi-VN",
         "language": "javascript",
         "type": "novel"
