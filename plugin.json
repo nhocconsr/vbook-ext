@@ -616,5 +616,22 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/icon.png",
         "description": "Đọc truyện trên trang www.tadu.com"
       }
-    ]
+         {
+        "name": "Nhà sách miễn phí",
+        "author": "Fus",
+        "path": "https://github.com/fusnguyen/vbook-ext/blob/master/nhasachmienphi/plugin.zip",
+        "version": 1,
+        "source": "https://nhasachmienphi.com",
+        "icon": "https://github.com/fusnguyen/vbook-ext/blob/master/nhasachmienphi/icon.png",
+        "description": "Thư Viện Ebook Miễn Phí"
+      }
+  {
+        "name": "Nhà sách miễn phí",
+        "author": "Fus",
+        "path": "https://github.com/fusnguyen/vbook-ext/blob/master/SachHayOnline/plugin.zip",
+        "version": 1,
+        "source": "https://www.sachhayonline.com",
+        "icon": "https://github.com/fusnguyen/vbook-ext/blob/master/SachHayOnline/icon.png",
+        "description": "Đọc sách tại sachhayonline.com"
+      }
 }
