@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Hentai Dexy",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://hentaidexy.com",
     "regexp": "(www.)?hentaidexy.com/read/[0-9a-z-]+/?",
     "description": "Nếu có lỗi vui lòng liên hệ email : phamgiavang@gmail.com",
