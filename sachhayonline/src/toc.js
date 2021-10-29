@@ -13,5 +13,3 @@ function execute(url) {
 
     return Response.success(data); 
 }
-// ai-lam-duoc/gioi-thieu/593
-//https://sachhayonline.com/tua-sach/ai-tinh-mieu/chuong-1/601
