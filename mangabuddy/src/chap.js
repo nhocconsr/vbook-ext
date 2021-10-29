@@ -4,7 +4,7 @@ function execute(url) {
     var data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
-        var img = e.attr("data-src");
+        var img = e.attr("onerror").split(/['']/)[1];
         if (img.startsWith('//')) img = img.replace('//','https://');
         data.push(img);
     }

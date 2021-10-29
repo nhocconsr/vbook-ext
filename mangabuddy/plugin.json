@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Manga Buddy",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://mangabuddy.com",
     "regexp": "(www.)?mangabuddy.com/[0-9a-z-]+/?$",
     "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
