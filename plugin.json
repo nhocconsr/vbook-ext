@@ -160,10 +160,10 @@
         "description": "Đọc truyện trên trang mbtxt.com"
       },
       {
-        "name": "YuShuBo",
+        "name": "YuShuBo 【御书网】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://www.yushubo.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
         "description": "Đọc truyện trên trang yushubo.com"
