@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "SachHayOnline",
+        "author": "Fus",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sachhayonline/plugin.zip",
+        "version": 1,
+        "source": "https://www.sachhayonline.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sachhayonline/icon.png",
+        "description": "Đọc truyện trên trang sachhayonline.com"
+      },
+      {
         "name": "HentaiVN.Vip",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/plugin.zip",
