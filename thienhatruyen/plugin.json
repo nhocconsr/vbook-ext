@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "AC QQ 腾讯动漫",
+    "name": "Thiên Hà Truyện",
     "author": "Nhocconsr",
     "version": 1,
-    "source": "https://m.ac.qq.com",
-    "regexp": "(www.)?(m.)?ac.qq.com/comic/index/id/\\d+",
-    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord",
-    "local": "cn-CN",
+    "source": "https://thienhatruyen.com",
+    "regexp": "(www.)?thienhatruyen.com/[0-9a-z-]+.html",
+    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
+    "local": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },

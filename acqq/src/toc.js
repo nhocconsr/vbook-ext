@@ -1,18 +1,14 @@
 function execute(url) {
-    var bookID = url.split("/").pop();
-    const doc = Http.get('https://ac.qq.com/Comic/comicInfo/id/'+bookID).html();
-    var el = doc.select("ol.works-chapter-list li a");
+    const doc = Http.get(url).html();
+    var el = doc.select(".normal li a.chapter-link");
     const data = [];
     for (var i in el) {
         var e = el[i];
-        var title = e.attr('title')
-        if(title){
-            data.push({
-                name: e.text(),
-                url: e.attr("href"),
-                host: "https://truyen3s.com"
-            })
-        }
+        data.push({
+            name: e.text(),
+            url: e.attr("href"),
+            host: "https://m.ac.qq.com"
+        })
     }
     return Response.success(data);
 }
