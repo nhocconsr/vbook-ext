@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Ham Truyện",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://hamtruyen.vn",
     "regexp": "(www.)?(m.)?hamtruyen.vn/[0-9a-z-]+.html",
     "description": "Đọc truyện trên trang Hamtruyen.vn<br><br> v2: Update nhận link mobile và fix chương VIP ",
