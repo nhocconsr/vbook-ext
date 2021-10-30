@@ -2,16 +2,17 @@
   "metadata": {
     "name": "Truyện Hay TV",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyenhaytv.com",
-    "regexp": "(www.)?truyenhaytv.com.*",
-    "description": "Đọc truyện trên trang truyenhaytv.com",
+    "regexp": "(www.)?truyenhaytv.com/truyen-tranh/[0-9a-z-]+.html",
+    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
     "local": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },
   "script": {
     "home": "home.js",
+    "genre": "genre.js",
     "detail": "detail.js",
     "toc": "toc.js",
     "chap": "chap.js"
