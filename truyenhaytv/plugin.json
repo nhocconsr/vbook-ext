@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Truyện Hay TV",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://truyenhaytv.com",
     "regexp": "(www.)?truyenhaytv.com/truyen-tranh/[0-9a-z-]+.html",
     "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",

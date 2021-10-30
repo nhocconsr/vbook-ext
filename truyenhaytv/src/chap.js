@@ -5,8 +5,8 @@ function execute(url) {
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
         var img = e.attr("data-original");
-        if (img.startsWith('/')){
-            img = img.replace('/','https://truyenhaytv.com/')
+        if (img.startsWith('//')){
+            img = img.replace('//','https://')
         }
         data.push(img);
     }
