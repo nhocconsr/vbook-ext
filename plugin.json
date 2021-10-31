@@ -14,6 +14,15 @@
         "description": "Đọc truyện trên trang vlogtruyen.net"
       },
       {
+        "name": "Việt Writer",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/plugin.zip",
+        "version": 1,
+        "source": "https://vietwriter.vn",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/icon.png",
+        "description": "Đọc truyện trên trang vietwriter.vn"
+      },
+      {
         "name": "Thiên Hà Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thienhatruyen/plugin.zip",

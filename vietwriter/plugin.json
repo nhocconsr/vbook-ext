@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Việt Writer",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://vietwriter.vn",
+    "regexp": "(www.)?vietwriter.vn/[A-Za-z].+/?",
+    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
