@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "19358 文学",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.19358.net",
+    "regexp": "(www.)?19358.net/\\d+/?",
+    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
+    "local": "cn-CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

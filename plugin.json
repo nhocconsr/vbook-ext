@@ -187,6 +187,15 @@
         "description": "Đọc truyện trên trang sttruyen.com"
       },
       {
+        "name": "19358 文学",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/plugin.zip",
+        "version": 1,
+        "source": "https://www.19358.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/icon.png",
+        "description": "Đọc truyện trên trang www.19358.net"
+      },
+      {
         "name": "Mb TXT 【妙笔】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
