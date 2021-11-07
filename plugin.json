@@ -59,6 +59,15 @@
         "description": "Đọc truyện trên trang sangtacviet.com"
       },
       {
+        "name": "Góc Truyện Tranh",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/plugin.zip",
+        "version": 1,
+        "source": "https://goctruyentranh.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/icon.png",
+        "description": "Đọc truyện trên trang goctruyentranh.com"
+      },
+      {
         "name": "Truyện 3S",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen3s/plugin.zip",
