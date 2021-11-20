@@ -172,7 +172,7 @@
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
-        "version": 4,
+        "version": 5,
         "source": "https://mangabuddy.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
         "description": "Đọc truyện trên trang mangabuddy.com"
