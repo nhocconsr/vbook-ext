@@ -7,16 +7,13 @@ function execute(url, page) {
     if (allBook.length === 0) var next = null
     if (allBook){
         var list = [];
-        for (var i in allBook){
-            var book = allBook[i]
-            list.push({
+        allBook.forEach(book =>list.push({
                 name: book.name,
                 link: 'https://www.linovel.net/book/'+book.id+'.html',
                 cover: book.coverUrl,
                 description: book.author,
                 host: "https://www.linovel.net"
-            })
-        }
+            }))
         return Response.success(list,next)
     }
     return Response.success(allBook)

@@ -9,16 +9,13 @@ function execute(url, page) {
     var allBook = doc.select('.rank-book-list .rank-book')
     if (doc){
         var list = [];
-        for (var i in allBook){
-            var book = allBook[i]
-            list.push({
+        allBook.forEach(book =>list.push({
                 name: book.select(".book-info a").first().text(),
                 link: book.select(".book-info a").first().attr("href"),
                 cover: book.select(".book-cover img").first().attr("src"),
                 description: book.select(".book-extra").text().split(' 丨')[0],
                 host: "https://www.linovel.net"
-            })
-        }
+            }))
         return Response.success(list,next)
     }
     return Response.error(doc)

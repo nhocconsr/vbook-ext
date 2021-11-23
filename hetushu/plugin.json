@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "name": "Hetushu 【和图书】",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.hetushu.com",
+    "regexp": "(www.)?(m.)?hetushu.com/book/\\d+/index.html",
+    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

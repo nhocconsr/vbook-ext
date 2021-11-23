@@ -2,10 +2,10 @@
   "metadata": {
     "name": "LiNovel 【轻小说文库】",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://www.linovel.net",
     "regexp": "(www.)linovel.net/book/\\d+.html",
-    "description": "Nếu lỗi extension vui lòng liên hệ email : Phamgiavang@gmail.com hoặc Discord<br><br>v1: Get truyện từ web",
+    "description": "Nếu lỗi extension vui lòng liên hệ email : Phamgiavang@gmail.com hoặc Discord<br><br>v2: lỗi cú pháp ",
     "local": "cn-CN",
     "language": "javascript",
     "type": "chinese_novel"

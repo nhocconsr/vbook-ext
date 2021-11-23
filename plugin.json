@@ -145,7 +145,7 @@
         "name": "LiNovel 【轻小说文库】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://www.linovel.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/icon.png",
         "description": "Đọc truyện trên trang linovel.net"
@@ -483,15 +483,6 @@
         "source": "https://hocvientruyentranh.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/icon.png",
         "description": "Đọc truyện trên trang Hocvientruyentranh.net"
-      },
-      {
-        "name": "Truyện 88",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen88/plugin.zip",
-        "version": 3,
-        "source": "https://truyen88.pro",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen88/icon.png",
-        "description": "Đọc truyện trên trang Truyen88.pro"
       },
       {
         "name": "Ham Truyện",

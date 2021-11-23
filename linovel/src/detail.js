@@ -7,6 +7,6 @@ function execute(url) {
         description: doc.select(".about-txt-wrp").first().text(),
         detail: doc.select(".book-data span").first().text()+' 字数<br>'+doc.select(".book-last-update").text()+'<br>作者 : '+doc.select(".novelist a[href~=user]").text(),
         ongoing : doc.select(".book-data").html().indexOf("连载") != -1,
-        host: "https://www.ciweimao.com",
+        host: "https://www.linovel.net",
     });
 }
