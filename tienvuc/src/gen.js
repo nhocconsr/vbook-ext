@@ -12,8 +12,7 @@ function execute(url, page) {
         }
         var list = [];
         var allBook = data.docs;
-        for (var i in allBook){
-            var book = allBook[i];
+        allBook.forEach(book => {
             if(book.vip === true) var vip = "【Truyện VIP】 ";
             else var vip = '';
             list.push({
@@ -23,7 +22,7 @@ function execute(url, page) {
                 description: vip+book.author.name,
                 host: 'https://tienvuc.com',
             })
-        }
+        });
         return Response.success(list, next.toString())
     }
 }

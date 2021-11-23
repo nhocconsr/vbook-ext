@@ -3,8 +3,7 @@ function execute(url) {
     const json = Http.get('https://tienvuc.com/api/reading/'+slug+'/chapters').string();
     var allChap = JSON.parse(json).docs
     const list = [];
-    for (var i in allChap) {
-        var chap = allChap[i];
+    allChap.forEach(chap => {
         if (chap.coins > 0) var vip = '【VIP】 ';
         else var vip = '';
         list.push({
@@ -12,6 +11,6 @@ function execute(url) {
             url: 'https://tienvuc.com/api/reading/'+slug+'/chapters/'+chap.num+'/content',
             host: "https://tienvuc.com"
         })
-    }
+    });
     return Response.success(list);
 }

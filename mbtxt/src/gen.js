@@ -6,8 +6,7 @@ function execute(url, page) {
     var next = doc.select("#pagelink").select("li.active + li").text()
     const allBox = doc.select(".content .bookbox")
     const data = [];
-    for (var i in allBox) {
-        var box = allBox[i];
+    allBox.forEach(box => {
         var link = box.select("h4 a").first().attr('href');
         var m, id, cover;
         if ((m = link.match(/(\d+)/)) && m[0] && (id = m[0])) {
@@ -20,6 +19,6 @@ function execute(url, page) {
             description: box.select(".author").first().text().replace('作者：',''),
             host: 'https://www.mbtxt.com',
         })
-    }
+    });
     return Response.success(data, next)
 }

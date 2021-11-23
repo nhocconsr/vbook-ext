@@ -3,13 +3,12 @@ function execute(url) {
     const doc = Http.get('https://www.dingdian666.com/xiaoshuo/'+idBook+'/').html();
     var el = doc.select('.border_chapter ul li a')
     const data = [];
-    for (var i in el) {
-        var e = el[i];
+    el.forEach(e => {
         data.push({
             name: e.text(),
             url: e.attr('href'),
             host: "https://www.dingdian666.com"
         })
-    }
+    });
     return Response.success(data);
 }

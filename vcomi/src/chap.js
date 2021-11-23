@@ -3,10 +3,10 @@ function execute(url) {
     var doc = Http.get(url).html();
     var el = doc.select(".chapter-content img");
     var data = [];
-    for (var i in el) {
+    el.forEach(e => {
         var e = el[i];
         var img = base_url+e.attr("data-original").replace(/[\r\n]/g,'')
         data.push(img)   
-    }
+    });
     return Response.success(data);
 }

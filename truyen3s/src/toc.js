@@ -2,8 +2,7 @@ function execute(url) {
     var doc = Http.get(url).html();
     var el = doc.select("ul.chapters li a");
     const data = [];
-    for (var i in el) {
-        var e = el[i];
+    el.forEach(e => {
         var title = e.attr('title')
         if(title){
             data.push({
@@ -12,6 +11,6 @@ function execute(url) {
                 host: "https://truyen3s.com"
             })
         }
-    }
+    });
     return Response.success(data);
 }

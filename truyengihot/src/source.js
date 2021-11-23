@@ -10,8 +10,7 @@ function execute(url, page) {
     var next = doc.select('.pagination').select('li:has(.current) + li').text();
     var allItem = doc.select('ul.cw-list li')
     var list = [];
-    for (var i in allItem){
-        var item = allItem[i]
+    allItem.forEach(item => {
         list.push({
             name: item.select('.title a').text(),
             link: item.select('.title a').attr('href'),
@@ -19,6 +18,6 @@ function execute(url, page) {
             description: 'Chap '+item.select('.chapter-link').last().text(),
             host: "https://truyengihot.net"
         })
-    }
+    });
     return Response.success(list,next)
 }

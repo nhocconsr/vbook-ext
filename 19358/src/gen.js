@@ -7,8 +7,8 @@ function execute(url, page) {
     doc.select('.table tr').first().remove()
     const allBox = doc.select(".table tr")
     const data = [];
-    for (var i in allBox) {
-        var box = allBox[i];
+    for (var i = 0; i < allBox; i++) {
+        var box = allBox.get(i);
         var link = box.select("a").first().attr('href');
         var m, id, cover;
         if ((m = link.match(/\/(\d+)\//)[1]) && (id = m)) {

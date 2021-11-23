@@ -14,8 +14,7 @@ function execute(url, page) {
     else var next = null
     var allBook = JSON.parse(json).data;
     var list = [];
-    for (var i in allBook){
-        var book = allBook[i]
+    allBook.forEach(book => {
         list.push({
             name: book.entry.title,
             link: '/entry/'+book.entry.id,
@@ -23,7 +22,6 @@ function execute(url, page) {
             description: book.impression,
             host: "https://www.tsumino.com"
         })
-    }
-
+    });
     return Response.success(list,next)
 }
