@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "name": "123 Truyện",
+    "name": "Giáng Thế",
     "author": "Nhocconsr",
-    "version": 2,
-    "source": "https://123truyen.com",
-    "regexp": "(www.)?123truyen.com/[0-9a-z-]+",
-    "description": "Đọc truyện trên trang 123truyen.com",
-    "locale": "vi-VN",
+    "version": 1,
+    "source": "https://giangthe.com/",
+    "regexp": "(www.)?giangthe.com/",
+    "description": "Update",
+    "local": "vi-VN",
     "language": "javascript",
-    "type" : "novel"
+    "type": "novel"
   },
   "script": {
     "home": "home.js",

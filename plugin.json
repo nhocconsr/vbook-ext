@@ -11,7 +11,20 @@
         "version": 1,
         "source": "https://vlogtruyen.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/icon.png",
-        "description": "Đọc truyện trên trang vlogtruyen.net"
+        "description": "Đọc truyện trên trang vlogtruyen.net",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
+        "name": "123 Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
+        "version": 2,
+        "source": "https://123truyen.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/icon.png",
+        "description": "Đọc truyện trên trang 123truyen.com",
+        "type": "novel",
+        "locale": "vi_VN"
       },
       {
         "name": "Việt Writer",
@@ -321,15 +334,6 @@
         "source": "https://thichtruyen.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thichtruyen/icon.png",
         "description": "Đọc truyện trên trang Thichtruyen.vn"
-      },
-      {
-        "name": "123 Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
-        "version": 1,
-        "source": "https://123truyen.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/icon.png",
-        "description": "Đọc truyện trên trang 123truyen.com"
       },
       {
         "name": "Truyện Tiki",
