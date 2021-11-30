@@ -27,6 +27,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "GetTruyen",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/plugin.zip",
+        "version": 3,
+        "source": "https://gettruyen.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/icon.png",
+        "description": "Đọc truyện trên trang gettruyen.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Việt Writer",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/plugin.zip",
@@ -307,15 +318,6 @@
         "source": "https://fanqienovel.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/icon.png",
         "description": "Đọc truyện trên trang fanqienovel.com"
-      },
-      {
-        "name": "GetTruyen",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/plugin.zip",
-        "version": 2,
-        "source": "https://gettruyen.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/icon.png",
-        "description": "Đọc truyện trên trang gettruyen.com"
       },
       {
         "name": "【VIP】Bạch Ngọc Sách",

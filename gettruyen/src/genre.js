@@ -1,15 +1,15 @@
-function execute() {
-    const doc = Http.get('https://gettruyen.com/search').html();
-    const el = doc.select('.max-h-96 a')
-;
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
+function execute(url) {
+    let response = fetch('https://gettruyen.com/search');
+    if (response.ok) {
+        let doc = response.html();
+        const data = [];
+        doc.select('.max-h-96 a').forEach(e => data.push({
            title: e.text(),
            input: e.attr('href').match(/\d+/)[0],
            script: 'source.js'
-        });
+        }));
+
+        return Response.success(data);
     }
-    return Response.success(data);
+    return null;
 }
