@@ -2,11 +2,11 @@
   "metadata": {
     "name": "230Book",
     "author": "Nhocconsr",
-    "version": 6,
+    "version": 7,
     "source": "https://www.230book.net",
     "regexp": "(www.|m.)?((230book.net/book/\\d+/)|(230book.net/book/\\d+))",
     "description": "Đọc truyện trên trang 230book.net",
-    "local": "vi-VN",
+    "locale": "zh-CN",
     "language": "javascript",
     "type": "chinese_novel"
   },
