@@ -1,8 +1,7 @@
 load('libs.js')
 function execute(key) {
-    var json = Http.get('https://cmangatop.com/api/search?opt1='+key).string()
-    var allItem = JSON.parse(json)
-    var data = [];
+    let allItem = fetch('https://cmangatop.com/api/search?opt1='+key).json()
+    let data = [];
     allItem.forEach(item => data.push({
             name: titleCase(item.name),
             link: item.url+'-'+item.id_book,

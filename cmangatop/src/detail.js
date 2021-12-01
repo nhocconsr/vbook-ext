@@ -1,7 +1,7 @@
 function execute(url) {
-    var browser = Engine.newBrowser();
+    let browser = Engine.newBrowser();
     browser.launch(url, 10000) ;
-    var doc = browser.html();
+    let doc = browser.html();
     browser.close();
     return Response.success({
         name: doc.select("h1").text(),

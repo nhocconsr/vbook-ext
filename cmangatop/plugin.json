@@ -2,11 +2,11 @@
   "metadata": {
     "name": "CManga",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://cmangatop.com",
     "regexp": "(www.)?cmangatop.com/[0-9a-z-]+",
-    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord<br><br>v1: site mã hoá nên load chậm hơn bình thường đừng có kêu ca<br>v2: fix tìm kiếm và chỉnh lại chữ cho đỡ phèn",
-    "local": "vi-VN",
+    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord<br><br>Site mã hoá nên load chậm hơn bình thường đừng có kêu ca",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },

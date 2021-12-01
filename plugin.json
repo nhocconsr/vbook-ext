@@ -38,6 +38,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "CManga",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/plugin.zip",
+        "version": 3,
+        "source": "https://cmangatop.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/icon.png",
+        "description": "Đọc truyện trên trang cmangatop.com",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
         "name": "230Book",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/plugin.zip",
@@ -141,15 +152,6 @@
         "source": "https://truyen3s.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen3s/icon.png",
         "description": "Đọc truyện trên trang truyen3s.com"
-      },
-      {
-        "name": "CManga",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/plugin.zip",
-        "version": 2,
-        "source": "https://cmangatop.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/icon.png",
-        "description": "Đọc truyện trên trang cmangatop.com"
       },
       {
         "name": "DouJins",
