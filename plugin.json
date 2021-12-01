@@ -49,6 +49,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "Mb TXT 【妙笔】",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
+        "version": 5,
+        "source": "https://www.mbtxt.la",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
+        "description": "Đọc truyện trên trang mbtxt.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "Việt Writer",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/plugin.zip",
@@ -238,15 +249,6 @@
         "source": "https://www.19358.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/icon.png",
         "description": "Đọc truyện trên trang www.19358.net"
-      },
-      {
-        "name": "Mb TXT 【妙笔】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
-        "version": 4,
-        "source": "https://www.mbtxt.la",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/icon.png",
-        "description": "Đọc truyện trên trang mbtxt.com"
       },
       {
         "name": "YuShuBo 【御书网】",

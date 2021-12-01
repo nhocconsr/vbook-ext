@@ -1,13 +1,14 @@
 function execute(url) {
-    const doc = Http.get(url+'/').html('gbk');
-    var el = doc.select('#list-chapterAll a')
-    const data = [];
-    el.forEach(e => {
-        data.push({
+    let response = fetch(url+'/');
+    if (response.ok) {
+        let doc = response.html('gbk');
+        const data = [];
+        doc.select("#list-chapterAll a").forEach(e => data.push({
             name: e.text(),
             url: url+'/'+e.attr('href'),
             host: "https://www.mbtxt.com"
-        })
-    });
-    return Response.success(data);
+        }));
+        return Response.success(data);
+    }
+    return null;
 }
