@@ -35,7 +35,7 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
         "description": "Đọc truyện trên trang Sayhentai.net",
         "type": "comic",
-        "locale": "vi_VN"
+        "locale": "vi_VN",
         "tag": "nsfw"
       },
       {
