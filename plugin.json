@@ -27,6 +27,18 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Say Hentai",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
+        "version": 2,
+        "source": "https://sayhentai.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
+        "description": "Đọc truyện trên trang Sayhentai.net",
+        "type": "comic",
+        "locale": "vi_VN"
+        "tag": "nsfw"
+      },
+      {
         "name": "GetTruyen",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/plugin.zip",
@@ -560,16 +572,6 @@
         "source": "https://kissaway.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/icon.png",
         "description": "Đọc truyện trên trang Kissaway.net"
-      },
-      {
-        "name": "Say Hentai",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
-        "version": 1,
-        "source": "https://sayhentai.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
-        "description": "Đọc truyện trên trang Sayhentai.net",
-        "tag": "nsfw"
       },
       {
         "name": "LxHentai",

@@ -1,22 +1,25 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get(url + '?status=0&page='+page+'&name=&genre=&sort=last_update').html();
-
-    var next = doc.select("ul.pager").select("li.active + li").text();
-
-    const el = doc.select("ul#danhsachtruyen > li");
-    const base = 'https://sayhentai.net/app'
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: e.select(".info-bottom a").first().text(),
-            link: e.select(".info-bottom a").first().attr("href"),
-            cover: e.select("a").first().attr("data-src").replace('//st', "https://st"),
-            description: e.select(".info-bottom span").text().replace(/\ :.*/g, ""),
-            host: "https://sayhentai.net"
-        })
+    let response = fetch(url, {
+        method: "GET",
+        queries: {
+            page : page
+        }
+    });
+    if (response.ok) {
+        let doc = response.html();
+        let comiclist = [];
+        let next = doc.select(".pager").select('li.active + li').text();
+        doc.select(".page-item-detail").forEach(e => {
+            comiclist.push({
+                name: e.select("h3 a").text(),
+                link: e.select("h3 a").attr("href"),
+                cover: e.select("img.img-responsive").attr("data-src") || e.select("img.img-responsive").attr("src"),
+                description: e.select('.chapter').first().text(),
+                host: "https://sayhentai.net"
+            });
+        });
+        return Response.success(comiclist, next);
     }
-
-    return Response.success(data, next)
+    return null;
 }

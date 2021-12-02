@@ -1,9 +1,8 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-
-    var el = doc.select("ul#list-chapter > li").select("a");
-    const data = [];
-    for (var i = el.size() - 1; i >= 0; i--) {
+    let doc = fetch(url).html();
+    let el = doc.select("ul.box-list-chapter li").select("a");
+    let data = [];
+    for (let i = el.size() - 1; i >= 0; i--) {
         var e = el.get(i);
         data.push({
             name: e.text(),
@@ -11,6 +10,5 @@ function execute(url) {
             host: "https://sayhentai.net"
         })
     }
-
     return Response.success(data);
 }
