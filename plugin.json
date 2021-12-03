@@ -83,6 +83,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "250sy",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/250sy/plugin.zip",
+        "version": 1,
+        "source": "https://www.250sy.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/250sy/icon.png",
+        "description": "Đọc truyện trên trang 250sy.net",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "Lanrenyuhai 【旧时光】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lanrenyuhai/plugin.zip",

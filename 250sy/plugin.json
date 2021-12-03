@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "250sy 【二五零书院】",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.250sy.net",
+    "regexp": "(www.)?(m.)?250sy.net/book/\\d+.(html|html)",
+    "description": "Đọc truyện tại trang www.250sy.net",
+    "locale": "zh-CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
