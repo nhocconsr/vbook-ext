@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "name": "Lanrenyuhai 【旧时光】",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://www.lanrenyuhai.com",
+    "regexp": "(www.)?www.lanrenyuhai.com/go/\\d+/?",
+    "description": "Nếu lỗi báo cáo email : phamgiavang@gmail.com hoặc discord",
+    "locale": "zh-CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "detail": "detail.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
