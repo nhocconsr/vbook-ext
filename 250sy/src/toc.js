@@ -1,5 +1,5 @@
 function execute(url) {
-    let urlchap = fetch(url).html().select('.wright > div > a[href~=xiaoshuo]').first().attr('href');
+    let urlchap = fetch(url.replace('m.','www.')).html().select('.wright > div > a[href~=xiaoshuo]').first().attr('href');
     let response = fetch(urlchap);
     if (response.ok) {
         let doc = response.html('gbk');
