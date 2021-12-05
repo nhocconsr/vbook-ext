@@ -38,6 +38,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Truyện Top 1",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/plugin.zip",
+        "version": 2,
+        "source": "http://truyentop1.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/icon.png",
+        "description": "Đọc truyện trên trang Truyentop1.com",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
@@ -461,15 +472,6 @@
         "source": "https://truyenhaytv.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenhaytv/icon.png",
         "description": "Đọc truyện trên trang Truyenhaytv.com"
-      },
-      {
-        "name": "Truyện Top 1",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/plugin.zip",
-        "version": 1,
-        "source": "http://truyentop1.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/icon.png",
-        "description": "Đọc truyện trên trang Truyentop1.com"
       },
       {
         "name": "Zing Truyện",

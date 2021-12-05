@@ -1,6 +1,5 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-
+    var doc = fetch(url).html();
     var el = doc.select("ul.lst-chapter > li").select("a");
     const data = [];
     for (var i = el.size() - 1; i >= 0; i--) {
@@ -11,6 +10,5 @@ function execute(url) {
             host: "http://truyentop1.com"
         })
     }
-
     return Response.success(data);
 }

@@ -2,7 +2,7 @@ function execute(url) {
     function capitalize(s){
         return s[0].toUpperCase() + s.slice(1);
     }
-    const doc = Http.get(url).html();
+    const doc = fetch(url).html();
     return Response.success({
         name: capitalize(doc.select("h1.title").first().text()),
         cover: doc.select(".wrap-content-image img").first().attr("src"),
