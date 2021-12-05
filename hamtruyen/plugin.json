@@ -2,17 +2,16 @@
   "metadata": {
     "name": "Ham Truyện",
     "author": "Nhocconsr",
-    "version": 3,
+    "version": 4,
     "source": "https://hamtruyen.vn",
-    "regexp": "(www.)?(m.)?hamtruyen.vn/[0-9a-z-]+.html",
-    "description": "Đọc truyện trên trang Hamtruyen.vn<br><br> v2: Update nhận link mobile và fix chương VIP ",
-    "local": "vi-VN",
+    "regexp": "(www.)?(m.)?hamtruyen.(com|vn)/[0-9a-z-]+.html",
+    "description": "Đọc truyện tranh trên trang Hamtruyen.vn",
+    "locale": "vi-VN",
     "language": "javascript",
 	"type": "comic"
   },
   "script": {
     "home": "home.js",
-    "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",

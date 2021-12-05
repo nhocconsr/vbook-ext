@@ -27,6 +27,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Ham Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
+        "version": 4,
+        "source": "https://hamtruyen.vn",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
+        "description": "Đọc truyện trên trang Hamtruyen.vn",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
@@ -549,15 +560,6 @@
         "source": "https://hocvientruyentranh.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/icon.png",
         "description": "Đọc truyện trên trang Hocvientruyentranh.net"
-      },
-      {
-        "name": "Ham Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
-        "version": 3,
-        "source": "https://hamtruyen.vn",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
-        "description": "Đọc truyện trên trang Hamtruyen.vn"
       },
       {
         "name": "Truyện Z",

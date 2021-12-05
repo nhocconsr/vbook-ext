@@ -1,12 +1,16 @@
 function execute(url) {
-    const doc = Http.get(url.replace('m.','')).html();
-    return Response.success({
-        name: doc.select("h1.tentruyen").first().text(),
-        cover: doc.select(".wrapper_image img").first().attr("src"),
-        author: doc.select(".wrapper_info > p:nth-child(2)").first().text(),
-        description: doc.select("p#tomtattruyen").html(),
-        detail: doc.select(".wrapper_info > p:nth-child(2)").first().html()+'<br>'+doc.select(".wrapper_info > p:nth-child(3)").first().html()+'<br>'+doc.select(".wrapper_info > p:nth-child(4)").first().html(),
-        host: "https://hamtruyen.vn",
-        ongoing: doc.select(".wrapper_info > p:nth-child(2)").first().text().indexOf("Đang") >= 0
-    });
+    let response = fetch(url.replace('m.','www.'));
+    if (response.ok) {
+        let doc = response.html();
+        return Response.success({
+            name: doc.select("h3.story-name").first().text(),
+            cover: doc.select(".story-avatar img").first().attr("src"),
+            author: doc.select(".author span").first().text(),
+            description: doc.select(".desc p").html(),
+            detail: doc.select(".chap").first().text()+'<br>'+doc.select(".author").text(),
+            ongoing: doc.select(".chap").text().indexOf("Đang") != -1,
+            host: "https://hamtruyen.vn"
+        });
+    }
+    return null;
 }

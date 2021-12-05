@@ -1,8 +1,8 @@
 function execute() {
     return Response.success([
-        { title: "Cập nhật", input: "https://hamtruyen.vn", script: "gen.js" },
-        { title: "Xem nhiều", input: "https://hamtruyen.vn", script: "top.js" },
-        { title: "Manga", input: "https://hamtruyen.vn/Theloai/549f819f1788b6107431bd05/manga.html", script: "cat.js" },
-        { title: "Huyền huyễn", input: "https://hamtruyen.vn/Theloai/549f819f1788b6107431bd08/huyen-huyen.html", script: "cat.js" },
+        { title: "Cập Nhật", input: "2", script: "gen.js" },
+        { title: "Bảng Xếp Hạng", input: "1", script: "gen.js" },
+        { title: "Truyện Mới", input: "3", script: "gen.js" },
+        { title: "Hoàn Thành", input: "2", script: "source.js" },
     ]);
 }

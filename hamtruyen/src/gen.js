@@ -1,23 +1,31 @@
-function execute(url, page) {
-    function capitalize(s){
-        return s[0].toUpperCase() + s.slice(1);
+function execute(id, page) {
+    function cap(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
     }
     if (!page) page = '1';
-    const doc = Http.get(url + '/danhsach/P'+ page +'/index.html?sort=2').html();
-    var next = doc.select(".pagination").select("li.active + li").text()
-    const el = doc.select("ul.listtruyen li > .item_truyennendoc");
-    
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: capitalize(e.select("h5.tentruyen_slide").first().text()),
-            link: e.select("a").first().attr("href"),
-            cover: e.select(".wrapper_imgage img").first().attr("src"),
-            description: capitalize(e.select("h5.tenchap_slide").first().text()),
-            host: "https://hamtruyen.vn"
-        })
+    let response = fetch("https://hamtruyen.vn/danhsach/P"+page+"/index.html", {
+        method: "GET",
+        queries: {
+            o : id,
+            st: '-1'
+        }
+    });
+    if (response.ok) {
+        let doc = response.html();
+        let comicList = [];
+        let next = doc.select(".pagination").select('li.active + li').text()
+        doc.select(".list-story .story-item").forEach(e => {
+            comicList.push({
+                name: e.select(".story-name").text(),
+                link: e.select("a").attr("href"),
+                cover: e.select("img").attr("src"),
+                description : cap(e.select(".chap").text()),
+                host: "https://hamtruyen.vn"
+            });
+        });
+
+        return Response.success(comicList, next);
     }
 
-    return Response.success(data, next)
+    return null;
 }

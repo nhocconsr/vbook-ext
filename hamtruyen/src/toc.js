@@ -1,19 +1,17 @@
 function execute(url) {
-    function capitalize(s){
-        return s[0].toUpperCase() + s.slice(1);
+    function cap(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
     }
-    var doc = Http.get(url.replace('m.','')).html();
-
-    var el = doc.select(".content .tenChapter").select("a");
-    const data = [];
-    for (var i = el.size() - 1; i >= 0; i--) {
+    let doc = fetch(url.replace('m.','www.')).html();
+    let el = doc.select(".chap-item .name").select("a");
+    let data = [];
+    for (let i = el.size() - 1; i >= 0; i--) {
         var e = el.get(i);
         data.push({
-            name: capitalize(e.text()),
+            name: cap(e.text()),
             url: e.attr("href"),
             host: "https://hamtruyen.vn"
         })
     }
-
     return Response.success(data);
 }
