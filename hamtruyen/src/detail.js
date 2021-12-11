@@ -9,7 +9,7 @@ function execute(url) {
             description: doc.select(".desc p").html(),
             detail: doc.select(".chap").first().text()+'<br>'+doc.select(".author").text(),
             ongoing: doc.select(".chap").text().indexOf("Đang") != -1,
-            host: "https://hamtruyen.vn"
+            host: "https://hamtruyenmoi.com"
         });
     }
     return null;

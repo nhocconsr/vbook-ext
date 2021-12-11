@@ -30,7 +30,7 @@
         "name": "Ham Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
-        "version": 4,
+        "version": 5,
         "source": "https://hamtruyen.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
         "description": "Đọc truyện trên trang Hamtruyen.vn",
