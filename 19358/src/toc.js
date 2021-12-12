@@ -1,7 +1,7 @@
 function execute(url) {
-    const doc = Http.get(url+'/').html();
-    var el = doc.select('#list-chapterAll a')
-    const data = [];
+    let doc =fetch(url+'/').html();
+    let el = doc.select('#list-chapterAll a')
+    let data = [];
     el.forEach(e =>
         data.push({
             name: e.text(),

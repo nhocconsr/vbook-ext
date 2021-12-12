@@ -128,6 +128,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "19358 文学",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/plugin.zip",
+        "version": 2,
+        "source": "https://www.19358.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/icon.png",
+        "description": "Đọc truyện trên trang www.19358.net",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "Lanrenyuhai 【旧时光】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lanrenyuhai/plugin.zip",
@@ -311,15 +322,6 @@
         "source": "https://sttruyen.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/icon.png",
         "description": "Đọc truyện trên trang sttruyen.com"
-      },
-      {
-        "name": "19358 文学",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/plugin.zip",
-        "version": 1,
-        "source": "https://www.19358.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/icon.png",
-        "description": "Đọc truyện trên trang www.19358.net"
       },
       {
         "name": "YuShuBo 【御书网】",
