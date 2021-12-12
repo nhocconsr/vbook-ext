@@ -1,13 +1,19 @@
 function execute(url) {
-    const base = 'https://truyengihot.net/'
-    var doc = Http.get(url).html();
-    var el = doc.select(".pageWrapper img");
-    const imgs = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        var img = e.attr("data-echo");
-        if (!img.endsWith('donate.png')){
-            imgs.push(base+img)
+    const base = 'https://truyengihot.net'
+    let doc = fetch(url).html();
+    let el = doc.select(".pageWrapper img");
+    let imgs = [];
+    for (let i = 0; i < el.size(); i++) {
+        let e = el.get(i);
+        let img = e.attr("data-echo") || e.attr("src");
+        if(img.indexOf('donate') <= 0){
+            if(img.startsWith('/')){
+                imgs.push(base + img)
+            }else if(img.startsWith('upload')){
+                imgs.push(base +'/'+ img)
+            }else{
+                imgs.push(img)
+            }
         }
     }
     return Response.success(imgs);

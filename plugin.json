@@ -16,6 +16,18 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Truyện Gì Hot",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
+        "version": 2,
+        "source": "https://truyengihot.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/icon.png",
+        "description": "Đọc truyện trên trang truyengihot.net",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag": "nsfw"
+      },
+      {
         "name": "123 Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
@@ -217,16 +229,6 @@
         "source": "https://doujins.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/icon.png",
         "description": "Đọc truyện trên trang doujins.com",
-        "tag": "nsfw"
-      },
-      {
-        "name": "Truyện Gì Hot",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
-        "version": 2,
-        "source": "https://truyengihot.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/icon.png",
-        "description": "Đọc truyện trên trang truyengihot.net",
         "tag": "nsfw"
       },
       {

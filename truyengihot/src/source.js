@@ -1,15 +1,17 @@
-function execute(url, page) {
+function execute(id, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://truyengihot.net/danh-sach-truyen.html').params({
-        listType : 'pagination',
-        page : page,
-        genre : url,
-        sort : 'last_update',
-        sort_type : 'DESC'
-    }).html();
-    var next = doc.select('.pagination').select('li:has(.current) + li').text();
-    var allItem = doc.select('ul.cw-list li')
-    var list = [];
+    let doc = fetch('https://truyengihot.net/danh-sach-truyen-tranh.html',{ 
+        method: "GET",
+        queries: {
+            listType : 'pagination',
+            page : page,
+            genre : id,
+            sort : 'last_update',
+            sort_type : 'DESC'
+    }}).html();
+    let next = doc.select('.pagination').select('li:has(.current) + li').text();
+    let allItem = doc.select('ul.cw-list li')
+    let list = [];
     allItem.forEach(item => {
         list.push({
             name: item.select('.title a').text(),

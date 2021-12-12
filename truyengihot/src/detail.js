@@ -1,5 +1,5 @@
 function execute(url) {
-    var doc = Http.get(url).html();
+    var doc = fetch(url).html();
     return Response.success({
         name: doc.select("h2.cover-title").text(),
         cover: doc.select(".cover-image img").first().attr("src"),

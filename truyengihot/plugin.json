@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Truyện Gì Hot",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://truyengihot.net",
     "regexp": "(www.)?truyengihot.net/[0-9a-z-]+.html",
-    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord<br><br>v2: fix link ảnh",
-    "local": "vi-VN",
+    "description": "Đọc truyện tranh thôi nhé!",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic",
     "tag": "nsfw"
