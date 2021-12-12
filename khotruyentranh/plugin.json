@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Kho Truyện Tranh",
     "author": "Nhocconsr",
-    "version": 2,
-    "source": "https://khotruyentranh.com",
-    "regexp": "(www.)?khotruyentranh.com.*",
+    "version": 3,
+    "source": "https://khotruyentranhz.com",
+    "regexp": "(www.)?khotruyentranhz.com/truyen/[0-9a-z-]+",
     "description": "Đọc truyện trên trang khotruyentranh.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },

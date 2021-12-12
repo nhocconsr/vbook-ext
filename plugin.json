@@ -95,6 +95,18 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Kho Truyện Tranh",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
+        "version": 3,
+        "source": "https://khotruyentranhz.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
+        "description": "Đọc truyện trên trang Khotruyentranhz.com",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag" : "nsfw"
+      },
+      {
         "name": "230Book",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/plugin.zip",
@@ -458,15 +470,6 @@
         "source": "https://truyentienhiep.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/icon.png",
         "description": "Đọc truyện trên trang truyentienhiep.net"
-      },
-      {
-        "name": "Kho Truyện Tranh",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
-        "version": 2,
-        "source": "https://khotruyentranh.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
-        "description": "Đọc truyện trên trang Khotruyentranh.com"
       },
       {
         "name": "Truyện Hay TV",
