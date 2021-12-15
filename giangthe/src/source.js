@@ -1,10 +1,10 @@
-function execute(url, page) {
+function execute(id, page) {
     if (!page) page = '0';
     let response = fetch('https://giangthe.com/tim-kiem-truyen',{
         method: "GET",
         queries: {
             page : page,
-            type : url,
+            category : id,
             sort : '3',
         }
     });

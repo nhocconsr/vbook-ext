@@ -3,9 +3,9 @@
     "name": "Giáng Thế",
     "author": "Nhocconsr",
     "version": 1,
-    "source": "https://giangthe.com/",
-    "regexp": "(www.)?giangthe.com/",
-    "description": "Update",
+    "source": "https://giangthe.com",
+    "regexp": "(www.)?giangthe.com/truyen/\\d+",
+    "description": "Đăng nhập bằng trình duyệt Vbook để get chap VIP nếu đã mua. Lỗi thì báo cáo",
     "local": "vi-VN",
     "language": "javascript",
     "type": "novel"
