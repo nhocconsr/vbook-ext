@@ -195,6 +195,18 @@
         "locale": "zh_CN"
       },
       {
+        "name": "Manga Buddy",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
+        "version": 6,
+        "source": "https://mangabuddy.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
+        "description": "Đọc truyện trên trang mangabuddy.com",
+        "type": "comic",
+        "locale": "en_EN",
+        "tag" : "nsfw"
+      },
+      {
         "name": "Việt Writer",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/plugin.zip",
@@ -329,15 +341,6 @@
         "source": "https://tienvuc.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
         "description": "Đọc truyện trên trang tienvuc.com"
-      },
-      {
-        "name": "Manga Buddy",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
-        "version": 5,
-        "source": "https://mangabuddy.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
-        "description": "Đọc truyện trên trang mangabuddy.com"
       },
       {
         "name": "Novel Buddy",
@@ -582,15 +585,6 @@
         "source": "http://truyendichgiare.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/icon.png",
         "description": "Đọc truyện trên trang Truyendichgiare.com"
-      },
-      {
-        "name": "Học Viện Truyện Tranh",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/plugin.zip",
-        "version": 1,
-        "source": "https://hocvientruyentranh.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hocvientruyentranh/icon.png",
-        "description": "Đọc truyện trên trang Hocvientruyentranh.net"
       },
       {
         "name": "Truyện Z",

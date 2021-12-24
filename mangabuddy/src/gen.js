@@ -1,19 +1,26 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://mangabuddy.com'+url).params({page: page}).html();
-    var next = doc.select(".paginator").select("a.active + a").text()
-    const el = doc.select(".list .book-detailed-item")
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: e.select("h3 a").first().text(),
-            link: e.select("h3 a").first().attr("href"),
-            cover: e.select("img").first().attr("data-src").replace('//','https://'),
-            description: e.select(".latest-chapter").first().text(),
-            host: "https://mangabuddy.com"
+    let response = fetch('https://mangabuddy.com'+url,{
+        method : "GET",
+        queries : {
+            page : page
+        }
+    })
+    if(response.ok){
+        let doc = response.html();
+        let next = doc.select(".paginator").select("a.active + a").text()
+        let el = doc.select(".list .book-detailed-item")
+        let data = [];
+        el.forEach(e =>{
+            data.push({
+                name: e.select("h3 a").first().text(),
+                link: e.select("h3 a").first().attr("href"),
+                cover: e.select("img").first().attr("data-src"),
+                description: e.select(".latest-chapter").first().text(),
+                host: "https://mangabuddy.com"
+            })
         })
+        return Response.success(data, next)
     }
-
-    return Response.success(data, next)
+    return null
 }

@@ -2,13 +2,14 @@
   "metadata": {
     "name": "Manga Buddy",
     "author": "Nhocconsr",
-    "version": 5,
+    "version": 6,
     "source": "https://mangabuddy.com",
     "regexp": "(www.)?mangabuddy.com/[0-9a-z-]+/?$",
-    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
-    "local": "en-EN",
+    "description": "Fix lỗi cover",
+    "locale": "en-EN",
     "language": "javascript",
-    "type": "comic"
+    "type": "comic",
+    "tag" : "nsfw"
   },
   "script": {
     "home": "home.js",
