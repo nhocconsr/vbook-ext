@@ -173,6 +173,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "Book QQ",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bookqq/plugin.zip",
+        "version": 1,
+        "source": "https://book.qq.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bookqq/icon.png",
+        "description": "Đọc truyện trên trang book.qq.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "20xs",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/20xs/plugin.zip",
