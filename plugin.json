@@ -28,6 +28,18 @@
         "tag": "nsfw"
       },
       {
+        "name": "Đọc Truyện 3Q",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doctruyen3q/plugin.zip",
+        "version": 1,
+        "source": "https://doctruyen3qz.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doctruyen3q/icon.png",
+        "description": "Đọc truyện trên trang doctruyen3qz.com",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag": "nsfw"
+      },
+      {
         "name": "123 Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",

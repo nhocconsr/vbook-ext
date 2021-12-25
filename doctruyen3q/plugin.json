@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "Đọc Truyện 3Q",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://doctruyen3qz.com",
+    "regexp": "(www.)?doctruyen3qz.com/truyen-tranh/[0-9a-z-]+/\\d+/?$",
+    "description": "Add new site ^^!",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic",
+    "tag" : "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
