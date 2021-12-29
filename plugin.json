@@ -118,6 +118,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Truyện Dịch Giá Rẻ",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/plugin.zip",
+        "version": 2,
+        "source": "http://truyendichgiare.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/icon.png",
+        "description": "Đọc truyện trên trang Truyendichgiare.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
@@ -588,15 +599,6 @@
         "source": "https://truyendich.org",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
         "description": "Đọc truyện trên trang Truyendich.org"
-      },
-      {
-        "name": "Truyện Dịch Giá Rẻ",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/plugin.zip",
-        "version": 1,
-        "source": "http://truyendichgiare.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendichgiare/icon.png",
-        "description": "Đọc truyện trên trang Truyendichgiare.com"
       },
       {
         "name": "Truyện Z",

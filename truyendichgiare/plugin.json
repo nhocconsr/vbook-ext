@@ -2,16 +2,17 @@
   "metadata": {
     "name": "Truyện Dịch Giá Rẻ",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "http://truyendichgiare.com",
-    "regexp": "(www.)?truyendichgiare.com.*",
-    "description": "Đọc truyện trên trang truyendichgiare.com",
-    "local": "vi-VN",
+    "regexp": "(www.)?truyendichgiare.com/[0-9a-z-]+/?$",
+    "description": "Fix lỗi chèn chữ chương VIP",
+    "locale": "vi-VN",
     "language": "javascript",
     "type" : "novel"
   },
   "script": {
     "home": "home.js",
+    "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
