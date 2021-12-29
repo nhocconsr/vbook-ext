@@ -13,7 +13,7 @@ function execute(url, page) {
             link: e.select("a").first().attr("href"),
             cover: img || 'https://i.imgur.com/KP0Z6Eh.png',
             description: e.select(".searchtag").first().text(),
-            host: "https://sangtacviet.com"
+            host: "https://sangtacviet.xyz"
         })
     }
     return Response.success(data, next)

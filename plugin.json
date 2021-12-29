@@ -74,6 +74,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "STV Limited",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/plugin.zip",
+        "version": 4,
+        "source": "https://sangtacviet.xyz",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/icon.png",
+        "description": "Đọc truyện trên trang sangtacviet.xyz",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Ham Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
@@ -287,15 +298,6 @@
         "source": "https://hentaivn.vip",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/icon.png",
         "description": "Đọc truyện trên trang hentaivn.vip"
-      },
-      {
-        "name": "STV Limited",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/plugin.zip",
-        "version": 3,
-        "source": "https://sangtacviet.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/icon.png",
-        "description": "Đọc truyện trên trang sangtacviet.com"
       },
       {
         "name": "Linovelib (w)",

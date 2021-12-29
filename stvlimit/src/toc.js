@@ -2,7 +2,7 @@ function execute(url) {
     var doc = Http.get(url + '/').html();
     var source = url.split('/')[4]
     var bookId = doc.select("span[id=hiddenid]").first().text().split(';')[0]
-    var newUrl = 'https://sangtacviet.com/index.php?sajax=getchapterlist&bookid='+bookId+'&h='+source
+    var newUrl = 'https://sangtacviet.xyz/index.php?sajax=getchapterlist&bookid='+bookId+'&h='+source
     var list = [];
     var json = Http.get(newUrl.replace(/&amp;/g, "&")).string();
     var data = JSON.parse(json);
@@ -36,7 +36,7 @@ function execute(url) {
                 list.push({
                     name: name.replace('\n','').trim().replace(/\s\s+/g, ' ' ),
                     url: url + "/" + chap[1],
-                    host: "https://sangtacviet.com"
+                    host: "https://sangtacviet.xyz"
                 });
             }
         }
