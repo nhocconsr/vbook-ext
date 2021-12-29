@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Truyện Tiên Hiệp",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyentienhiep.net/",
     "regexp": "(www.)?truyentienhiep.net/[0-9a-z-]+/?$*",
     "description": "Đọc truyện trên trang truyentienhiep.net",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },

@@ -63,6 +63,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Truyện Tiên Hiệp",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/plugin.zip",
+        "version": 2,
+        "source": "https://truyentienhiep.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/icon.png",
+        "description": "Đọc truyện trên trang truyentienhiep.net",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Ham Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
@@ -512,15 +523,6 @@
         "source": "https://truyenwiki.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
         "description": "Đọc truyện trên trang Truyenwiki.net"
-      },
-      {
-        "name": "Truyện Tiên Hiệp",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/plugin.zip",
-        "version": 1,
-        "source": "https://truyentienhiep.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentienhiep/icon.png",
-        "description": "Đọc truyện trên trang truyentienhiep.net"
       },
       {
         "name": "Truyện Hay TV",
