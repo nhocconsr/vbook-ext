@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Góc Truyện Tranh",
     "author": "Nhocconsr",
-    "version": 1,
-    "source": "https://goctruyentranh.com/",
-    "regexp": "(www.)?goctruyentranh.com/truyen/[A-Za-z].+/?",
-    "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "version": 2,
+    "source": "https://goctruyentranhhay.com/",
+    "regexp": "(www.)?goctruyentranhhay.com/truyen/[A-Za-z].+/?",
+    "description": "Đổi domain @@",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },

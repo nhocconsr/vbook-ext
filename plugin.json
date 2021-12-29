@@ -28,6 +28,18 @@
         "tag": "nsfw"
       },
       {
+        "name": "Góc Truyện Tranh",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/plugin.zip",
+        "version": 2,
+        "source": "https://goctruyentranhhay.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/icon.png",
+        "description": "Đọc truyện trên trang goctruyentranhhay.com",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag": "nsfw"
+      },
+      {
         "name": "Đọc Truyện 3Q",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doctruyen3q/plugin.zip",
@@ -282,15 +294,6 @@
         "source": "https://w.linovelib.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovelib/icon.png",
         "description": "Đọc truyện trên trang w.linovelib.com"
-      },
-      {
-        "name": "Góc Truyện Tranh",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/plugin.zip",
-        "version": 1,
-        "source": "https://goctruyentranh.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/icon.png",
-        "description": "Đọc truyện trên trang goctruyentranh.com"
       },
       {
         "name": "Truyện 3S",

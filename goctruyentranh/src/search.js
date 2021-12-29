@@ -1,17 +1,25 @@
 function execute(key, page) {
     if(!page) page = '0';
-    var json = JSON.parse(Http.get('https://goctruyentranh.com/api/comic/search/').params({name : key}).string());
-    var allItem = json.result
-    if(allItem){
-        var data = [];
-        allItem.forEach(item => data.push({
-            name: item.name,
-            link: 'https://goctruyentranh.com/truyen/'+item.nameEn,
-            cover: item.photo,
-            description: 'Chap '+item.chapterLatest[0],
-            host: "https://goctruyentranh.com"
-        }))       
-        return Response.success(data)
+    let response = fetch('https://goctruyentranhhay.com/api/comic/search/',{
+        method : "GET",
+        queries : {
+            name : key
+        }
+    });
+    if(response.ok){
+        let json = response.json();
+        let allItem = json.result;
+        if(allItem){
+            let data = [];
+            allItem.forEach(item => data.push({
+                name: item.name,
+                link: 'https://goctruyentranhhay.com/truyen/'+item.nameEn,
+                cover: item.photo,
+                description: 'Chap '+item.chapterLatest[0],
+                host: "https://goctruyentranhhay.com"
+            }))
+            return Response.success(data)
+        }
     }
     return null;
 }
