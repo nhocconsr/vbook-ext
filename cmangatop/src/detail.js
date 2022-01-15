@@ -10,6 +10,6 @@ function execute(url) {
         description: doc.select("#book_detail").first().text(),
         detail : doc.select(".status").first().text() + '<br>Nhóm dịch : ' +doc.select(".profile a").text(),
         ongoing: doc.select(".status").first().text().indexOf("Đang") != -1,
-        host: "https://cmangatop.com"
+        host: "https://cmangaka.com"
     });
 }
