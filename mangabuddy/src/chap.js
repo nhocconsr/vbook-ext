@@ -1,5 +1,5 @@
 function execute(url) {
-    const base = 'https://static.youmadcdn.xyz/manga/';
+    const base = 'https://s1.mbcdnv1.xyz/file/img-mbuddy/manga/';
     let response = fetch(url);
     if(response.ok){
         let doc = response.text()

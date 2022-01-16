@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Manga Buddy",
     "author": "Nhocconsr",
-    "version": 6,
+    "version": 7,
     "source": "https://mangabuddy.com",
     "regexp": "(www.)?mangabuddy.com/[0-9a-z-]+/?$",
-    "description": "Fix lỗi cover",
+    "description": "Fix lỗi ảnh do đổi sv ảnh",
     "locale": "en-EN",
     "language": "javascript",
     "type": "comic",
