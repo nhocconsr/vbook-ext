@@ -6,7 +6,7 @@ function execute(url) {
         let allImg = doc.match("chapImages =.'(.+)'")[1].split(',');
         let data = [];
         allImg.forEach(item => data.push(server+item))
-        return Response.success(server);
+        return Response.success(data);
     }
     return null;
 }
