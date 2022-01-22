@@ -1,7 +1,7 @@
 function execute(url, page) {
     if (!page) page = null;
     let response = fetch('https://m.truyencv.vn/graphql', {
-        method: "POST", // GET, POST, PUT, DELETE, PATCH
+        method: "POST",
         body: JSON.stringify({
             id: url,
             query: "query truyenMoiQuery(\n  $count: Int\n  $cursor: String\n) {\n  ...truyenMoi_items_1G22uz\n}\n\nfragment truyenMoi_items_1G22uz on Query {\n  book(first: $count, after: $cursor, orderBy: \"-last_update\") {\n    edges {\n      node {\n        title\n        refId\n        url\n        coverSm\n        numChapters\n        bookStatus\n        lastUpdate\n        id\n        __typename\n      }\n      cursor\n    }\n    pageInfo {\n      endCursor\n      hasNextPage\n    }\n  }\n}\n"
