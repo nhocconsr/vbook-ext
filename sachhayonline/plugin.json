@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "SachHayOnline",
-    "author": "Fus",
-    "version": 1,
+    "name": "sachhayonline",
+    "author": "fusornat",
+    "version": 2,
     "source": "https://www.sachhayonline.com/",
     "regexp": "(www.)?sachhayonline.com/tua-sach/[A-Za-z].+/?$",
     "description": "Sách Hay Online: Đọc Sách Hay trực tuyến miễn phí, thư viện sách online miễn phí chọn lọc hay nhất, đọc truyện online, sách văn học, lịch sử, truyện ngắn, truyện cười",
