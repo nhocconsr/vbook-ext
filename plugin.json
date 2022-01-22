@@ -755,6 +755,24 @@
         "source": "https://www.tadu.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tadu/icon.png",
         "description": "Đọc truyện trên trang www.tadu.com"
+      },
+      {
+        "name": "Vlognovel",
+        "author": "Fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlognovel/plugin.zip",
+        "version": 1,
+        "source": "https://vlognovel.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlognovel/icon.png",
+        "description": "Vlognovel- Đọc là nghiền"
+      },
+      {
+        "name": "Truyencv",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencv/plugin.zip",
+        "version": 1,
+        "source": "https://m.truyencv.vn/",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencv/icon.png",
+        "description": "TruyenCV là trang web đọc truyện convert online miễn phí với hàng vạn đầu truyện convert hay nhất từ trước đến nay, giúp bạn hóa thân thành nhân vật chính và phiêu lưu trong thế giới truyện tiểu thuyết đầy màu sắc."
       }
     ]
 }
