@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Vlognovel",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://vlognovel.com",
+    "regexp": "https://vlognovel.com/[^/]+.html",
+    "description": "Vlognovel- Đọc là nghiền",
+    "local": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
