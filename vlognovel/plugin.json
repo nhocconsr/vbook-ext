@@ -6,7 +6,7 @@
     "source": "https://vlognovel.com",
     "regexp": "https://vlognovel.com/[^/]+.html",
     "description": "Vlognovel- Đọc là nghiền",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },
