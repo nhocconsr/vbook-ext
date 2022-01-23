@@ -77,7 +77,7 @@
         "name": "STV Limited",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/plugin.zip",
-        "version": 6,
+        "version": 7,
         "source": "https://sangtacviet.xyz",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/icon.png",
         "description": "Đọc truyện trên trang sangtacviet.xyz",
@@ -772,7 +772,7 @@
         "version": 1,
         "source": "https://m.truyencv.vn/",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencv/icon.png",
-        "description": "TruyenCV là trang web đọc truyện convert online miễn phí với hàng vạn đầu truyện convert hay nhất từ trước đến nay, giúp bạn hóa thân thành nhân vật chính và phiêu lưu trong thế giới truyện tiểu thuyết đầy màu sắc."
+        "description": "TruyenCV là trang web đọc truyện convert"
       }
     ]
 }

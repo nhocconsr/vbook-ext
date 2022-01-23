@@ -27,7 +27,7 @@ function execute(url) {
         content = content.replace(/<i<\/i>/g,"");
         content = content.replace(/<i h=''t=''v='(.*?)'.*?>(.*?)<\/i>/g,'');
         content = content.replace(/<i t=''h=''v='(.*?)'.*?>(.*?)<\/i>/g,'');
-        content = content.replace(/<\/?p.*?>/g, "");
+        //content = content.replace(/<\/?p.*?>/g, "");
         content = content.replace(/<(\/)?i.*?>/g, "");
         content = content.replace(/<span.*?>(.*?)<\/span>(<br>)?/g, "");
         content = content.replace(/(\n)?\t/g, "<br>");

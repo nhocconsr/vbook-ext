@@ -2,7 +2,7 @@
     "metadata": {
         "name": "STV Limited",
         "author": "Nhocconsr",
-        "version": 6,
+        "version": 7,
         "source": "https://sangtacviet.xyz",
         "regexp": "(www.)?sangtacviet.(xyz|com)/truyen/([a-zA-Z0-9])+/\\d+/\\d+/?$",
         "description": "Updated ^^!. Fix linh tinh. Site lol",
