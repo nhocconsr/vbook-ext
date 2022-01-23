@@ -6,7 +6,7 @@
     "source": "https://m.truyencv.vn/",
     "regexp": "https://m.truyencv.vn/truyen/[0-9a-z-]+/?$",
     "description": "TruyenCV là trang web đọc truyện convert online miễn phí với hàng vạn đầu truyện convert hay nhất từ trước đến nay, giúp bạn hóa thân thành nhân vật chính và phiêu lưu trong thế giới truyện tiểu thuyết đầy màu sắc.",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },
