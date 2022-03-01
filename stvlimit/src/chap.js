@@ -1,4 +1,5 @@
 function execute(url) {
+    let load = fetch(url);
     let host = url.split('/truyen/')[0];
     let params = url.split('/truyen/')[1].split('/');
     let bookid = params[2];
@@ -22,8 +23,7 @@ function execute(url) {
         }
     });
     if(response.ok){
-        let request = response.json();
-        let content = request.data;
+        var content = response.json().data;
         content = content.replace(/<i<\/i>/g,"");
         content = content.replace(/<i h=''t=''v='(.*?)'.*?>(.*?)<\/i>/g,'');
         content = content.replace(/<i t=''h=''v='(.*?)'.*?>(.*?)<\/i>/g,'');
@@ -58,5 +58,5 @@ function execute(url) {
         //Đã lọc rác có thể. còn nhiều vcl ra ý. tự lọc đi
         return Response.success(content);
     }
-    return null;
+    return Response.error;
 }
