@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://sayhentai.net/search', {
+    let response = fetch('https://sayhentai.tv/search', {
         method: "GET",
         queries: {
             s : key,
@@ -17,7 +17,7 @@ function execute(key, page) {
                 link: e.select("h3 a").attr("href"),
                 cover: e.select("img.img-responsive").attr("data-src") || e.select("img.img-responsive").attr("src"),
                 description: e.select('.chapter').first().text(),
-                host: "https://sayhentai.net"
+                host: "https://sayhentai.tv"
             });
         });
         return Response.success(comiclist, next);

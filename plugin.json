@@ -110,7 +110,7 @@
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://sayhentai.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
         "description": "Đọc truyện trên trang Sayhentai.net",

@@ -8,7 +8,7 @@ function execute(url) {
             author: doc.select(".author-content").first().text(),
             description: doc.select(".description-summary p").html(),
             detail: doc.select(".summary-content").first().text()+'<br>Author : '+doc.select(".author-content").text(),
-            host: "https://sayhentai.net",
+            host: "https://sayhentai.tv",
             ongoing: doc.select(".post-content_item").text().indexOf("OnGoing") != -1
         });
     }

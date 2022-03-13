@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Say Hentai",
     "author": "Nhocconsr",
-    "version": 2,
-    "source": "https://sayhentai.net",
-    "regexp": "(www.)?sayhentai.net/[^/]+.html$",
+    "version": 3,
+    "source": "https://sayhentai.tv",
+    "regexp": "(www.)?sayhentai.tv/[^/]+.html$",
     "description": "Đọc truyện trên trang Say Hentai",
     "locale": "vi-VN",
     "language": "javascript",
