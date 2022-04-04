@@ -3,7 +3,7 @@ function execute(url) {
 
     var el = doc.select(".portlet-body .chapter-row")
     const data = [];
-    for (var i = el.size() - 1; i >= 0; i--) {
+    for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
         data.push({
             name: e.select("a").first().text(),
