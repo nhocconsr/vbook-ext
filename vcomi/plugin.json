@@ -2,11 +2,11 @@
   "metadata": {
     "name": "VComi",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://vcomi.co",
     "regexp": "(www.)?vcomi.co/[a-z-]+.html",
     "description": "Nếu lỗi extention liên hệ email : Phamgiavang@gmail.com hoặc Discord trong Vbook",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },

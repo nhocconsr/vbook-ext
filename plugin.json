@@ -141,6 +141,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "VComi",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
+        "version": 3,
+        "source": "https://vcomi.co",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/icon.png",
+        "description": "Đọc truyện trên trang vcomi.co",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Giáng Thế",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/giangthe/plugin.zip",
@@ -148,6 +159,17 @@
         "source": "https://giangthe.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/giangthe/icon.png",
         "description": "Đọc truyện trên trang giangthe.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
+        "name": "Truyện Dịch",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
+        "version": 3,
+        "source": "https://truyendich.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
+        "description": "Đọc truyện trên trang Truyendich.com",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -362,15 +384,6 @@
         "source": "https://www.linovel.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/icon.png",
         "description": "Đọc truyện trên trang linovel.net"
-      },
-      {
-        "name": "VComi",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
-        "version": 2,
-        "source": "https://vcomi.co",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/icon.png",
-        "description": "Đọc truyện trên trang vcomi.co"
       },
       {
         "name": "Tiên Vực",
@@ -597,15 +610,6 @@
         "source": "https://hotruyen.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/icon.png",
         "description": "Đọc truyện trên trang Hotruyen.com"
-      },
-      {
-        "name": "Truyện Dịch",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
-        "version": 2,
-        "source": "https://truyendich.org",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
-        "description": "Đọc truyện trên trang Truyendich.org"
       },
       {
         "name": "Truyện Z",
