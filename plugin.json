@@ -313,15 +313,6 @@
         "description": "Đọc truyện trên trang sachhayonline.com"
       },
       {
-        "name": "HentaiVN.Vip",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/plugin.zip",
-        "version": 1,
-        "source": "https://hentaivn.vip",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/icon.png",
-        "description": "Đọc truyện trên trang hentaivn.vip"
-      },
-      {
         "name": "Linovelib (w)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovelib/plugin.zip",
