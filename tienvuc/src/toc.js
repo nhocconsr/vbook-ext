@@ -8,7 +8,7 @@ function execute(url) {
         else var vip = '';
         list.push({
             name: vip+chap.name,
-            url: 'https://tienvuc.com/api/reading/'+slug+'/chapters/'+chap.num+'/content',
+            url: url+'/chuong-'+chap.num,
             host: "https://tienvuc.com"
         })
     });

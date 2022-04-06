@@ -1,15 +1,22 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-    var el = doc.select("ul.list-chapter > li a");
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: e.select("a").text(),
+    let res = fetch(url).html();
+    let truyen_id = res.select('#truyen-id').attr('value');
+    let response = fetch('https://truyendich.com/api/chapter-list', {
+        method: "GET",
+        queries: {
+            'truyen-id' : truyen_id,
+        }
+    });
+    if(response.ok){
+        let doc = response.html();
+        let allChap = doc.select("li a")
+        let listChap = [];
+        allChap.forEach(e =>listChap.push({
+            name: e.text(),
             url: e.attr("href"),
-            host: "https://truyendich.org"
-        })
+            host: "https://truyendich.com"
+        }));
+        return Response.success(listChap);
     }
-
-    return Response.success(data);
+    return null;
 }

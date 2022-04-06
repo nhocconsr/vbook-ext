@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "Tiên Vực",
+    "name": "Qiushubang",
     "author": "Nhocconsr",
-    "version": 2,
-    "source": "https://tienvuc.com",
-    "regexp": "(www.)?tienvuc.com/[0-9a-z-]+/?$",
-    "description": "Nếu có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com",
-    "locale": "vi-VN",
+    "version": 1,
+    "source": "http://qiushubang.me",
+    "regexp": "(www.)?(m.)?qiushubang.me/",
+    "description": "Đọc truyện",
+    "locale": "cn-ZH",
     "language": "javascript",
     "type": "novel"
   },

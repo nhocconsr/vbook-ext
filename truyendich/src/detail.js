@@ -1,11 +1,14 @@
 function execute(url) {
-    const doc = Http.get(url).html()
-    return Response.success({
-        name: doc.select("h3").text(),
-        cover: doc.select(".book3d div").first().attr("data-setbg"),
-        author: doc.select(".anime__details__widget ul li").first().text(),
-        description: doc.select(".desc-scroll").html(),
-        detail: doc.select(".anime__details__widget ul").first().html(),
-        host: "https://truyendich.org"
-    });
+    let response = fetch(url);
+    if (response.ok){
+        let doc = response.html();
+        return Response.success({
+            name: doc.select("h1").text(),
+            cover: doc.select(".img img").attr('src'),
+            author: doc.select(".name-author").first().text(),
+            description: doc.select(".box-show-des").text(),
+            detail: 'Tác giả : '+doc.select(".name-author").text() + '<br>Trạng thái : '+doc.select(".status-chapter").text(),
+            host: "https://truyendich.com"
+        });
+    }  
 }

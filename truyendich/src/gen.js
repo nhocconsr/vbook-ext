@@ -1,20 +1,27 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://truyendich.org/loc-truyen').params({'status': url,'page':page}).html()
-
-    var next = doc.select(".product__pagination").select("a.current-page + a").text()
-    const el = doc.select(".product__page__content .product__item")
-
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: e.select("h5 a").first().text(),
-            link: e.select("h5 a").first().attr("href"),
-            cover: e.select("a div").attr("data-image"),
-            description: e.select(".ep").first().text(),
-            host: "https://truyendich.org"
-        })
+    let response = fetch('https://truyendich.com/danh-sach/'+url,  {
+        method: "GET",
+        queries: {
+            page : page
+        }
+    });
+    if (response.ok){
+        let doc = response.html();
+        let next = doc.select(".pagination").select("li:has(a.active) + li").text()
+        let el = doc.select(".box-cate-list ul li")
+        let data = [];
+        for (var i = 0; i < el.size(); i++) {
+            var e = el.get(i);
+            data.push({
+                name: e.select("h3 a").first().text(),
+                link: e.select("h3 a").first().attr("href"),
+                cover: e.select("img").attr("src"),
+                description: e.select(".name-chapter").first().text(),
+                host: "https://truyendich.com"
+            })
+        }
+        return Response.success(data,next)
     }
-    return Response.success(data,next)
+    return null;
 }
