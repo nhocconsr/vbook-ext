@@ -1,5 +1,5 @@
 function execute() {
-    const doc = Http.get("https://hentaivn.vip").html();
+    const doc = fetch("https://hentaivnvip.com").html();
     const el = doc.select('ul.genre li a');
     const data = [];
     el.forEach(e =>data.push({

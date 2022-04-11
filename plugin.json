@@ -119,6 +119,18 @@
         "tag": "nsfw"
       },
       {
+        "name": "HentaiVN VIP",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/plugin.zip",
+        "version": 2,
+        "source": "https://hentaivnvip.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaivnvip/icon.png",
+        "description": "Đọc truyện trên trang hentaivnvip.com",
+        "type": "comic",
+        "locale": "vi_VN",
+        "tag": "nsfw"
+      },
+      {
         "name": "GetTruyen",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/gettruyen/plugin.zip",

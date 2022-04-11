@@ -1,5 +1,5 @@
 function execute(url) {
-    const doc = Http.get(url).html();
+    let doc = fetch(url).html();
     return Response.success({
         name: doc.select("h1.name").first().text(),
         cover: doc.select(".book img").first().attr('src'),
@@ -7,6 +7,6 @@ function execute(url) {
         description: doc.select(".comic-description .inner").text(),
         detail: doc.select(".tsinfo .imptdt").first().text()+'<br>'+doc.select(".author").text(),
         ongoing: doc.select(".tsinfo .imptdt").first().text().indexOf("Đang") != -1,
-        host: "https://hentaivn.vip",
+        host: "https://hentaivnvip.com",
     });
 }
