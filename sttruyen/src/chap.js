@@ -1,20 +1,30 @@
-load("en.js");
-load('base64.js');
 function execute(url) {
-    var doc = Http.get(url).string();
-    var checkPay = doc.match('Mở Khóa Chương');
-    if(checkPay){
-        html = 'Đây là chương truyện có phí!<br> Nếu bạn muốn đọc chương này vui lòng đăng nhập vào website và thanh toán để tiếp tục đọc truyện ^^!<br>Nếu bạn đã mua chương rồi mà vẫn bị lỗi vui lòng liên hệ email: Phamgiavang@gmail.com <br>(Trường hợp bạn đọc ở Vbook ^^!)';
-    }else{
-        const packed = doc.match(/\encode\(".*?"\)/)[0];
-        const marks = ['encode(\/"', '\",'];
-        var params = packed.substring(packed.indexOf(marks[0]) + marks[0].length, packed.length-2);
-        var index0 = params.indexOf('\",');
-        var param1 = params.substring(0,index0)
-        var param2 = params.substring(index0 + 3,params.length)
-        var html = encode(param1, param2)
-            .replace(/[\r\n]/g,'')
-            .replace('Nguồn: STTRUYEN.COM','')
+    let response = fetch(url);
+    if(response.ok){
+        let doc = response.html();
+        let csrf = doc.select('meta[name=csrf-token]').attr('content')
+        let rest = doc.select('div[wire:id]').attr('wire:initial-data');
+        let data1 = JSON.parse(rest)
+        var fid = data1.fingerprint.id
+        var path = data1.fingerprint.path
+        var s_alias = data1.serverMemo.data.s_alias
+        var sid = data1.serverMemo.data.sid
+        var c_alias = data1.serverMemo.data.c_alias
+        var cid = data1.serverMemo.data.cid
+        var chid = data1.serverMemo.children.sDltJ1n.id
+        var htmlHash = data1.serverMemo.htmlHash
+        var checksum = data1.serverMemo.checksum
+        let res2 = fetch("https://sttruyen.com/livewire/message/reading", {
+            "method": "POST",
+            "headers": {
+                "Content-Type": "application/json",
+                "X-CSRF-TOKEN": csrf,
+            },
+            "body": "{\"fingerprint\":{\"id\":\""+fid+"\",\"name\":\"reading\",\"locale\":\"vi\",\"path\":\""+path+"\",\"method\":\"GET\"},\"serverMemo\":{\"children\":{\"sDltJ1n\":{\"id\":\""+chid+"\",\"tag\":\"div\"}},\"errors\":[],\"htmlHash\":\""+htmlHash+"\",\"data\":{\"s_alias\":\""+s_alias+"\",\"c_alias\":\""+c_alias+"\",\"load\":false,\"view\":false,\"sid\":"+sid+",\"cid\":"+cid+",\"isbuy\":false,\"font\":[{\"name\":\"Cabin Condensed\",\"value\":\"Cabin Condensed, sans-serif\"},{\"name\":\"Farsan\",\"value\":\"Farsan, cursive\"},{\"name\":\"Lora\",\"value\":\"Lora, serif\"},{\"name\":\"Noto Serif\",\"value\":\"Noto Serif, serif\"},{\"name\":\"Open Sans\",\"value\":\"Open Sans, sans-serif\"},{\"name\":\"Quicksand\",\"value\":\"Quicksand, sans-serif\"}],\"settings\":{\"fontSize\":20,\"lineHeight\":30,\"letterSpacing\":1,\"mode\":\"light\",\"fontFamily\":\"Lora, serif\",\"background\":8}},\"dataMeta\":[],\"checksum\":\""+checksum+"\"},\"updates\":[{\"type\":\"callMethod\",\"payload\":{\"id\":\"4aqu\",\"method\":\"loadContent\",\"params\":[]}}]}"
+        });
+        let data = res2.json();
+        return Response.success(data.effects.emits[0].params[0]);
+
     }
-    return Response.success(html);
+    return null;
 }

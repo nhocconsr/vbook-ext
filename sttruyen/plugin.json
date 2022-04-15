@@ -2,11 +2,11 @@
   "metadata": {
     "name": "ST Truyện",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://sttruyen.com",
-    "regexp": "(www.)?sttruyen.com/story/.*?.html",
-    "description": "Đọc truyện tại trang sttruyen.com.Nếu extention bị lỗi vui lòng liên hệ email: Phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "regexp": "(www.)?sttruyen.com/story/[0-9a-z-]+/?$",
+    "description": "Nếu extention bị lỗi vui lòng liên hệ email: Phamgiavang@gmail.com",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
   },
