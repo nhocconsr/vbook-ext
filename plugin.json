@@ -208,6 +208,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "ST Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/plugin.zip",
+        "version": 2,
+        "source": "https://sttruyen.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/icon.png",
+        "description": "Đọc truyện trên trang sttruyen.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
@@ -407,15 +418,6 @@
         "source": "https://novelbuddy.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/novelbuddy/icon.png",
         "description": "Đọc truyện trên trang novelbuddy.com"
-      },
-      {
-        "name": "ST Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/plugin.zip",
-        "version": 1,
-        "source": "https://sttruyen.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/icon.png",
-        "description": "Đọc truyện trên trang sttruyen.com"
       },
       {
         "name": "YuShuBo 【御书网】",
