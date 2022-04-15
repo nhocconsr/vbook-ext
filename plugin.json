@@ -74,6 +74,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Tiên Vực",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
+        "version": 2,
+        "source": "https://tienvuc.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
+        "description": "Đọc truyện trên trang tienvuc.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "STV Limited",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/plugin.zip",
@@ -387,15 +398,6 @@
         "source": "https://www.linovel.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/linovel/icon.png",
         "description": "Đọc truyện trên trang linovel.net"
-      },
-      {
-        "name": "Tiên Vực",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
-        "version": 1,
-        "source": "https://tienvuc.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
-        "description": "Đọc truyện trên trang tienvuc.com"
       },
       {
         "name": "Novel Buddy",

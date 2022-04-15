@@ -5,7 +5,8 @@ function execute(url) {
         let n = url.split('/')[3];
         let c = url.split('-').pop();
         let headers = response.headers;
-        let base = 'https://tienvuc.com/api/reading/'+n+'/chapters/'+c+'/content';
+        //https://api.tienvuc.xyz/reading/bat-dau-ban-thuong-100-trieu-cai-mang-ban-dich/chapters/1/content
+        let base = 'https://api.tienvuc.xyz/reading/'+n+'/chapters/'+c+'/content';
         var getc = fetch(base, {
             method: "GET",
             headers: headers,
@@ -18,7 +19,7 @@ function execute(url) {
         var decryptedWA = CryptoJS.AES.decrypt({ciphertext: ciphertext}, key, { iv: iv});   
         var content = decryptedWA.toString(CryptoJS.enc.Utf8);
         if (content === '') var content = 'Chương VIP - Vui lòng sử dụng trình duyệt trong Vbook đăng nhập và mua chương nếu bạn muốn đọc chương VIP<br> Nếu đã mua chương mà vẫn có lỗi thì cho mượn nick để test :D'
-        return Response.success(headers);
+        return Response.success(content);
     }
     return null;
 }
