@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Royal Road",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://www.royalroad.com",
+    "regexp": "(www.)?royalroad.com/fiction/(\\d+)/[A-Za-z-].+",
+    "description": "Royal Road® is the home of web novels and fan fictions! In our amazing community, you can find various talented individuals who write as a hobby or even professionally, artists who create art for them, and many, many readers who provide valuable feedback and encouragement.",
+    "locale": "en-EN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

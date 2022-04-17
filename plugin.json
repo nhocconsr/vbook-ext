@@ -350,7 +350,7 @@
       },
       {
         "name": "SachHayOnline",
-        "author": "Fus",
+        "author": "Fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sachhayonline/plugin.zip",
         "version": 1,
         "source": "https://www.sachhayonline.com",
@@ -786,6 +786,24 @@
         "source": "https://m.truyencv.vn/",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencv/icon.png",
         "description": "TruyenCV là trang web đọc truyện convert"
+      },
+      {
+        "name": "Royalroad",
+        "author": "Fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/royalroad/plugin.zip",
+        "version": 1,
+        "source": "https://www.royalroad.com/",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/royalroad/icon.png",
+        "description": "Royal Road® is the home of web novels and fan fictions! In our amazing community, you can find various talented individuals who write as a hobby or even professionally, artists who create art for them, and many, many readers who provide valuable feedback and encouragement."
+      },
+      {
+        "name": "zTruyện",
+        "author": "Fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ztruyen/plugin.zip",
+        "version": 1,
+        "source": "https://ztruyen.vn/",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ztruyen/icon.png",
+        "description": "zTruyen.vn - đọc truyện Online miễn phí Update nhanh nhất với đầy đủ các thể loại truyện hot, truyện hay và mới nhất như truyện ngôn tình, truyện đam mỹ, truyện sắc, truyện tiên hiệp, truyện kiếm hiệp, được cập nhật liên tục từ nhiều nguồn khác nhau. Hỗ trợ đọc truyện trên mọi thiết bị."
       }
     ]
 }
