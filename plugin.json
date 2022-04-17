@@ -264,6 +264,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "Manhua Gui",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
+        "version": 3,
+        "source": "https://www.manhuagui.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
+        "description": "Đọc truyện trên trang manhuagui.com",
+        "type": "comic",
+        "locale": "zh_CN"
+      },
+      {
         "name": "19358 文学",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/19358/plugin.zip",
@@ -473,15 +484,6 @@
         "source": "https://www.ciweimao.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ciweimao/icon.png",
         "description": "Đọc truyện trên trang www.ciweimao.com"
-      },
-      {
-        "name": "Manhua Gui",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
-        "version": 2,
-        "source": "https://www.manhuagui.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
-        "description": "Đọc truyện trên trang manhuagui.com"
       },
       {
         "name": "Hentai Dexy",
