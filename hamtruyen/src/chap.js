@@ -3,7 +3,7 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html();
         var imgs = [];
-        doc.select(".list-images img").forEach(e => imgs.push(e.attr("src")));
+        doc.select(".list-images img").forEach(e => imgs.push(e.attr("data-original")));
         return Response.success(imgs);
     }
     return null;
