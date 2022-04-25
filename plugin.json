@@ -99,10 +99,10 @@
         "name": "Ham Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
-        "version": 7,
+        "version": 8,
         "source": "https://hamtruyenmoi.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
-        "description": "Đọc truyện trên trang Hamtruyen.vn",
+        "description": "Đọc truyện trên trang hamtruyenmoi.com",
         "type": "novel",
         "locale": "vi_VN"
       },
