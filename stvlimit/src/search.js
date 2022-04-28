@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://sangtacviet.xyz/?find=&findinname='+key+'&minc=0&tag=&p='+page);
+    let response = fetch('https://sangtacviet.info/?find=&findinname='+key+'&minc=0&tag=&p='+page);
     if(response.ok){
         let doc = response.html()
         let next = doc.select(".pagination").select("li.active + li").text()
@@ -12,7 +12,7 @@ function execute(key, page) {
                 link: e.select("a").first().attr("href"),
                 cover: e.select("img").first().attr("src"),
                 description: e.select(" div > span.searchtag").last().text(),
-                host: "https://sangtacviet.xyz"
+                host: "https://sangtacviet.info"
             })
         });
         return Response.success(data, next)

@@ -2,7 +2,7 @@ function execute(url) {
     let doc = fetch(url + '/').html();
     let source = url.split('/')[4]
     let bookId = doc.select("span[id=hiddenid]").first().text().split(';')[0]
-    let newUrl = 'https://sangtacviet.xyz/index.php?sajax=getchapterlist&bookid='+bookId+'&h='+source
+    let newUrl = 'https://sangtacviet.info/index.php?sajax=getchapterlist&bookid='+bookId+'&h='+source
     let list = [];
     let reponse = fetch(newUrl.replace(/&amp;/g, "&"))
     if(reponse.ok){
@@ -37,7 +37,7 @@ function execute(url) {
                     list.push({
                         name: name.replace('\n','').trim().replace(/\s\s+/g, ' ' ),
                         url: url + "/" + chap[1],
-                        host: "https://sangtacviet.xyz"
+                        host: "https://sangtacviet.info"
                     });
                 }
             }
