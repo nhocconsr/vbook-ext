@@ -8,7 +8,7 @@
         "name": "Vlog Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://vlogtruyen.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/icon.png",
         "description": "Đọc truyện trên trang vlogtruyen.net",
