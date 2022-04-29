@@ -1,4 +1,6 @@
 function execute(url) {
+    if(url.slice(-1) !== "/")
+        url = url + "/";
     let load = fetch(url);
     let host = url.split('/truyen/')[0];
     let params = url.split('/truyen/')[1].split('/');
