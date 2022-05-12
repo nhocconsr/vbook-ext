@@ -1,5 +1,5 @@
 function execute() {
-    let response = fetch('https://sayhentai.tv');
+    let response = fetch('https://sayhentai.vip');
     if (response.ok) {
         let doc = response.html();
         const data = [];
