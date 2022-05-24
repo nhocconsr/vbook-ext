@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Vlognovel",
     "author": "fusornat",
-    "version": 2,
+    "version": 3,
     "source": "https://vlognovel.com",
     "regexp": "https://vlognovel.com/[^/]+.html",
     "description": "Vlognovel- Đọc là nghiền",

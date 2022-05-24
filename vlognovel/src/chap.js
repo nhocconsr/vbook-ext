@@ -1,8 +1,12 @@
 load('crypto.js');
 function execute(url) {
     let doc = fetch(url).text();
-    let encrypted = doc.match(/encrypted = .(.*)`/)[1];
-    let decrypted = CryptoJSAesJson.decrypt(encrypted, 'vlognovel')
+    let encrypted = doc.match(/encrypted = .(.*)`/);
+    if(!encrypted){
+        var decrypted = 'Chương VIP.Đăng nhập mà mua nhé ^^!'
+    }else{
+        var decrypted = CryptoJSAesJson.decrypt(encrypted[1], 'vlognovel');
+    }
     return Response.success(decrypted);
 }
 var CryptoJSAesJson = {
