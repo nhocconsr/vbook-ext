@@ -1,13 +1,11 @@
 function execute(url) {
-    const doc = Http.get(url).html()
-
+    let doc = fetch(url).html()
     return Response.success({
-        name: doc.select("h1.title-detail").text(),
-        cover: doc.select(".col-md-4 img").first().attr("src"),
-        author: doc.select("div.row.mt-2 > div:nth-child(2)").first().text(),
-        description: doc.select("div.detail-content.mt-4 > p").text(),
-        detail: 'Thực hiện :' +doc.select("div.row.mt-2 > div:nth-child(8)").html()+ "<br>Nhóm dịch :" + doc.select("div.row.mt-2 > div:nth-child(10)").html(),
-        category: doc.select("div.row.mt-2 > div:nth-child(6)").html(),
+        name: doc.select(".mb-4 span").first().text(),
+        cover: doc.select(".cover").first().attr("style").split("'")[1],
+        author: doc.select(".grow a[href~=tac-gia]").first().text(),
+        description: doc.select(".py-4 > p").text(),
+        detail: 'Tác Giả :' +doc.select(".grow a[href~=tac-gia]").first().text(),
         host: "https://lxhentai.com"
     });
 }

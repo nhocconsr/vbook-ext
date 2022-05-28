@@ -16,6 +16,18 @@
         "locale": "vi_VN"
       },
       {
+        "name": "LxHentai",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
+        "version": 3,
+        "source": "https://lxhentai.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
+        "description": "Đọc truyện trên trang Lxhentai.com",
+        "tag": "nsfw",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Truyện Gì Hot",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
@@ -655,16 +667,6 @@
         "source": "https://kissaway.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/icon.png",
         "description": "Đọc truyện trên trang Kissaway.net"
-      },
-      {
-        "name": "LxHentai",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
-        "version": 2,
-        "source": "https://lxhentai.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
-        "description": "Đọc truyện trên trang Lxhentai.com",
-        "tag": "nsfw"
       },
       {
         "name": "Manhwa Manga",
