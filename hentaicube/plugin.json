@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Hentai Cube",
     "author": "Nhocconsr",
-    "version": 1,
-    "source": "https://hentaicube.net",
-    "regexp": "(www.)?hentaicube.net.*",
-    "description": "Đọc truyện trên trang hentaicube.net",
-    "local": "vi-VN",
+    "version": 2,
+    "source": "https://hentaicb.top",
+    "regexp": "(www.)?hentaicb.top/manga/.*",
+    "description": "Đọc truyện trên trang hentaicb.top",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic",
     "tag": "nsfw"

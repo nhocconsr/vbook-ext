@@ -176,6 +176,18 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Hentai Cube",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/plugin.zip",
+        "version": 2,
+        "source": "https://hentaicb.top",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
+        "description": "Đọc truyện trên trang hentaicb.top",
+        "tag": "nsfw",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
         "name": "VComi",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
@@ -696,16 +708,6 @@
         "source": "https://manhwahentai.me",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/icon.png",
         "description": "Đọc truyện trên trang Manhwahentai.me",
-        "tag": "nsfw"
-      },
-      {
-        "name": "Hentai Cube",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/plugin.zip",
-        "version": 1,
-        "source": "https://hentaicube.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
-        "description": "Đọc truyện trên trang Hentaicube.net",
         "tag": "nsfw"
       },
       {
