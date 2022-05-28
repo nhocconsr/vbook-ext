@@ -234,10 +234,10 @@
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://khotruyentranhz.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
-        "description": "Đọc truyện trên trang Khotruyentranhz.com",
+        "description": "Đọc truyện trên trang Khotruyentranhfull.com",
         "type": "comic",
         "locale": "vi_VN",
         "tag" : "nsfw"
