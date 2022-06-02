@@ -2,7 +2,7 @@
   "metadata": {
     "name": "ST Truyện",
     "author": "Nhocconsr",
-    "version": 4,
+    "version": 5,
     "source": "https://sttruyen.com",
     "regexp": "(www.)?sttruyen.com/story/[0-9a-z-]+/?$",
     "description": "Nếu extention bị lỗi vui lòng liên hệ email: Phamgiavang@gmail.com",
@@ -15,6 +15,7 @@
     "genre": "genre.js",
     "detail": "detail.js",
     "search": "search.js",
+    "page": "page.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
