@@ -1,5 +1,6 @@
 function execute(url) {
-    let response = fetch(url);
+    let sid = url.match(/\d+/g)[1];
+    let response = fetch('http://www.20xs.org/'+sid);
     if (response.ok) {
         let doc = response.html();
         let el = doc.select("#list dd a")

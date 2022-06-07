@@ -277,6 +277,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "9txs",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/plugin.zip",
+        "version": 3,
+        "source": "https://9taoxs.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/icon.png",
+        "description": "Đọc truyện trên trang 9taoxs.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "250sy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/250sy/plugin.zip",
@@ -335,7 +346,7 @@
         "name": "20xs",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/20xs/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://www.20xs.org",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/20xs/icon.png",
         "description": "Đọc truyện trên trang www.20xs.org",
@@ -718,15 +729,6 @@
         "source": "https://www.69shu.io",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/69shu/icon.png",
         "description": "Đọc truyện trên trang 69shu.io"
-      },
-      {
-        "name": "9txs",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/plugin.zip",
-        "version": 2,
-        "source": "https://9txs.org",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/icon.png",
-        "description": "Đọc truyện trên trang 9txs.org"
       },
       {
         "name": "bFaloo",
