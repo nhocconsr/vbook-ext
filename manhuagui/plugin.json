@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Manhua Gui",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://www.manhuagui.com",
-    "regexp": "(www.)?(m.)?manhuagui.com/comic/\\d+/?",
-    "description": "Đọc truyện tại site manhuagui.com. Nếu có lỗi vui lòng liên hệ email : Phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "regexp": "(www.)?(m.)?(manhuagui||mhgui).com/comic/\\d+/?",
+    "description": "Nếu có lỗi vui lòng liên hệ email : Phamgiavang@gmail.com",
+    "locale": "zh-CN",
     "language": "javascript",
     "type": "comic"
   },

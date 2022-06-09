@@ -1,5 +1,6 @@
-function execute(url) {
-    let response = fetch(url);
+function execute(url){
+    let sid = url.match(/\d+/g)[1];
+    let response = fetch('http://www.20xs.org/'+sid);
     if (response.ok) {
         let doc = response.html();
         return Response.success({

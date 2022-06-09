@@ -8,10 +8,22 @@
         "name": "Vlog Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://vlogtruyen.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/icon.png",
         "description": "Đọc truyện trên trang vlogtruyen.net",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
+        "name": "LxHentai",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
+        "version": 3,
+        "source": "https://lxhentai.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
+        "description": "Đọc truyện trên trang Lxhentai.com",
+        "tag": "nsfw",
         "type": "comic",
         "locale": "vi_VN"
       },
@@ -88,7 +100,7 @@
         "name": "STV Limited",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/plugin.zip",
-        "version": 8,
+        "version": 9,
         "source": "https://sangtacviet.xyz",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/stvlimit/icon.png",
         "description": "Đọc truyện trên trang sangtacviet.xyz",
@@ -99,11 +111,11 @@
         "name": "Ham Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
-        "version": 5,
-        "source": "https://hamtruyen.vn",
+        "version": 8,
+        "source": "https://hamtruyenmoi.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
-        "description": "Đọc truyện trên trang Hamtruyen.vn",
-        "type": "comic",
+        "description": "Đọc truyện trên trang hamtruyenmoi.com",
+        "type": "novel",
         "locale": "vi_VN"
       },
       {
@@ -121,10 +133,10 @@
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
-        "version": 3,
-        "source": "https://sayhentai.net",
+        "version": 4,
+        "source": "https://sayhentai.vip",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
-        "description": "Đọc truyện trên trang Sayhentai.net",
+        "description": "Đọc truyện trên trang Sayhentai.vip",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
@@ -160,6 +172,18 @@
         "source": "https://cmangaka.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/icon.png",
         "description": "Đọc truyện trên trang cmangaka.com",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
+        "name": "Hentai Cube",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/plugin.zip",
+        "version": 2,
+        "source": "https://hentaicb.top",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
+        "description": "Đọc truyện trên trang hentaicb.top",
+        "tag": "nsfw",
         "type": "comic",
         "locale": "vi_VN"
       },
@@ -211,7 +235,7 @@
         "name": "ST Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/plugin.zip",
-        "version": 2,
+        "version": 5,
         "source": "https://sttruyen.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/icon.png",
         "description": "Đọc truyện trên trang sttruyen.com",
@@ -222,10 +246,10 @@
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://khotruyentranhz.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
-        "description": "Đọc truyện trên trang Khotruyentranhz.com",
+        "description": "Đọc truyện trên trang Khotruyentranhfull.com",
         "type": "comic",
         "locale": "vi_VN",
         "tag" : "nsfw"
@@ -253,6 +277,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "9txs",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/plugin.zip",
+        "version": 3,
+        "source": "https://9taoxs.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/icon.png",
+        "description": "Đọc truyện trên trang 9taoxs.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "250sy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/250sy/plugin.zip",
@@ -261,6 +296,17 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/250sy/icon.png",
         "description": "Đọc truyện trên trang 250sy.net",
         "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
+        "name": "Manhua Gui",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
+        "version": 3,
+        "source": "https://www.manhuagui.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
+        "description": "Đọc truyện trên trang manhuagui.com",
+        "type": "comic",
         "locale": "zh_CN"
       },
       {
@@ -300,7 +346,7 @@
         "name": "20xs",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/20xs/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://www.20xs.org",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/20xs/icon.png",
         "description": "Đọc truyện trên trang www.20xs.org",
@@ -475,15 +521,6 @@
         "description": "Đọc truyện trên trang www.ciweimao.com"
       },
       {
-        "name": "Manhua Gui",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
-        "version": 2,
-        "source": "https://www.manhuagui.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
-        "description": "Đọc truyện trên trang manhuagui.com"
-      },
-      {
         "name": "Hentai Dexy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaidexy/plugin.zip",
@@ -655,16 +692,6 @@
         "description": "Đọc truyện trên trang Kissaway.net"
       },
       {
-        "name": "LxHentai",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
-        "version": 2,
-        "source": "https://lxhentai.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
-        "description": "Đọc truyện trên trang Lxhentai.com",
-        "tag": "nsfw"
-      },
-      {
         "name": "Manhwa Manga",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwamanga/plugin.zip",
@@ -695,16 +722,6 @@
         "tag": "nsfw"
       },
       {
-        "name": "Hentai Cube",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/plugin.zip",
-        "version": 1,
-        "source": "https://hentaicube.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
-        "description": "Đọc truyện trên trang Hentaicube.net",
-        "tag": "nsfw"
-      },
-      {
         "name": "69Shu",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/69shu/plugin.zip",
@@ -712,15 +729,6 @@
         "source": "https://www.69shu.io",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/69shu/icon.png",
         "description": "Đọc truyện trên trang 69shu.io"
-      },
-      {
-        "name": "9txs",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/plugin.zip",
-        "version": 2,
-        "source": "https://9txs.org",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/9txs/icon.png",
-        "description": "Đọc truyện trên trang 9txs.org"
       },
       {
         "name": "bFaloo",
@@ -771,7 +779,7 @@
         "name": "Vlognovel",
         "author": "Fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlognovel/plugin.zip",
-        "version": 1,
+        "version": 3,
         "source": "https://vlognovel.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlognovel/icon.png",
         "description": "Vlognovel- Đọc là nghiền"

@@ -9,7 +9,7 @@ function execute(url, page) {
             link: e.select(".manga-info h3 a").first().attr("href"),
             cover: e.select(".manga-thumb img").first().attr("data-original"),
             description: e.select(".chapter a").first().text(),
-            host: "https://khotruyentranhz.com"
+            host: "https://khotruyentranhfull.com"
         }));
     return Response.success(data, next)
 }

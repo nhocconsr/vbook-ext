@@ -2,9 +2,9 @@
   "metadata": {
     "name": "20xs",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://www.20xs.org",
-    "regexp": "(www.)?(m.)?20xs.org/\\d+/?",
+    "regexp": "(www.)?(m.)?20xs.org/(shu/)?\\d+/?(.html)?",
     "description": "Đọc truyện trên trang www.20xs.org",
     "locale": "zh-CN",
     "language": "javascript",

@@ -1,8 +1,8 @@
 function execute() {
     return Response.success([
-        { title: "Cập Nhật", input: "https://sayhentai.tv", script: "gen.js" },
-        { title: "Manhwa", input: "https://sayhentai.tv/genre/manhwa", script: "gen.js" },
-        { title: "Manga", input: "https://sayhentai.tv/genre/manga", script: "gen.js" },
-        { title: "Manhua", input: "https://sayhentai.tv/genre/manhua", script: "gen.js" },
+        { title: "Cập Nhật", input: "https://sayhentai.vip", script: "gen.js" },
+        { title: "Manhwa", input: "https://sayhentai.vip/genre/manhwa", script: "gen.js" },
+        { title: "Manga", input: "https://sayhentai.vip/genre/manga", script: "gen.js" },
+        { title: "Manhua", input: "https://sayhentai.vip/genre/manhua", script: "gen.js" },
     ]);
 }

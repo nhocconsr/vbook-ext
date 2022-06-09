@@ -9,12 +9,13 @@ function execute(url, page) {
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
+        let img = e.select("a img").first().attr("data-src") || e.select("a img").first().attr("src");
         data.push({
             name: e.select("h3 a").first().text(),
             link: e.select("a").first().attr("href"),
-            cover: e.select("a img").first().attr("src"),
+            cover: img,
             description: e.select(".chapter a").first().text(),
-            host: "https://hentaicube.net"
+            host: "https://hentaicb.top"
         })
     }
 

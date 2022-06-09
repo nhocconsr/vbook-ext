@@ -1,6 +1,6 @@
 function execute() {
     const doc = Http.get("https://lxhentai.com").html();
-    const el = doc.select("#showTheLoai a");
+    const el = doc.select(".mt-2 a");
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
