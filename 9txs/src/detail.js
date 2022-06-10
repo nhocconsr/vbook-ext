@@ -7,6 +7,6 @@ function execute(url) {
         author: doc.select(".detail p a").first().text(),
         description: doc.select(".intro").text(),
         detail: doc.select(".detail p").get(0).html(),
-        host: "https://9txs.org"
+        host: "https://9taoxs.com"
     });
 }

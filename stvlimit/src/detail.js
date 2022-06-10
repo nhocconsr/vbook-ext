@@ -15,7 +15,7 @@ function execute(url) {
             description: des,
             detail: _detail,
             ongoing: true,
-            host: "https://sangtacviet.xyz"
+            host: "https://sangtacviet.info"
         });
     }
     return null;  

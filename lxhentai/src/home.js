@@ -1,6 +1,6 @@
 function execute() {
     return Response.success([
-        {title: "Truyện mới", input: "https://lxhentai.com/story/index.php", script: "gen.js"},
-        {title: "Truyện hot", input: "https://lxhentai.com/story/index.php", script: "hot.js"},
+        {title: "Cập Nhật", input: "-updated_at", script: "gen.js"},
+        {title: "Xem Nhiều", input: "-views", script: "gen.js"},
     ]);
 }
