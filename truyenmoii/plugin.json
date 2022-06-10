@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Mới",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://truyenmoii.com",
+    "regexp": "(www.)?truyenmoii.com/[0-9a-z-]+",
+    "description": "truyenmoii.com. Đọc truyện online miễn phí,đọc truyện mới,đọc truyện hay,truyện full, được cập nhật đầy đủ và nhanh nhất..",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
