@@ -1,21 +1,17 @@
 function execute(url) {
-    let doc = fetch(url).html();
-    let fchap = doc.select(".btn-move-to-chap").attr('href');
-    let reponse = fetch(fchap);
-    if(reponse.ok){
-        let doc2 = reponse.html();
-        let el = doc2.select('.list-chapter').first().select('option')
-        const data = [];
-        for (var i = el.size() - 1; i >= 0; i--) {
-            var e = el.get(i);
+    let url_first_chap = fetch(url).html().select("nav.content-nav a:contains(Chương đầu)").first().attr("href");
+    let response = fetch(url_first_chap);
+    if (response.ok) {
+        let doc = response.html();
+        let data = [];
+        doc.select(".bottom-bar-list-chapter li a").forEach(e => {
             data.push({
                 name: e.text(),
-                url: e.attr("value"),
+                url: e.attr("href"),
                 host: "https://vlognovel.com"
             })
-        }
-        return Response.success(data);
+        }); 
+        return Response.success(data.reverse());
     }
-
     return null;
 }
