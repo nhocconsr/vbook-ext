@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://tienvuc.xyz",
     "regexp": "(www.)?tienvuc.xyz/[0-9a-z-]+/?$",
     "description": "Nếu có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com",
