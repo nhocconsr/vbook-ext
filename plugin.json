@@ -354,6 +354,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "265xs",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/265xs/plugin.zip",
+        "version": 1,
+        "source": "https://www.265xs.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/265xs/icon.png",
+        "description": "Đọc truyện trên trang www.265xs.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
