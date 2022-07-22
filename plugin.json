@@ -788,7 +788,7 @@
       },
       {
         "name": "Vlognovel",
-        "author": "Fusornat",
+        "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlognovel/plugin.zip",
         "version": 4,
         "source": "https://vlognovel.com",
@@ -806,7 +806,7 @@
       },
       {
         "name": "Royalroad",
-        "author": "Fusornat",
+        "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/royalroad/plugin.zip",
         "version": 1,
         "source": "https://www.royalroad.com",
@@ -815,7 +815,7 @@
       },
       {
         "name": "zTruyện",
-        "author": "Fusornat",
+        "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ztruyen/plugin.zip",
         "version": 1,
         "source": "https://ztruyen.vn",
@@ -824,7 +824,7 @@
       },
       {
         "name": "Truyện Mới",
-        "author": "Fusornat",
+        "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenmoii/plugin.zip",
         "version": 3,
         "source": "https://truyenmoii.com/",
@@ -833,7 +833,7 @@
       },
       {
         "name": "docsach24",
-        "author": "Fusornat",
+        "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/docsach24/plugin.zip",
         "version": 1,
         "source": "https://docsach24.co",
