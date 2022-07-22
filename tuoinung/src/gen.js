@@ -1,7 +1,7 @@
 function execute(url, page) {
     if (!page) page = '1';
-    const doc = Http.get(url + '/page/'+page).html();
-    var next = doc.select(".wp-pagenavi a.nextpostslink")
+    const doc = Http.get(url + '/page/'+ page).html();
+    var next = doc.select(".wp-pagenavi a.page.larger").first().text()
     const el = doc.select(".listpost .row .col-md-12")
     size = el.size()
     const data = [];
