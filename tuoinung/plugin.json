@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "name": "tuoinung",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://tuoinung.com",
+    "regexp": "https://(www.)?tuoinung.com/\\d+/\\d+/(.*?)[.]html",
+    "description": "Truyện sex hay với đầy đủ các thể loại: phá trinh, loạn luân, ngoại tình, bạo dâm, hiếp dâm, dâm hiệp, học sinh, giáo viên, sinh viên ...",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "novel",
+    "tag": "nsfw"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
