@@ -396,7 +396,7 @@
       },
       {
         "name": "SachHayOnline",
-        "author": "Fusornat",
+        "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sachhayonline/plugin.zip",
         "version": 1,
         "source": "https://www.sachhayonline.com",
@@ -848,6 +848,15 @@
         "source": "https://tuoinung.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tuoinung/icon.png",
         "description": "Truyện sex hay với đầy đủ các thể loại: phá trinh, loạn luân, ngoại tình, bạo dâm, hiếp dâm, dâm hiệp, học sinh, giáo viên, sinh viên ...."
+      },
+      {
+      "name": "Manhuarock",
+        "author": "fusornat",
+        "path": "https://raw.githubusercontent.com/fusornat/vbook-ext/master/manhuarock/plugin.zip",
+        "version": 1,
+        "source": "https://manhuarock.net",
+        "icon": "https://raw.githubusercontent.com/fusornat/vbook-ext/master/manhuarock/icon.png",
+        "description": "Kho truyện tranh lớn nhất việt nam, đọc truyện hoàn toàn miễn phí."
       }
     ]
 }
