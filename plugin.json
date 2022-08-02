@@ -852,10 +852,10 @@
       {
       "name": "Manhuarock",
         "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/fusornat/vbook-ext/master/manhuarock/plugin.zip",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuarock/plugin.zip",
         "version": 1,
         "source": "https://manhuarock.net",
-        "icon": "https://raw.githubusercontent.com/fusornat/vbook-ext/master/manhuarock/icon.png",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuarock/icon.png",
         "description": "Kho truyện tranh lớn nhất việt nam, đọc truyện hoàn toàn miễn phí."
       }
     ]
