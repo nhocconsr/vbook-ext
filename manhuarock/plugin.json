@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Manhuarock",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://manhuarock.net",
+    "regexp": "https://manhuarock.net/truyen/[0-9a-zA-Z-]+/[0-9]+",
+    "description": "Kho truyện tranh lớn nhất việt nam, đọc truyện hoàn toàn miễn phí.",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
