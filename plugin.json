@@ -119,6 +119,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Truyện A",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
+        "version": 4,
+        "source": "https://truyena.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
+        "description": "Đọc truyện trên trang Truyena.net",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Truyện Top 1",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentop1/plugin.zip",
@@ -575,15 +586,6 @@
         "source": "https://truyentiki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
         "description": "Đọc truyện trên trang Truyentiki.com"
-      },
-      {
-        "name": "Truyện A",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
-        "version": 3,
-        "source": "https://truyena.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
-        "description": "Đọc truyện trên trang Truyena.com"
       },
       {
         "name": "Truyện Wiki",

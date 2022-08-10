@@ -1,7 +1,6 @@
 function execute() {
-    const doc = Http.get("https://truyena.com").html();
-    const el = doc.select('#menu-cate a')
-;
+    const doc = fetch("https://truyena.net").html();
+    const el = doc.select('#menu-cate a');
     const data = [];
     for (var i = 4; i < el.size() - 6; i++) {
         var e = el.get(i);
