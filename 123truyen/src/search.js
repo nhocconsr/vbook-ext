@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://123truyen.com/search', {
+    let response = fetch('https://123truyen.vip/search', {
         method: "GET",
         queries: {
             q : key
@@ -15,7 +15,7 @@ function execute(key, page) {
                 link: e.select("a").first().attr("href"),
                 cover: e.select(".thumb img").first().attr("src").replace('-thumbw',''),
                 description: e.select(".chapter-text").first().text(),
-                host: "https://123truyen.com"
+                host: "https://123truyen.vip"
             });
         });
 

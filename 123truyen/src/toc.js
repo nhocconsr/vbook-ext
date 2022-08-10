@@ -8,7 +8,7 @@ function execute(url) {
             list.push({
                 name: "Chương " + i,
                 url: url+'/chuong-'+i,
-                host: "https://123truyen.com"
+                host: "https://123truyen.vip"
             })
         }
         return Response.success(list);
