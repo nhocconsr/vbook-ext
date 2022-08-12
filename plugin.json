@@ -277,6 +277,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "YuShuBo 【御书网】",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
+        "version": 3,
+        "source": "https://www.yushubo.cc",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
+        "description": "Đọc truyện trên trang yushubo.cc",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "Mb TXT 【妙笔】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
@@ -486,15 +497,6 @@
         "source": "https://novelbuddy.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/novelbuddy/icon.png",
         "description": "Đọc truyện trên trang novelbuddy.com"
-      },
-      {
-        "name": "YuShuBo 【御书网】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 2,
-        "source": "https://www.yushubo.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
-        "description": "Đọc truyện trên trang yushubo.com"
       },
       {
         "name": "TsuMiNo",
