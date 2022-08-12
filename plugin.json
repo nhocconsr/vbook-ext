@@ -89,10 +89,10 @@
         "name": "Tiên Vực",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
-        "version": 3,
-        "source": "https://tienvuc.xyz",
+        "version": 4,
+        "source": "https://tienvuc.vip",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
-        "description": "Đọc truyện trên trang tienvuc.xyz",
+        "description": "Đọc truyện trên trang tienvuc.vip",
         "type": "novel",
         "locale": "vi_VN"
       },

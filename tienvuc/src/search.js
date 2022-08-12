@@ -1,6 +1,6 @@
 function execute(key, page) {
     if(!page) page = '1';
-    let response = fetch('https://api.tienvuc.xyz/search',  {
+    let response = fetch('https://api.tienvuc.vip/search',  {
         method: "GET",
         queries: {
             search : key,
@@ -20,7 +20,7 @@ function execute(key, page) {
                 link: book.slug,
                 cover: book.cover.domain+'/'+book.cover.url,
                 description: vip+book.author.name,
-                host: 'https://tienvuc.xyz',
+                host: 'https://tienvuc.vip',
             })
         });
         return Response.success(list)
