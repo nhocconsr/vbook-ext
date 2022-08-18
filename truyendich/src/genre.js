@@ -1,5 +1,5 @@
 function execute() {
-    let doc = fetch("https://truyendich.com").html();
+    let doc = fetch("https://truyendichz.com").html();
     let el = doc.select(".menu-show-full-cate li a");
     const data = [];
     for (var i = 0; i < el.size() - 3; i++) {

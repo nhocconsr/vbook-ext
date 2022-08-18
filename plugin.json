@@ -67,10 +67,10 @@
         "name": "123 Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
-        "version": 2,
-        "source": "https://123truyen.com",
+        "version": 3,
+        "source": "https://123truyen.vip",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/icon.png",
-        "description": "Đọc truyện trên trang 123truyen.com",
+        "description": "Đọc truyện trên trang 123truyen.vip",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -89,10 +89,10 @@
         "name": "Tiên Vực",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
-        "version": 3,
-        "source": "https://tienvuc.xyz",
+        "version": 4,
+        "source": "https://tienvuc.vip",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
-        "description": "Đọc truyện trên trang tienvuc.xyz",
+        "description": "Đọc truyện trên trang tienvuc.vip",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -115,6 +115,17 @@
         "source": "https://hamtruyenmoi.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
         "description": "Đọc truyện trên trang hamtruyenmoi.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
+        "name": "Truyện A",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
+        "version": 4,
+        "source": "https://truyena.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
+        "description": "Đọc truyện trên trang Truyena.net",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -213,10 +224,10 @@
         "name": "Truyện Dịch",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
-        "version": 3,
-        "source": "https://truyendich.com",
+        "version": 4,
+        "source": "https://truyendichz.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
-        "description": "Đọc truyện trên trang Truyendich.com",
+        "description": "Đọc truyện trên trang Truyendichz.com",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -262,6 +273,17 @@
         "source": "http://www.230book.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/icon.png",
         "description": "Đọc truyện trên trang www.230book.net",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
+        "name": "YuShuBo 【御书网】",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
+        "version": 3,
+        "source": "https://www.yushubo.cc",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
+        "description": "Đọc truyện trên trang yushubo.cc",
         "type": "chinese_novel",
         "locale": "zh_CN"
       },
@@ -477,15 +499,6 @@
         "description": "Đọc truyện trên trang novelbuddy.com"
       },
       {
-        "name": "YuShuBo 【御书网】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 2,
-        "source": "https://www.yushubo.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
-        "description": "Đọc truyện trên trang yushubo.com"
-      },
-      {
         "name": "TsuMiNo",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tsumino/plugin.zip",
@@ -575,15 +588,6 @@
         "source": "https://truyentiki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
         "description": "Đọc truyện trên trang Truyentiki.com"
-      },
-      {
-        "name": "Truyện A",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
-        "version": 3,
-        "source": "https://truyena.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/icon.png",
-        "description": "Đọc truyện trên trang Truyena.com"
       },
       {
         "name": "Truyện Wiki",

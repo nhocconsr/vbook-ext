@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://tienvuc.xyz",
-    "regexp": "(www.)?tienvuc.xyz/[0-9a-z-]+/?$",
+    "version": 4,
+    "source": "https://tienvuc.vip",
+    "regexp": "(www.)?tienvuc.vip/[0-9a-z-]+/?$",
     "description": "Nếu có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com",
     "locale": "vi-VN",
     "language": "javascript",

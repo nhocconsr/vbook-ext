@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Truyện A",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://truyena.com",
-    "regexp": "(www.)?truyena.com/[0-9a-z-]+.\\d+/?$",
+    "version": 4,
+    "source": "https://truyena.net",
+    "regexp": "(www.)?truyena.net/[0-9a-z-]+.\\d+/?$",
     "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type" : "novel"
   },

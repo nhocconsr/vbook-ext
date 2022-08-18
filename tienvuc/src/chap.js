@@ -2,7 +2,7 @@ load('crypto.js');
 function execute(url) {
     let n = url.split('/')[3];
     let c = url.split('-').pop();
-    let base = 'https://api.tienvuc.xyz/reading/'+n+'/chapters/'+c+'/content';
+    let base = 'https://api.tienvuc.vip/reading/'+n+'/chapters/'+c+'/content';
     var getc = fetch(base);
     let text = getc.text();
     var content = getDecryptedCode(text);

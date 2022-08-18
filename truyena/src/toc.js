@@ -1,5 +1,5 @@
 function execute(url) {
-    var doc = Http.get(url).html();
+    var doc = fetch(url).html();
     var el = doc.select("#section2 .story-chapter-list li a");
     const data = [];
     el.forEach(e => {
@@ -8,7 +8,7 @@ function execute(url) {
             data.push({
                 name: e.text(),
                 url: e.attr("href"),
-                host: "https://truyena.com"
+                host: "https://truyena.net"
             })
         }
     });

@@ -1,6 +1,6 @@
 function execute(url) {
     var list = [];
-    var doc = Http.get(url + "/").html();
+    var doc = fetch(url + "/").html();
     if (doc) {
         var page = doc.select(".pagination .paging-mobile").last().select("a").attr('href').split(/[=#]/)[1];
         if(!page){

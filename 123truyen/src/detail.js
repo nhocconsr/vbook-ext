@@ -8,7 +8,7 @@ function execute(url) {
             author: doc.select(".info > div").get(0).text(),
             description: doc.select(".desc-text").text(),
             detail: doc.select(".info > div").get(0).text()+'<br>Trạng thái : '+doc.select(".info .label").text(),
-            host: "https://123truyen.com",
+            host: "https://123truyen.vip",
         });
     }
     return null;

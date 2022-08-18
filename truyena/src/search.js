@@ -1,5 +1,5 @@
 function execute(key, page) {
-    const doc = Http.get('https://truyena.com/index.php?search='+key).html()
+    const doc = fetch('https://truyena.net/index.php?search='+key).html()
     const el = doc.select(".story-list .row")
     const data = [];
     for (var i = 0; i < el.size(); i++) {
@@ -7,9 +7,9 @@ function execute(key, page) {
         data.push({
             name: e.select(".story-list-title").first().text(),
             link: e.select(".story-list-title a").first().attr("href"),
-            cover: e.select(".imgThumb img").first().attr("src"),
+            cover: 'https://truyena.net'+e.select(".imgThumb img").first().attr("src"),
             description: e.select("a[href~=tac-gia]").first().text(),
-            host: "https://truyena.com"
+            host: "https://truyena.net"
         })
     }
     return Response.success(data)

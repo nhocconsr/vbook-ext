@@ -1,6 +1,6 @@
 function execute(url) {
     const yUrl = url.replace('m.','www.');
-    const doc = Http.get(yUrl).html();
+    const doc = fetch(yUrl).html();
     var dess = doc.select(".book-intro").text()
     return Response.success({
         name: doc.select("h1").text(),
@@ -9,6 +9,6 @@ function execute(url) {
         description: dess.substring(0,dess.indexOf("标")),
         detail: doc.select(".booktitle p").html(),
         category: doc.select(".booktitle p").html(),
-        host: "https://www.yushubo.com"
+        host: "https://www.yushubo.cc"
     });
 }
