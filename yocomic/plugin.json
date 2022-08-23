@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Yocomic",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://yocomic.com",
+    "regexp": "https://yocomic.com/truyen/[0-9a-z-]+/?$",
+    "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

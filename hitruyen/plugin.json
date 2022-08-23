@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "hitruyen",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://hitruyen.vip",
+    "regexp": "https://hitruyen.vip/truyen-tranh/[0-9a-z-]+/?$",
+    "description": "Hi Truyện VIP – Đọc Truyện Hay Mỗi Ngày!",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

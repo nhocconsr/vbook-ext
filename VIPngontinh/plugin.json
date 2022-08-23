@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "VIPngontinh",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://truyenvipfull.com",
+    "regexp": "truyenvipfull.com/[a-z0-9_.-]+$",
+    "description": "Truyện VIP - truyenvipfull.com trang đọc truyện thu phí với chất lượng dịch tốt nhất giá rẻ được biên dịch chuyên nghiệp sẽ đem sự hài lòng thỏa niềm đam mê đọc truyện",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
