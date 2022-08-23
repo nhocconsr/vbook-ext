@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "baotangtruyen",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://baotangtruyenhot.com",
+    "regexp": "https://baotangtruyenhot.com/truyen-tranh/[0-9a-z-]+/?$",
+    "description": "Web Đọc Truyện Tranh Online lớn nhất VN ✔️ Kho Truyện khổng lồ đầy đủ các thể loại truyện được lấy từ mọi nơi ✔️ Trang Load Nhanh, Không quảng cáo✔️",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
