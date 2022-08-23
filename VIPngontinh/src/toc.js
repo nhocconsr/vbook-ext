@@ -7,7 +7,7 @@ function execute(url) {
         for (var i = 1; i <= lastc; i++) {
             list.push({
                 name: "Chương " + i,
-                url: url+'chuong-'+i +'/',
+                url: url+'/chuong-'+i +'/',
                 host: "https://truyenvipfull.com"
             })
         }
