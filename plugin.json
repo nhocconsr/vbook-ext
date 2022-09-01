@@ -861,6 +861,50 @@
         "source": "https://manhuarock.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuarock/icon.png",
         "description": "Kho truyện tranh lớn nhất việt nam, đọc truyện hoàn toàn miễn phí."
+      },
+      {
+      "name": "8ternal",
+        "author": "fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/8ternal/plugin.zip",
+        "version": 1,
+        "source": "https://comic.8ternal.com.vn",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/8ternal/icon.png",
+        "description": "8ternal tổng hợp truyện dịch từ nhiều nguồn khác nhau, hỗ trợ các bạn đọc comics theo đúng timeline của các sự kiện chính. Hoặc đọc truyện theo timeline nhân vật mà các bạn yêu thích."
+      },
+      { 
+        "name": "VIPngontinh",
+        "author": "fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/VIPngontinh/plugin.zip",
+        "version": 1,
+        "source": "https://truyenvipfull.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/VIPngontinh/icon.png",
+        "description": "Truyện VIP - truyenvipfull.com trang đọc truyện thu phí với chất lượng dịch tốt nhất giá rẻ được biên dịch chuyên nghiệp sẽ đem sự hài lòng thỏa niềm đam mê đọc truyện"
+      },
+       {
+        "name": "baotangtruyen",
+        "author": "fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/plugin.zip",
+        "version": 1,
+        "source": "https://baotangtruyenhot.com/home",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/icon.png",
+        "description": "Web Đọc Truyện Tranh Online lớn nhất VN ✔️ Kho Truyện khổng lồ đầy đủ các thể loại truyện được lấy từ mọi nơi ✔️ Trang Load Nhanh, Không quảng cáo✔️"
+      },
+      {
+        "name": "hitruyen",
+        "author": "fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hitruyen/plugin.zip",
+        "version": 1,
+        "source": "https://hitruyen.vip",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hitruyen/icon.png",
+        "description": "Hi Truyện VIP – Đọc Truyện Hay Mỗi Ngày!"
+      },{
+        "name": "yocomic",
+        "author": "fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yocomic/plugin.zip",
+        "version": 1,
+        "source": "https://yocomic.com/",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yocomic/icon.png",
+        "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch"
       }
     ]
 }
