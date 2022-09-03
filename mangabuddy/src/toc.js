@@ -9,7 +9,7 @@ function execute(url) {
             data.push({
                 name: e.select('.chapter-title').text(),
                 url: e.attr("href"),
-                host: "https://mangabuddy.com"
+                host: "https://mangaforest.com"
             })
         }
         return Response.success(data);

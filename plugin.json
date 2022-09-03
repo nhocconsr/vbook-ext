@@ -402,10 +402,10 @@
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
-        "version": 7,
-        "source": "https://mangabuddy.com",
+        "version": 8,
+        "source": "https://mangaforest.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
-        "description": "Đọc truyện trên trang mangabuddy.com",
+        "description": "Đọc truyện trên trang mangaforest.com",
         "type": "comic",
         "locale": "en_EN",
         "tag" : "nsfw"

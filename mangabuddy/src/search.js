@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://mangabuddy.com/search',{
+    let response = fetch('https://mangaforest.com/search',{
         method : "GET",
         queries : {
             q : key,
@@ -18,7 +18,7 @@ function execute(key, page) {
                 link: e.select("h3 a").first().attr("href"),
                 cover: e.select("img").first().attr("data-src"),
                 description: e.select(".latest-chapter").first().text(),
-                host: "https://mangabuddy.com"
+                host: "https://mangaforest.com"
             })
         })
         return Response.success(data, next)

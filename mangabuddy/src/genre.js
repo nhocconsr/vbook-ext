@@ -1,5 +1,5 @@
 function execute() {
-    const response = fetch("https://mangabuddy.com");
+    const response = fetch("https://mangaforest.com");
     if (response.ok){
         let doc = response.html();
         let el = doc.select(".genres__wrapper li a");
