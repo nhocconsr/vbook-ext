@@ -9,7 +9,7 @@ function execute(url) {
         el.forEach(e => data.push({
                 name: e.text(),
                 url: e.attr("href"),
-                host: "https://www.23shu.com"
+                host: "http://www.23shu.com"
             })
         )
         return Response.success(data);
