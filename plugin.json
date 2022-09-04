@@ -288,6 +288,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "23Shu",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/23shu/plugin.zip",
+        "version": 1,
+        "source": "https://www.23shu.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/23shu/icon.png",
+        "description": "Đọc truyện trên trang 23shu.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
         "name": "Mb TXT 【妙笔】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mbtxt/plugin.zip",
