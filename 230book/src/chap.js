@@ -1,5 +1,5 @@
 function execute(url) {
-    let response = fetch(url);
+    let response = fetch(url.replace('m.','www.'));
     if (response.ok) {
         let doc = response.html('gbk');
         let content = doc.select("#content").html();
