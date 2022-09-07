@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch('https://www.yushubo.cc/'+url,{
+    let response = fetch('https://www.yushubo.net/'+url,{
         method : "GET",
         queries : {
             page : page
@@ -16,7 +16,7 @@ function execute(url, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select("img").first().attr("src"),
             description: e.select(".author").first().text().replace('作者：',''),
-            host: "https://www.yushubo.cc"
+            host: "https://www.yushubo.net"
         }))
         return Response.success(data, next)
     }

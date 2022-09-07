@@ -280,10 +280,10 @@
         "name": "YuShuBo 【御书网】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 3,
-        "source": "https://www.yushubo.cc",
+        "version": 4,
+        "source": "https://www.yushubo.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
-        "description": "Đọc truyện trên trang yushubo.cc",
+        "description": "Đọc truyện trên trang yushubo.net",
         "type": "chinese_novel",
         "locale": "zh_CN"
       },
