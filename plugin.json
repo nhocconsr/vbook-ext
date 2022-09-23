@@ -119,6 +119,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Truyện Wiki",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/plugin.zip",
+        "version": 2,
+        "source": "https://truyenwiki.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
+        "description": "Đọc truyện trên trang Truyenwiki.net",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Truyện A",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyena/plugin.zip",
@@ -601,15 +612,6 @@
         "source": "https://truyentiki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
         "description": "Đọc truyện trên trang Truyentiki.com"
-      },
-      {
-        "name": "Truyện Wiki",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/plugin.zip",
-        "version": 1,
-        "source": "https://truyenwiki.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
-        "description": "Đọc truyện trên trang Truyenwiki.net"
       },
       {
         "name": "Truyện Hay TV",
