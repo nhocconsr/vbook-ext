@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "Manga Buddy",
+    "name": "Manga Forest",
     "author": "Nhocconsr",
-    "version": 7,
-    "source": "https://mangabuddy.com",
-    "regexp": "(www.)?mangabuddy.com/[0-9a-z-]+/?$",
-    "description": "Fix lỗi ảnh do đổi sv ảnh",
+    "version": 8,
+    "source": "https://mangaforest.com",
+    "regexp": "(www.)?mangaforest.com/[0-9a-z-]+/?$",
+    "description": "Tiền thân là mangabuddy",
     "locale": "en-EN",
     "language": "javascript",
     "type": "comic",

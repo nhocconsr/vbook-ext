@@ -7,6 +7,6 @@ function execute(url) {
         description: doc.select(".product-synopsis-inner").first().text().replace(/ Xem thêm|Giới thiệu /gi,''),
         detail : doc.select(".cover-artist").first().text() + '<br>Trans : ' +doc.select(".groups-name").first().text(),
         ongoing: true,
-        host: "https://truyengihot.net"
+        host: "https://truyengihay.net"
     });
 }

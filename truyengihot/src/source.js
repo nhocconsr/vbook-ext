@@ -1,6 +1,6 @@
 function execute(id, page) {
     if (!page) page = '1';
-    let doc = fetch('https://truyengihot.net/danh-sach-truyen-tranh.html',{ 
+    let doc = fetch('https://truyengihay.net/danh-sach-truyen-tranh.html',{ 
         method: "GET",
         queries: {
             listType : 'pagination',
@@ -18,7 +18,7 @@ function execute(id, page) {
             link: item.select('.title a').attr('href'),
             cover: item.select('.thumb').attr('style').split(/['']/)[1],
             description: 'Chap '+item.select('.chapter-link').last().text(),
-            host: "https://truyengihot.net"
+            host: "https://truyengihay.net"
         })
     });
     return Response.success(list,next)

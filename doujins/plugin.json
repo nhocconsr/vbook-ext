@@ -2,7 +2,7 @@
   "metadata": {
     "name": "DouJins",
     "author": "Nhocconsr",
-    "version": 4,
+    "version": 5,
     "source": "https://doujins.com",
     "regexp": "(www.)?doujins.com/.*/[0-9a-z-]+",
     "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord<br><br> v4 : fix linh tinh",

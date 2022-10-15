@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "230Book",
+    "name": "23Shu <23书屋>",
     "author": "Nhocconsr",
-    "version": 8,
-    "source": "https://www.230book.net",
-    "regexp": "(www.|m.)?((230book.net/book/\\d+/)|(230book.net/book/\\d+))",
-    "description": "Đọc truyện trên trang 230book.net",
+    "version": 1,
+    "source": "http://www.23shu.com",
+    "regexp": "(www.)?(m.)?23shu.com/novel/\\d+/?",
+    "description": "Đọc truyện 23shu",
     "locale": "zh-CN",
     "language": "javascript",
     "type": "chinese_novel"
