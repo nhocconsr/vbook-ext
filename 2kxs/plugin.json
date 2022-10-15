@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "2kxs",
+    "author": "fusornat",
+    "version": 1,
+    "source": "https://k.2kxs.org/",
+    "regexp": "https://k.2kxs.org/\\d+_\\d+/",
+    "description": "2k",
+    "local": "zh_CN",
+    "language": "javascript",
+    "type": "chinese_novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc":"toc.js",
+    "chap": "chap.js"
+  }
+}
