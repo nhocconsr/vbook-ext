@@ -31,7 +31,7 @@
         "name": "Truyện Gì Hot",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://truyengihot.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/icon.png",
         "description": "Đọc truyện trên trang truyengihot.net",
@@ -115,6 +115,17 @@
         "source": "https://hamtruyenmoi.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
         "description": "Đọc truyện trên trang hamtruyenmoi.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
+        "name": "Truyện Wiki",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/plugin.zip",
+        "version": 2,
+        "source": "https://truyenwiki.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
+        "description": "Đọc truyện trên trang Truyenwiki.net",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -269,7 +280,7 @@
         "name": "230Book",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/plugin.zip",
-        "version": 7,
+        "version": 8,
         "source": "http://www.230book.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/icon.png",
         "description": "Đọc truyện trên trang www.230book.net",
@@ -280,10 +291,21 @@
         "name": "YuShuBo 【御书网】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 3,
-        "source": "https://www.yushubo.cc",
+        "version": 4,
+        "source": "https://www.yushubo.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
-        "description": "Đọc truyện trên trang yushubo.cc",
+        "description": "Đọc truyện trên trang yushubo.net",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
+        "name": "23Shu",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/23shu/plugin.zip",
+        "version": 1,
+        "source": "https://www.23shu.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/23shu/icon.png",
+        "description": "Đọc truyện trên trang 23shu.com",
         "type": "chinese_novel",
         "locale": "zh_CN"
       },
@@ -354,6 +376,18 @@
         "locale": "zh_CN"
       },
       {
+        "name": "DouJins",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/plugin.zip",
+        "version": 5,
+        "source": "https://doujins.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/icon.png",
+        "description": "Đọc truyện trên trang doujins.com",
+        "type": "comic",
+        "locale": "en_EN",
+        "tag": "nsfw"
+      },
+      {
         "name": "Book QQ",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/bookqq/plugin.zip",
@@ -390,10 +424,10 @@
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
-        "version": 7,
-        "source": "https://mangabuddy.com",
+        "version": 8,
+        "source": "https://mangaforest.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
-        "description": "Đọc truyện trên trang mangabuddy.com",
+        "description": "Đọc truyện trên trang mangaforest.com",
         "type": "comic",
         "locale": "en_EN",
         "tag" : "nsfw"
@@ -442,16 +476,6 @@
         "source": "https://truyen3s.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen3s/icon.png",
         "description": "Đọc truyện trên trang truyen3s.com"
-      },
-      {
-        "name": "DouJins",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/plugin.zip",
-        "version": 4,
-        "source": "https://doujins.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/icon.png",
-        "description": "Đọc truyện trên trang doujins.com",
-        "tag": "nsfw"
       },
       {
         "name": "Truyện Cool",
@@ -588,15 +612,6 @@
         "source": "https://truyentiki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
         "description": "Đọc truyện trên trang Truyentiki.com"
-      },
-      {
-        "name": "Truyện Wiki",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/plugin.zip",
-        "version": 1,
-        "source": "https://truyenwiki.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwiki/icon.png",
-        "description": "Đọc truyện trên trang Truyenwiki.net"
       },
       {
         "name": "Truyện Hay TV",
@@ -861,60 +876,6 @@
         "source": "https://manhuarock.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuarock/icon.png",
         "description": "Kho truyện tranh lớn nhất việt nam, đọc truyện hoàn toàn miễn phí."
-      },
-      {
-      "name": "8ternal",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/8ternal/plugin.zip",
-        "version": 1,
-        "source": "https://comic.8ternal.com.vn",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/8ternal/icon.png",
-        "description": "8ternal tổng hợp truyện dịch từ nhiều nguồn khác nhau, hỗ trợ các bạn đọc comics theo đúng timeline của các sự kiện chính. Hoặc đọc truyện theo timeline nhân vật mà các bạn yêu thích."
-      },
-      { 
-        "name": "VIPngontinh",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/VIPngontinh/plugin.zip",
-        "version": 1,
-        "source": "https://truyenvipfull.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/VIPngontinh/icon.png",
-        "description": "Truyện VIP - truyenvipfull.com trang đọc truyện thu phí với chất lượng dịch tốt nhất giá rẻ được biên dịch chuyên nghiệp sẽ đem sự hài lòng thỏa niềm đam mê đọc truyện"
-      },
-       {
-        "name": "baotangtruyen",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/plugin.zip",
-        "version": 1,
-        "source": "https://baotangtruyenhot.com/home",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/icon.png",
-        "description": "Web Đọc Truyện Tranh Online lớn nhất VN ✔️ Kho Truyện khổng lồ đầy đủ các thể loại truyện được lấy từ mọi nơi ✔️ Trang Load Nhanh, Không quảng cáo✔️"
-      },
-      {
-        "name": "hitruyen",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hitruyen/plugin.zip",
-        "version": 1,
-        "source": "https://hitruyen.vip",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hitruyen/icon.png",
-        "description": "Hi Truyện VIP – Đọc Truyện Hay Mỗi Ngày!"
-      },
-      {
-        "name": "yocomic",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yocomic/plugin.zip",
-        "version": 1,
-        "source": "https://yocomic.com/",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yocomic/icon.png",
-        "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch"
-      },
-      {
-        "name": "2kxs",
-        "author": "fusornat",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/2kxs/plugin.zip",
-        "version": 1,
-        "source": "https://k.2kxs.org/",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/2kxs/icon.png",
-        "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch"
       }
     ]
 }
