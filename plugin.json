@@ -897,13 +897,23 @@
         "source": "https://hitruyen.vip",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hitruyen/icon.png",
         "description": "Hi Truyện VIP – Đọc Truyện Hay Mỗi Ngày!"
-      },{
+      },
+      {
         "name": "yocomic",
         "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yocomic/plugin.zip",
         "version": 1,
         "source": "https://yocomic.com/",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yocomic/icon.png",
+        "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch"
+      },
+      {
+        "name": "2kxs",
+        "author": "fusornat",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/2kxs/plugin.zip",
+        "version": 1,
+        "source": "https://k.2kxs.org/",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/2kxs/icon.png",
         "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch"
       }
     ]
