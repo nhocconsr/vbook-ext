@@ -2,10 +2,10 @@
   "metadata": {
     "name": "LxHentai",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://lxhentai.com",
-    "regexp": "(www.)?lxhentai.com/truyen/.*",
-    "description": "Đọc truyện trên trang lxhentai.com",
+    "version": 4,
+    "source": "https://lxhentai.org",
+    "regexp": "(www.)?lxhentai.org/truyen/.*",
+    "description": "Đọc truyện trên trang lxhentai.org",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "comic",
@@ -15,6 +15,7 @@
     "home": "home.js",
     "genre": "genre.js",
     "detail": "detail.js",
+    "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"
   }
