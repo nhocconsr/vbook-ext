@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Fanqie Novel",
     "author": "Nhocconsr",
-    "version": 5,
+    "version": 6,
     "source": "https://fanqienovel.com",
     "regexp": "(wwww.)?((fanqienovel.com/page/\\d+)|(fanqienovel.com/page/\\d+.*?))",
     "description": "v5 : remove tạm thời xem site nó thay đổi gì không",
