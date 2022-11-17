@@ -6,6 +6,6 @@ function execute(url) {
         author: doc.select(".grow a[href~=tac-gia]").first().text(),
         description: doc.select(".py-4 > p").text(),
         detail: 'Tác Giả :' +doc.select(".grow a[href~=tac-gia]").first().text(),
-        host: "https://lxhentai.com"
+        host: "https://lxhentai.org"
     });
 }
