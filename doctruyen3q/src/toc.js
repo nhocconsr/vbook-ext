@@ -1,5 +1,9 @@
 function execute(url) {
-    let repsonse = fetch(url);
+    let repsonse = fetch(url, {
+            headers: {
+                'user-agent': UserAgent.android()
+            }
+    });
     if(repsonse.ok){
         let doc = repsonse.html();
         let el = doc.select(".list-chapter .chapter")
@@ -9,7 +13,7 @@ function execute(url) {
             data.push({
                 name: e.text(),
                 url: e.attr("href"),
-                host: "https://mangabuddy.com"
+                host: "https://doctruyen3qme.com/"
             })
         }
         return Response.success(data);

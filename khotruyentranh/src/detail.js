@@ -7,6 +7,6 @@ function execute(url) {
         description: doc.select(".showless").first().text(),
         detail: doc.select(".manga-col-item > div > div:nth-child(3)").text()+'<br>'+doc.select(".manga-col-item > div > div:nth-child(4)").text()+'<br>'+doc.select(".manga-col-item > div > div:nth-child(5)").text(),
         ongoing: doc.select(".meta-data").html().indexOf("On going") > 0,
-        host: "https://khotruyentranhfull.com",
+        host: "https://khotruyentranhhot.com",
     });
 }
