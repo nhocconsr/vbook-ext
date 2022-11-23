@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "name": "YuShuBo 【御书网】",
+    "name": "YuShuGu 【御书网】",
     "author": "Nhocconsr",
-    "version": 5,
-    "source": "https://www.yushubo.net/",
-    "regexp": "(www.)?(m.)?yushubo.net/book_\\d+.html",
-    "description": "Nếu extention có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com<br>V2: Fix load chương thiếu",
+    "version": 6,
+    "source": "https://www.yushugu.com/",
+    "regexp": "(www.)?(m.)?yushugu.com/book_\\d+.html",
+    "description": "Nếu extention có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com<br>Tiền thân web yushubo.",
     "locale": "zh-CN",
     "language": "javascript",
     "type": "chinese_novel"
