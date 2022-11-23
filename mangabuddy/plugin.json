@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Manga Forest",
     "author": "Nhocconsr",
-    "version": 8,
+    "version": 9,
     "source": "https://mangaforest.com",
     "regexp": "(www.)?mangaforest.com/[0-9a-z-]+/?$",
     "description": "Tiền thân là mangabuddy",
