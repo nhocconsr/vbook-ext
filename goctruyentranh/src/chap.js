@@ -5,7 +5,7 @@ function execute(url) {
         let check_lock = doc.select('#wrap_alertvip').text().indexOf("Chương này đã bị khóa") != -1;
         let data = [];
         if (check_lock === true){
-            data.push('https://goctruyentranhhay.com/image/banner/1MP6UdYiZZYDE4AEDsbnoFJKrbnkghsWN')
+            data.push('https://goctruyentranhhay.net/image/banner/1MP6UdYiZZYDE4AEDsbnoFJKrbnkghsWN')
         }else{
             var el = doc.select(".view-section .viewer img");
             el.forEach ( e => {
