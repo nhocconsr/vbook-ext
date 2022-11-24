@@ -2,10 +2,10 @@
   "metadata": {
     "name": "123 Truyện",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://123truyen.vip",
-    "regexp": "(www.)?123truyen.vip/[0-9a-z-]+",
-    "description": "Đọc truyện trên trang 123truyen.vip",
+    "version": 4,
+    "source": "https://123truyenz.com",
+    "regexp": "(www.)?123truyenz.com/[0-9a-z-]+",
+    "description": "Trang đổi domain liên tục lên mạng nhà mình vào được site nào thì mình sửa theo cái đó nhé!",
     "locale": "vi-VN",
     "language": "javascript",
     "type" : "novel"

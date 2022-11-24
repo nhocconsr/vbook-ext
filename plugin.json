@@ -67,10 +67,10 @@
         "name": "123 Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/plugin.zip",
-        "version": 3,
-        "source": "https://123truyen.vip",
+        "version": 4,
+        "source": "https://123truyenz.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/123truyen/icon.png",
-        "description": "Đọc truyện trên trang 123truyen.vip",
+        "description": "Đọc truyện trên trang 123truyenz.com",
         "type": "novel",
         "locale": "vi_VN"
       },

@@ -16,7 +16,7 @@ function execute(url, page) {
                 link: e.select("a").first().attr("href"),
                 cover: e.select(".thumb img").first().attr("src").replace('-thumbw',''),
                 description: e.select(".chapter-text").first().text(),
-                host: "https://123truyen.vip"
+                host: "https://123truyenz.com"
             });
         });
 
