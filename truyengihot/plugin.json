@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Truyện Gì Hot",
     "author": "Nhocconsr",
-    "version": 5,
+    "version": 6,
     "source": "https://truyengihotne.net",
     "regexp": "(www.)?truyengihotne.net/[0-9a-z-]+.html",
     "description": "Đọc truyện tranh thôi nhé!",
