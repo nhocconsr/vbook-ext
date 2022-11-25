@@ -16,7 +16,7 @@ function execute(url, page) {
                 link: e.select("h3 a").attr("href"),
                 cover: e.select("img.img-responsive").attr("data-src") || e.select("img.img-responsive").attr("src"),
                 description: e.select('.chapter').first().text(),
-                host: "https://sayhentai.vip"
+                host: "https://sayhentai.me"
             });
         });
         return Response.success(comiclist, next);
