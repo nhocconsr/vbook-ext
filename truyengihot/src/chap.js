@@ -1,5 +1,5 @@
 function execute(url) {
-    const base = 'https://truyengihay.net'
+    const base = 'https://truyengihotne.net'
     let doc = fetch(url).html();
     let el = doc.select(".pageWrapper img");
     let imgs = [];
