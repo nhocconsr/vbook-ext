@@ -1,22 +1,41 @@
 function execute(url, page) {
-    if (!page) page = '1';
-    const doc = Http.get(url + '/page/'+page).html()
+	if(!page) page = "1"
+    var listBook = []
+    var newUrl = "https://truyenwki.com/wp-admin/admin-ajax.php"
+    if(url.indexOf("https")==-1){
+        var the_loai = url.split(" ")[0]
+        var option_keyword_tax = url.split(" ")[1]
 
-    var next = doc.select(".pagination").select("li.active + li").text()
-
-    const el = doc.select(".theloai-thumlist > li")
-
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: e.select("h2 a").first().text(),
-            link: e.select("a").first().attr("href"),
-            cover: e.select("a img").first().attr("data-src"),
-            description: e.select(".content p span").get(1).text(),
-            host: "https://truyenwiki1.com"
-        })
+        var action = "load_more_page_keyword"
+        var doc = Http.post(newUrl)
+        .params({
+            "action" : action,
+            "the_loai" : the_loai,
+            "current_page_tax" : page,
+            "option_keyword_tax" : option_keyword_tax
+        }).html()
     }
+    else{
+        var action = "load_more_tax"
+        var term_slug = url.match(/keyword\/(.+)/)[1]
+        var doc = Http.post(newUrl)
+        .params({
+            "action" : action,
+            "current_page_tax" : page,
+            "term[slug]": term_slug,
+        }).html()
+    }
+    var books = doc.select("li")
+    books.forEach(book => listBook.push({
+        name: book.select("a").attr("title"),
+        link: book.select("a").attr("href"),
+        cover: book.select("img").attr("src"),
+        description: book.select("p.crop-text-2").text(),
+        host: "https://truyenwki.com"
+    }))
 
-    return Response.success(data, next)
+    if (listBook.length == 0) next = ""; 
+    else next = (parseInt(page) + 1).toString();
+    return Response.success(listBook,next)
+    
 }
