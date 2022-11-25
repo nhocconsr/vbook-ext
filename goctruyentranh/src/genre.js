@@ -1,5 +1,5 @@
 function execute() {
-    let response = fetch('https://goctruyentranhhay.com/api/category');
+    let response = fetch('https://goctruyentranhhay.net/api/category');
     if(response.ok){
         let json = response.json();
         let allItem = json.result

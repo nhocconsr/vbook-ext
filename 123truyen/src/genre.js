@@ -1,5 +1,5 @@
 function execute() {
-    let response = fetch('https://123truyen.vip');
+    let response = fetch('https://123truyenz.com');
     if (response.ok) {
         let doc = response.html();
         let data = [];
