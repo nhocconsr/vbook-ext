@@ -43,10 +43,10 @@
         "name": "Góc Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/plugin.zip",
-        "version": 3,
-        "source": "https://goctruyentranhhay.com",
+        "version": 4,
+        "source": "https://goctruyentranhhay.org",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/goctruyentranh/icon.png",
-        "description": "Đọc truyện trên trang goctruyentranhhay.com",
+        "description": "Đọc truyện trên trang goctruyentranhhay.org",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"

@@ -3,7 +3,7 @@ function execute(url) {
     if(response.ok){
         let doc = response.text();
         let bookId = doc.match(/comicId: \'(\d+)'/)[1];
-        let json = fetch('https://goctruyentranhhay.net/api/comic/'+bookId+'/chapter?limit=-1').json();
+        let json = fetch('https://goctruyentranhhay.org/api/comic/'+bookId+'/chapter?limit=-1').json();
         let allChap = json.result.chapters;
         let data = [];
         for (let i = allChap.length -1; i >= 0; i--) {
@@ -11,7 +11,7 @@ function execute(url) {
             data.push({
                 name: '#'+ chap.numberChapter +' - '+ chap.name,
                 url: url + '/chuong-'+chap.numberChapter,
-                host: "https://goctruyentranhhay.net"
+                host: "https://goctruyentranhhay.org"
             })
         }
         return Response.success(data)
