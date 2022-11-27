@@ -1,6 +1,6 @@
 function execute(url) {
     const idBook = url.match(/\d+/)[0];
-    const yUrl = 'https://www.yushubo.net/list_other_'+idBook+'.html';
+    const yUrl = 'https://www.yushugu.com/list_other_'+idBook+'.html';
     var doc = fetch(yUrl).html();
     var el = doc.select("ul.chapter-list li a")
     const list = [];
@@ -9,7 +9,7 @@ function execute(url) {
         list.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://www.yushubo.net"
+            host: "https://www.yushugu.com"
         })
     }
     return Response.success(list)

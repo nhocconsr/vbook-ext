@@ -7,7 +7,7 @@ function execute(url) {
             var password = doc.select("#password").attr("value");
             var postId = doc.select("#data").attr("data-id");
             if (password) {
-                htm = Http.post("https://truyenwiki1.com/wp-admin/admin-ajax.php")
+                htm = Http.post("https://truyenwki.com/wp-admin/admin-ajax.php")
                     .params({
                         'action': "user_pass_chap",
                         'post_id': postId,
