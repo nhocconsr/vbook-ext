@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Truyện Wiki Com",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://truyenwiki1.com",
-    "regexp": "(www.)?truyenwiki1.com/truyen/.*?",
-    "description": "Đọc truyện trên trang Truyenwiki1.com",
+    "version": 4,
+    "source": "https://truyenwki.com/",
+    "regexp": "(www.)?truyenwki.com/truyen/.*?",
+    "description": "Đọc truyện trên trang truyenwki.com/",
     "local": "vi-VN",
     "language": "javascript",
     "type": "novel"

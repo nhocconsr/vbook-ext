@@ -288,13 +288,13 @@
         "locale": "zh_CN"
       },
       {
-        "name": "YuShuBo 【御书网】",
+        "name": "YuShuGu 【御书网】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 5,
-        "source": "https://www.yushubo.net",
+        "version": 6,
+        "source": "https://www.yushugu.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
-        "description": "Đọc truyện trên trang yushubo.net",
+        "description": "Đọc truyện trên trang yushugu.com, tiền thân yushubo",
         "type": "chinese_novel",
         "locale": "zh_CN"
       },
@@ -671,8 +671,8 @@
         "name": "Truyện Wiki Com",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwikicom/plugin.zip",
-        "version": 3,
-        "source": "https://truyenwiki.com",
+        "version": 4,
+        "source": "https://truyenwki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenwikicom/icon.png",
         "description": "Đọc truyện trên trang truyenwiki.com"
       },

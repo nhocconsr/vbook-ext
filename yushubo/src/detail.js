@@ -9,6 +9,6 @@ function execute(url) {
         description: dess.substring(0,dess.indexOf("标")),
         detail: doc.select(".booktitle p").html(),
         category: doc.select(".booktitle p").html(),
-        host: "https://www.yushubo.net"
+        host: "https://www.yushugu.com"
     });
 }
