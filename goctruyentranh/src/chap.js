@@ -1,18 +1,16 @@
 function execute(url) {
-    const response = fetch(url);
-    if(response.ok){
-        let doc = response.html();
-        let check_lock = doc.select('#wrap_alertvip').text().indexOf("Chương này đã bị khóa") != -1;
-        let data = [];
-        if (check_lock === true){
-            data.push('https://goctruyentranhhay.org/image/banner/1MP6UdYiZZYDE4AEDsbnoFJKrbnkghsWN')
-        }else{
-            var el = doc.select(".view-section .viewer img");
-            el.forEach ( e => {
-                data.push(e.attr("src"));
-            })
-        }
-        return Response.success(data);
-    }
-    return null;
+    var browser = Engine.newBrowser();
+    browser.launch(url, 10000);
+    //browser.callJs("var authorization = window.localStorage.getItem('Authorization'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
+
+    let doc = browser.html();
+    //var auth = doc.select("auth").text();
+    browser.close();
+    //check chapter
+    var imgs = [];
+    var el = doc.select(".viewer img");
+    el.forEach ( e => {
+        imgs.push(e.attr("src"));
+    })
+    return Response.success(imgs);
 }

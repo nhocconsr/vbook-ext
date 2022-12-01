@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Góc Truyện Tranh",
     "author": "Nhocconsr",
-    "version": 4,
+    "version": 5,
     "source": "https://goctruyentranhhay.org/",
-    "regexp": "(www.)?goctruyentranhhay.org/truyen/[A-Za-z].+/?",
+    "regexp": "(www.)?goctruyentranhhay.org/truyen/[0-9a-z-]+/?",
     "description": "Đổi domain @@",
     "locale": "vi-VN",
     "language": "javascript",
