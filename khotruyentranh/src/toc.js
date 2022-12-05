@@ -1,4 +1,6 @@
 function execute(url) {
+    url = url.replace("khotruyentranhz.com","khotruyentranhvip.com")
+    url = url.replace("khotruyentranhhot.com","khotruyentranhvip.com")
     var doc = fetch(url).html();
     var el = doc.select(".chapter-list a")
     const data = [];
@@ -7,7 +9,7 @@ function execute(url) {
         data.push({
             name: e.select("a").text(),
             url: e.attr("href"),
-            host: "https://khotruyentranhhot.com"
+            host: "https://khotruyentranhvip.com"
         })
     }
     return Response.success(data);
