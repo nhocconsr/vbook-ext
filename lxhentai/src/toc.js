@@ -7,7 +7,7 @@ function execute(url) {
         data.push({
             name: e.select(".text-ellipsis").text(),
             url: e.attr("href"),
-            host: "https://lxhentai.org"
+            host: "https://lxmanga.com"
         })
     }
     return Response.success(data);
