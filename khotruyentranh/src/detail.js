@@ -1,4 +1,6 @@
 function execute(url) {
+    url = url.replace("khotruyentranhz.com","khotruyentranhvip.com")
+    url = url.replace("khotruyentranhhot.com","khotruyentranhvip.com")
     const doc = fetch(url).html()
     return Response.success({
         name: doc.select(".headline h1").text(),
@@ -7,6 +9,6 @@ function execute(url) {
         description: doc.select(".showless").first().text(),
         detail: doc.select(".manga-col-item > div > div:nth-child(3)").text()+'<br>'+doc.select(".manga-col-item > div > div:nth-child(4)").text()+'<br>'+doc.select(".manga-col-item > div > div:nth-child(5)").text(),
         ongoing: doc.select(".meta-data").html().indexOf("On going") > 0,
-        host: "https://khotruyentranhhot.com",
+        host: "https://khotruyentranhvip.com",
     });
 }

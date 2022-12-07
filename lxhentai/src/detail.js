@@ -1,4 +1,6 @@
 function execute(url) {
+    url = url.replace("lxhentai.com","lxmanga.com")
+    url = url.replace("lxhentai.org","lxmanga.com")
     let doc = fetch(url).html()
     return Response.success({
         name: doc.select(".mb-4 span").first().text(),
@@ -6,6 +8,6 @@ function execute(url) {
         author: doc.select(".grow a[href~=tac-gia]").first().text(),
         description: doc.select(".py-4 > p").text(),
         detail: 'Tác Giả :' +doc.select(".grow a[href~=tac-gia]").first().text(),
-        host: "https://lxhentai.org"
+        host: "https://lxmanga.com"
     });
 }

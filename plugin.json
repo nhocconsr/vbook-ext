@@ -19,8 +19,8 @@
         "name": "LxHentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/plugin.zip",
-        "version": 4,
-        "source": "https://lxhentai.com",
+        "version": 5,
+        "source": "https://lxmanga.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/lxhentai/icon.png",
         "description": "Đọc truyện trên trang Lxhentai.com",
         "tag": "nsfw",
@@ -268,10 +268,10 @@
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
-        "version": 5,
-        "source": "https://khotruyentranhhot.com",
+        "version": 6,
+        "source": "https://khotruyentranhvip.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
-        "description": "Đọc truyện trên trang khotruyentranhhot.com",
+        "description": "Đọc truyện trên trang khotruyentranhvip.com",
         "type": "comic",
         "locale": "vi_VN",
         "tag" : "nsfw"
@@ -581,7 +581,7 @@
         "name": "Fanqie Novel",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/plugin.zip",
-        "version": 6,
+        "version": 8,
         "source": "https://fanqienovel.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fanqienovel/icon.png",
         "description": "Đọc truyện trên trang fanqienovel.com"
@@ -923,10 +923,10 @@
         "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch"
       },
       {
-        "name": "2kxs",
+        "name": "k.2kxs",
         "author": "fusornat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/2kxs/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://k.2kxs.org/",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/2kxs/icon.png",
         "description": "Đọc truyện tranh online, đọc truyện tranh miễn phí từ các nhóm dịch"

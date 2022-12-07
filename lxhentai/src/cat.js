@@ -16,7 +16,7 @@ function execute(url, page) {
             link: e.select("a.text-ellipsis").attr("href"),
             cover: e.select(".cover").first().attr("style").split("'")[1],
             description: e.select("a.text-white").first().text(),
-            host: "https://lxhentai.org"
+            host: "https://lxmanga.com"
         }))
         return Response.success(data,(page+1).toString())
     }

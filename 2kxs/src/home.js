@@ -1,5 +1,4 @@
 function execute() {
-    const doc = Http.get('https://k.2kxs.org')
     return Response.success([
         { title: "玄幻 ", input: "https://k.2kxs.org/list/1-1.html", script: "gen.js" },
         { title: "仙侠 ", input: "https://k.2kxs.org/list/2-1.html", script: "gen.js" },

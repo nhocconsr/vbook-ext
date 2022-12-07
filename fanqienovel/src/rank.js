@@ -19,7 +19,7 @@ function execute(url, page) {
             var item = allBook[i]
             book.push({
                 name: item['bookName'],
-                link: 'page/'+item['bookId'],
+                link: "https://fanqienovel.com"+ '/page/'+item['bookId'],
                 cover: uPic+item['thumbUri']+'~180x234.jpg',
                 description: item['author'],
                 host: "https://fanqienovel.com"
