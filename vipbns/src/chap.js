@@ -14,8 +14,11 @@ function execute(url){
             }
         });
         if(response.ok){
-            const data = response.json()
-            return Response.success(data.chapter.content);
+            const data = response.json() 
+            var content = data.chapter.content.replace(/<!-- (.*?) -->/gm, '')
+            .replace(/<p(.*?)>(.*?)<?p>/g, '')
+            .replace(/\n/g,'<br>');
+            return Response.success(content);
         }
     }else{
         return Response.success('Đây là chương mất tiền hoặc bạn chưa đăng nhập nick vào web bằng vbook. Đăng nhập rồi load lại nhé!');
