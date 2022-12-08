@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://truyendichz.com/tim-kiem',  {
+    let response = fetch('https://truyendichz.net/tim-kiem',  {
         method: "GET",
         queries: {
             tukhoa : key
@@ -17,7 +17,7 @@ function execute(key, page) {
                 link: e.select("h3 a").first().attr("href"),
                 cover: e.select("img").attr("src"),
                 description: e.select(".name-chapter").first().text(),
-                host: "https://truyendichz.com"
+                host: "https://truyendichz.net"
             })
         }
         return Response.success(data)
