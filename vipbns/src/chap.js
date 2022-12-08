@@ -1,11 +1,23 @@
 function execute(url){
-    const chapId = url.match(/\d+/)[0];
-    const json = Http.get('https://api.bachngocsach.com/api/chapter/'+chapId).string()
-    if(json.match('Nhớ tôi')){
-        var data = 'Đây là nội dung chương mất tiền mua ^^!<br>Mời bạn đăng nhập để mua và tiếp tục đọc truyện <br>Mua rồi mà vẫn bị lỗi thì liên hệ trong discord nhé!'
+    var browser = Engine.newBrowser();
+    browser.launch(url, 5000);
+    browser.callJs("var authorization = window.localStorage.getItem('user'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
+    let auth = browser.html().select("auth").text();
+    browser.close();
+    if(auth){
+        let token = JSON.parse(auth).token;
+        const chapId = url.split(/[/.]+/)[8];
+        let response = fetch('https://api.bachngocsach.com/api/chapter/12046', {
+            method: 'GET',
+            headers: {
+                authorization: 'Bearer '+token,
+            }
+        });
+        if(response.ok){
+            const data = response.json()
+            return Response.success(data.chapter.content);
+        }
     }else{
-        var content = JSON.parse(json);
-        var data = content.chapter.content.replace(/(\n)\s*/g, '<br>');
+        return Response.success('Đây là chương mất tiền hoặc bạn chưa đăng nhập nick vào web bằng vbook. Đăng nhập rồi load lại nhé!');
     }
-    return Response.success(data);
 }
