@@ -346,7 +346,7 @@
         "name": "Manhua Gui",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://www.manhuagui.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
         "description": "Đọc truyện trên trang manhuagui.com",
