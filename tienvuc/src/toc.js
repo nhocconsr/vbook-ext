@@ -1,6 +1,6 @@
 function execute(url) {
     var slug = url.split('/').pop();
-    let reponse = fetch('https://api.tienvuc.vip/reading/'+slug+'/chapters');
+    let reponse = fetch('https://truyentienvuc.com/api/reading/'+slug+'/chapters');
     if (reponse.ok){
         let json = reponse.json();
         let allChap = json.docs
@@ -11,7 +11,7 @@ function execute(url) {
             list.push({
                 name: vip+chap.name,
                 url: url+'/chuong-'+chap.num,
-                host: "https://tienvuc.vip"
+                host: "https://truyentienvuc.com"
             })
         });
         return Response.success(list);

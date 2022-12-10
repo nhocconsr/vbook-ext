@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 4,
-    "source": "https://tienvuc.vip",
-    "regexp": "(www.)?tienvuc.vip/[0-9a-z-]+/?$",
-    "description": "Nếu có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com",
+    "version": 5,
+    "source": "https://truyentienvuc.com",
+    "regexp": "(www.)?truyentienvuc.com/[0-9a-z-]+/?$",
+    "description": "V6: Fix lỗi load chương VIP",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"

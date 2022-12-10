@@ -1,5 +1,5 @@
 function execute() {
-    let response = fetch('https://api.tienvuc.vip/categories/all');
+    let response = fetch('https://truyentienvuc.com/api/categories/all');
     if (response.ok){
         let allCate = response.json();
         const data = [];
