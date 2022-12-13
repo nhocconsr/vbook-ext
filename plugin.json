@@ -288,6 +288,17 @@
         "locale": "zh_CN"
       },
       {
+        "name": "AC QQ",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/acqq/plugin.zip",
+        "version": 1,
+        "source": "http://m.ac.qq.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/acqq/icon.png",
+        "description": "Đọc truyện trên trang m.ac.qq.com",
+        "type": "comic",
+        "locale": "zh_CN"
+      },
+      {
         "name": "YuShuGu 【御书网】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
