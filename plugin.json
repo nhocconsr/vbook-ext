@@ -444,6 +444,17 @@
         "tag" : "nsfw"
       },
       {
+        "name": "MTL Nation",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mtlnation/plugin.zip",
+        "version": 1,
+        "source": "https://mtlnation.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mtlnation/icon.png",
+        "description": "Đọc truyện trên trang mtlnation.com",
+        "type": "novel",
+        "locale": "en_EN"
+      },
+      {
         "name": "Việt Writer",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietwriter/plugin.zip",
