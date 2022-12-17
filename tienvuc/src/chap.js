@@ -8,7 +8,7 @@ function execute(url) {
     if(auth){
         let n = url.split('/')[3];
         let c = url.split('-').pop();
-        let base = 'https://truyentienvuc.com/api/reading/'+n+'/chapters/'+c+'/content';
+        let base = 'https://tienvuc.vn/api/reading/'+n+'/chapters/'+c+'/content';
         var getc = fetch(base,{
             method : "GET",
             headers : {
