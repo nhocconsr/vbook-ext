@@ -1,6 +1,7 @@
 function execute(url, page) {
     if(!page) page = '1';
-    let response = fetch('tienvuc.vn/api/categories/'+url+'/books',  {
+    //https://tienvuc.vn/api/categories/huyen-huyen/books?slug=huyen-huyen&page=2&limit=10
+    let response = fetch('https://tienvuc.vn/api/categories/'+url+'/books', {
         method: "GET",
         queries: {
             slug : url,

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 6,
+    "version": 7,
     "source": "https://tienvuc.vn",
     "regexp": "(www.)?tienvuc.vn/[0-9a-z-]+/?$",
     "description": "V6: Fix lỗi load chương VIP",
