@@ -2,10 +2,10 @@
   "metadata": {
     "name": "MTL Nation",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://mtlnation.com",
     "regexp": "(www.)?mtlnation.com/novel/[0-9a-z-]+/?$",
-    "description": "Đọc truyện trên MTL Nation",
+    "description": "V2: fix login",
     "locale": "en-EN",
     "language": "javascript",
     "type": "novel"
