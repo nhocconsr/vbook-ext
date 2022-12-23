@@ -1,4 +1,6 @@
 function execute(url) {
+    load('config.js');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let repsonse = fetch(url, {
             headers: {
                 'user-agent': UserAgent.android()
@@ -13,7 +15,7 @@ function execute(url) {
             data.push({
                 name: e.text(),
                 url: e.attr("href"),
-                host: "https://doctruyen3qme.com/"
+                host: BASE_URL 
             })
         }
         return Response.success(data);

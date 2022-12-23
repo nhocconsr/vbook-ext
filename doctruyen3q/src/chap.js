@@ -1,4 +1,6 @@
 function execute(url) {
+    load('config.js');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let response = fetch(url, {
             headers: {
                 'user-agent': UserAgent.android()
@@ -9,8 +11,11 @@ function execute(url) {
         let el = doc.select(".page-chapter img");
         let imgs = [];
         el.forEach(e =>{
-            let img = e.attr("src");
-            if(!img.includes('doctruyen3qme.com')) imgs.push(img)
+            var img = e.attr("src");
+            if(img.includes('doctruyen3q')) {
+                img = e.attr("data-original");
+            }
+            imgs.push(img)
         });
         return Response.success(imgs);
     }

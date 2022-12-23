@@ -1,0 +1,1 @@
+const BASE_URL = 'https://doctruyen3qi.online';
