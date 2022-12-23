@@ -1,12 +1,12 @@
 function execute() {
-    let response = fetch('https://tienvuc.vn/api/categories/all');
+    let response = fetch('https://api.mtlnation.com/api/v2/tags');
     if (response.ok){
-        let allCate = response.json();
+        let allCate = response.json().data;
         const data = [];
         allCate.forEach(item => {
             data.push({
                 title: item.name,
-                input: item.slug,
+                input: item.id,
                 script: 'cate.js'
             });
         });

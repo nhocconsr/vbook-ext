@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Manhua Gui",
     "author": "Nhocconsr",
-    "version": 3,
+    "version": 4,
     "source": "https://www.manhuagui.com",
     "regexp": "(www.)?(m.)?(manhuagui||mhgui).com/comic/\\d+/?",
     "description": "Nếu có lỗi vui lòng liên hệ email : Phamgiavang@gmail.com",

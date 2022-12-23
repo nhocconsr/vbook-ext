@@ -1,6 +1,6 @@
 function execute(url, page) {
     if(!page) page = '1';
-    let response = fetch('https://api.tienvuc.vip/categories/'+url+'/books',  {
+    let response = fetch('tienvuc.vn/api/categories/'+url+'/books',  {
         method: "GET",
         queries: {
             slug : url,
@@ -24,7 +24,7 @@ function execute(url, page) {
                 link: book.slug,
                 cover: book.cover.domain+'/'+book.cover.url,
                 description: vip+book.author.name,
-                host: 'https://tienvuc.vip',
+                host: 'https://tienvuc.vn',
             })
         });
         return Response.success(list, next.toString())

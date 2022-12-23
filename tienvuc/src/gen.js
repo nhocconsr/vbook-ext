@@ -1,7 +1,7 @@
 function execute(url, page) {
     if(!page) page = '1';
-    //https://api.tienvuc.xyz/public-collections/new-books?page=2&limit=10
-    let response = fetch('https://api.tienvuc.vip/public-collections/'+url,  {
+    //https://truyentienvuc.com/api/public-collections/new-books?page=2&limit=10
+    let response = fetch('https://tienvuc.vn/api/public-collections/'+url,  {
         method: "GET",
         queries: {
             page: page,
@@ -24,7 +24,7 @@ function execute(url, page) {
                 link: book.slug,
                 cover: book.cover.domain+'/'+book.cover.url,
                 description: vip+book.author.name,
-                host: 'https://tienvuc.vip',
+                host: 'https://tienvuc.vn',
             })
         });
         return Response.success(list, next.toString())

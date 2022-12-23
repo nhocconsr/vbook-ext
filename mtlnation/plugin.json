@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "Tiên Vực",
+    "name": "MTL Nation",
     "author": "Nhocconsr",
-    "version": 6,
-    "source": "https://tienvuc.vn",
-    "regexp": "(www.)?tienvuc.vn/[0-9a-z-]+/?$",
-    "description": "V6: Fix lỗi load chương VIP",
-    "locale": "vi-VN",
+    "version": 2,
+    "source": "https://mtlnation.com",
+    "regexp": "(www.)?mtlnation.com/novel/[0-9a-z-]+/?$",
+    "description": "V2: fix login",
+    "locale": "en-EN",
     "language": "javascript",
     "type": "novel"
   },

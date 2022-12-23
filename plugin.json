@@ -89,10 +89,10 @@
         "name": "Tiên Vực",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/plugin.zip",
-        "version": 4,
-        "source": "https://tienvuc.vip",
+        "version": 6,
+        "source": "https://tienvuc.vn",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tienvuc/icon.png",
-        "description": "Đọc truyện trên trang tienvuc.vip",
+        "description": "Đừng có sửa Author nếu bạn k tự viết script nhé!",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -235,10 +235,10 @@
         "name": "Truyện Dịch",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
-        "version": 4,
-        "source": "https://truyendichz.com",
+        "version": 5,
+        "source": "https://truyendichz.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
-        "description": "Đọc truyện trên trang Truyendichz.com",
+        "description": "Đọc truyện trên trang Truyendichz.net",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -285,6 +285,17 @@
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/icon.png",
         "description": "Đọc truyện trên trang www.230book.net",
         "type": "chinese_novel",
+        "locale": "zh_CN"
+      },
+      {
+        "name": "AC QQ",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/acqq/plugin.zip",
+        "version": 1,
+        "source": "http://m.ac.qq.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/acqq/icon.png",
+        "description": "Đọc truyện trên trang m.ac.qq.com",
+        "type": "comic",
         "locale": "zh_CN"
       },
       {
@@ -346,7 +357,7 @@
         "name": "Manhua Gui",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://www.manhuagui.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhuagui/icon.png",
         "description": "Đọc truyện trên trang manhuagui.com",
@@ -431,6 +442,17 @@
         "type": "comic",
         "locale": "en_EN",
         "tag" : "nsfw"
+      },
+      {
+        "name": "MTL Nation",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mtlnation/plugin.zip",
+        "version": 2,
+        "source": "https://mtlnation.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mtlnation/icon.png",
+        "description": "Đọc truyện trên trang mtlnation.com",
+        "type": "novel",
+        "locale": "en_EN"
       },
       {
         "name": "Việt Writer",
@@ -590,7 +612,7 @@
         "name": "【VIP】Bạch Ngọc Sách",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/plugin.zip",
-        "version": 5,
+        "version": 6,
         "source": "http://vip.bachngocsach.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vipbns/icon.png",
         "description": "Đọc truyện trên trang vip.bachngocsach.com"
