@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Vlog Truyện",
     "author": "Nhocconsr",
-    "version": 2,
-    "source": "https://vlogtruyen.net",
-    "regexp": "(www.)?vlogtruyen.net/[^/]+.html",
+    "version": 3,
+    "source": "https://vlogtruyen2.net",
+    "regexp": "(www.)?vlogtruyen.*?/[^/]+.html",
     "description": "Đọc truyện tại vlogtruyen.net",
     "locale": "vi-VN",
     "language": "javascript",

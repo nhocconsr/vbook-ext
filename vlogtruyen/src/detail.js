@@ -1,4 +1,6 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     const doc = Http.get(url).html()
 
     return Response.success({
@@ -7,6 +9,6 @@ function execute(url) {
         description: doc.select(".desc-commic-detail").text(),
         detail: doc.select(".categories-list-detail-commic").html(),
         category: doc.select(".categories-list-detail-commic").html(),
-        host: "https://vlogtruyen.net"
+        host: BASE_URL
     });
 }
