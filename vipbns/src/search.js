@@ -1,5 +1,5 @@
 function execute(key, page) {
-    const BNSmain = 'https://api.bachngocsach.com/api/advanced-search';
+    const BNSmain = 'https://api.bachngocsach.vip/api/advanced-search';
     if (!page) page = '1';
     const json = Http.get(BNSmain).params({'q': key,'per_page': 12,'page': page}).string()
     if (json){
@@ -16,7 +16,7 @@ function execute(key, page) {
                 link: chap['slug']+'/'+chap['id']+'.html',
                 cover: chap['cover'],
                 description: 'Chương '+chap['chapters_count'],
-                host: "https://vip.bachngocsach.com/truyen/"
+                host: "https://bachngocsach.vip/truyen/"
             })
         }
         return Response.success(list,next)

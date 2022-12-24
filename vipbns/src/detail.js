@@ -1,6 +1,7 @@
 function execute(url) {
+    url = url.replace("vip.bachngocsach.com","bachngocsach.vip")
     const bookId = url.split('/').pop().split('.')[0];
-    const json = Http.get('https://api.bachngocsach.com/api/story/'+bookId).string()
+    const json = Http.get('https://api.bachngocsach.vip/api/story/'+bookId).string()
     if (json){
         var detail = JSON.parse(json);
         if (detail.status === 0) var ongoing = true
@@ -12,7 +13,7 @@ function execute(url) {
             description: detail['desc'],
             detail: detail['categories'][0]['name'],
             ongoing : ongoing,
-            host: "https://vip.bachngocsach.com",
+            host: "https://bachngocsach.vip",
         });
     }
     return Response.success(JSON.parse(json));    

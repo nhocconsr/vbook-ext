@@ -1,4 +1,5 @@
 function execute(url){
+    url = url.replace("vip.bachngocsach.com","bachngocsach.vip")
     var browser = Engine.newBrowser();
     browser.launch(url, 5000);
     browser.callJs("var authorization = window.localStorage.getItem('user'); var auth = document.createElement('auth'); auth.innerHTML = authorization; document.body.appendChild(auth);", 100);
@@ -6,8 +7,8 @@ function execute(url){
     browser.close();
     if(auth){
         let token = JSON.parse(auth).token;
-        const chapId = url.split(/[/.]+/)[8];
-        let response = fetch('https://api.bachngocsach.com/api/chapter/'+chapId, {
+        const chapId = url.split(/[/.]+/)[7];
+        let response = fetch('https://api.bachngocsach.vip/api/chapter/'+chapId, {
             method: 'GET',
             headers: {
                 authorization: 'Bearer '+token,

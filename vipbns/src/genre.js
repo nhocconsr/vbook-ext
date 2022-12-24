@@ -1,5 +1,5 @@
 function execute() {
-    const json = Http.get("https://api.bachngocsach.com/api/categories?per_page=24").string();
+    const json = Http.get("https://api.bachngocsach.vip/api/categories?per_page=24").string();
     const el = JSON.parse(json);
     var es = el.data;
     const data = [];
