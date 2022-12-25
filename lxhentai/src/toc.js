@@ -1,6 +1,6 @@
 function execute(url) {
-    load('config.js');
-    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+        url = url.replace("lxhentai.com","lxmanga.com")
+    url = url.replace("lxhentai.org","lxmanga.com")
     let doc = fetch(url).html();
     let el = doc.select(".mb-4 > ul > a")
     const data = [];
@@ -9,7 +9,7 @@ function execute(url) {
         data.push({
             name: e.select(".text-ellipsis").text(),
             url: e.attr("href"),
-            host: BASE_URL
+            host: "https://lxmanga.com"
         })
     }
     return Response.success(data);

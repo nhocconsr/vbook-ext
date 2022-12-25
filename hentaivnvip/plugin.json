@@ -2,9 +2,9 @@
   "metadata": {
     "name": "HentaiVN VIP",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://hentaivnhot.net/",
-    "regexp": "https://(www.)?hentaivn(vip|hot).(com|net)/[0-9a-z-]+/?$",
+    "version": 2,
+    "source": "https://hentaivnvip.com/",
+    "regexp": "(www.)?hentaivnvip.com/[0-9a-z-]+/?$",
     "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com hoặc Discord",
     "locale": "vi-VN", 
     "language": "javascript",

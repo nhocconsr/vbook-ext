@@ -1,1 +1,0 @@
-const BASE_URL = 'https://lxmanga.net';

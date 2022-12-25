@@ -1,6 +1,6 @@
 function execute(url) {
-    load('config.js');
-    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    url = url.replace("lxhentai.com","lxmanga.com")
+    url = url.replace("lxhentai.org","lxmanga.com")
     let doc = fetch(url).html()
     return Response.success({
         name: doc.select(".mb-4 span").first().text(),
@@ -8,6 +8,6 @@ function execute(url) {
         author: doc.select(".grow a[href~=tac-gia]").first().text(),
         description: doc.select(".py-4 > p").text(),
         detail: 'Tác Giả :' +doc.select(".grow a[href~=tac-gia]").first().text(),
-        host: BASE_URL
+        host: "https://lxmanga.com"
     });
 }
