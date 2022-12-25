@@ -777,10 +777,12 @@
         "name": "69Shu",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/69shu/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://www.69shu.io",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/69shu/icon.png",
-        "description": "Đọc truyện trên trang 69shu.io"
+        "description": "Đọc truyện trên trang 69shu.io",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
       },
       {
         "name": "bFaloo",
