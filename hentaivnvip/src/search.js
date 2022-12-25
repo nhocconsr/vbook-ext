@@ -1,5 +1,7 @@
 function execute(key, page) {
-    let doc = fetch('https://hentaivnvip.com/truyen-hentai-moi/?q='+key).html()
+    load('config.js');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+    let doc = fetch(BASE_URL + '/truyen-hentai-moi/?q='+key).html()
     let el = doc.select(".comics-grid .entry")
     let data = [];
     el.forEach(e =>data.push({
@@ -7,7 +9,7 @@ function execute(key, page) {
             link: e.select("a.name").first().attr("href"),
             cover: e.select("img").first().attr("src"),
             description: e.select(".date-time").first().text(),
-            host: "https://hentaivnvip.com"
+            host: BASE_URL
         })
     )
     return Response.success(data)
