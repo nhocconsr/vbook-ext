@@ -7,7 +7,7 @@ function execute(url){
     if(auth){
         let token = JSON.parse(auth).token;
         const chapId = url.split(/[/.]+/)[8];
-        let response = fetch('https://api.bachngocsach.com/api/chapter/'+chapId, {
+        let response = fetch('https://api.bachngocsach.vip/api/chapter/'+chapId, {
             method: 'GET',
             headers: {
                 authorization: 'Bearer '+token,

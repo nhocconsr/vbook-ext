@@ -1,5 +1,5 @@
 function execute(url) {
-    const base = 'https://vip.bachngocsach.com/dich/'
+    const base = 'https://bachngocsach.vip/dich/'
     const nurl = url.split('|');
     const json = Http.get(nurl[0]).string()
     const data = [];
@@ -10,7 +10,7 @@ function execute(url) {
             data.push({
                 name: chap.name,
                 url: base+nurl[1]+'/'+chap.story_id+'/'+chap.slug+'/'+chap.id+'.html',
-                host: "https://vip.bachngocsach.com"
+                host: "https://bachngocsach.vip"
             })
         }
         return Response.success(data);
@@ -21,7 +21,7 @@ function execute(url) {
             data.push({
                 name: chap.name,
                 url: base+nurl[1]+'/'+chap.story_id+'/'+chap.slug+'/'+chap.id+'.html',
-                host: "https://vip.bachngocsach.com"
+                host: "https://bachngocsach.vip"
             })
         })
         return Response.success(data);

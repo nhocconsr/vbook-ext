@@ -2,10 +2,10 @@
   "metadata": {
     "name": "【VIP】Bạch Ngọc Sách",
     "author": "Nhocconsr",
-    "version": 6,
-    "source": "https://vip.bachngocsach.com",
-    "regexp": "(www.)?vip.bachngocsach.com/truyen/[0-9a-z-]+/\\d+.html",
-    "description": "V6 : Fix lỗi đã mua chương k đọc được",
+    "version": 7,
+    "source": "https://bachngocsach.vip",
+    "regexp": "(www.)?bachngocsach.vip/truyen/[0-9a-z-]+/\\d+.html",
+    "description": "V7 : Change domain",
     "local": "vi-VN",
     "language": "javascript",
     "type": "novel"

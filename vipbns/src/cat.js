@@ -16,7 +16,7 @@ function execute(url, page) {
                 link: chap.slug+'/'+chap.id+'.html',
                 cover: chap.cover,
                 description: chap.author.name,
-                host: "https://vip.bachngocsach.com/truyen/"
+                host: "https://bachngocsach.vip/truyen/"
             })
         }
         return Response.success(list,next)
