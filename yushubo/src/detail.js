@@ -1,6 +1,9 @@
+load('config.js');
 function execute(url) {
-    const yUrl = url.replace('m.','www.');
-    const doc = fetch(yUrl).html();
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+
+    //const yUrl = url.replace('m.','www.');
+    const doc = fetch(url).html();
     var dess = doc.select(".book-intro").text()
     return Response.success({
         name: doc.select("h1").text(),
@@ -9,6 +12,6 @@ function execute(url) {
         description: dess.substring(0,dess.indexOf("标")),
         detail: doc.select(".booktitle p").html(),
         category: doc.select(".booktitle p").html(),
-        host: "https://www.yushugu.com"
+        host: BASE_URL,
     });
 }

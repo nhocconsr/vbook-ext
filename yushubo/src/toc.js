@@ -1,6 +1,11 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+
+
+
     const idBook = url.match(/\d+/)[0];
-    const yUrl = 'https://www.yushugu.com/list_other_'+idBook+'.html';
+    const yUrl = BASE_URL + '/list_other_' + idBook + '.html';
     var doc = fetch(yUrl).html();
     var el = doc.select("ul.chapter-list li a")
     const list = [];
@@ -9,7 +14,7 @@ function execute(url) {
         list.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://www.yushugu.com"
+            host: BASE_URL
         })
     }
     return Response.success(list)
