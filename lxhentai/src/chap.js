@@ -1,6 +1,6 @@
 function execute(url) {
-    url = url.replace("lxhentai.com","lxmanga.com")
-    url = url.replace("lxhentai.org","lxmanga.com")
+    load('config.js');
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     var doc = fetch(url).html();
     var el = doc.select(".text-center img");
     var imgs = [];
