@@ -1,6 +1,8 @@
+load('config.js');
 function execute(url, page) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     if (!page) page = '1';
-    const doc = Http.get(url).params({page: page}).html();
+    const doc = Http.get(BASE_URL + url).params({page: page}).html();
 
     var next = doc.select(".pagination").select("li.active + li").text()
 
@@ -14,7 +16,7 @@ function execute(url, page) {
             link: e.select("a").first().attr("href"),
             cover: e.select(".image-commic-tab img").first().attr("data-src"),
             description: e.select(".chapter-commic-tab a").first().text(),
-            host: "https://vlogtruyen.net"
+            host: BASE_URL
         })
     }
 
