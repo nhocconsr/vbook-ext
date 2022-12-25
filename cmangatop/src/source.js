@@ -2,7 +2,7 @@ load('crypto.js');
 load('libs.js');
 function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch('https://cmangaka.com/api/list_item', {
+    let response = fetch('https://cmangaac.com/api/list_item', {
         method: "GET",
         queries: {
             page : page,
@@ -26,9 +26,9 @@ function execute(url, page) {
             list.push({
                 name: titleCase(item.name),
                 link: item.url+'-'+item.id_book,
-                cover: 'https://cmangaka.com/assets/tmp/book/avatar/'+item.avatar+'.jpg',
+                cover: 'https://cmangaac.com/assets/tmp/book/avatar/'+item.avatar+'.jpg',
                 description: 'Chap '+ item.last_chapter,
-                host: "https://cmangaka.com"
+                host: "https://cmangaac.com"
             })
         }
         return Response.success(list,next)
