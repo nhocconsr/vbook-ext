@@ -6,7 +6,7 @@ function execute(url){
     browser.close();
     if(auth){
         let token = JSON.parse(auth).token;
-        const chapId = url.split(/[/.]+/)[8];
+        const chapId = url.split(/[/.]+/)[7];
         let response = fetch('https://api.bachngocsach.vip/api/chapter/'+chapId, {
             method: 'GET',
             headers: {
