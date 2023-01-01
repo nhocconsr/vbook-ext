@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Manga Forest",
     "author": "Nhocconsr",
-    "version": 9,
-    "source": "https://mangaforest.com",
-    "regexp": "(www.)?mangaforest.com/[0-9a-z-]+/?$",
+    "version": 10,
+    "source": "https://mangaforest.me",
+    "regexp": "(www.)?mangaforest.me/[0-9a-z-]+/?$",
     "description": "Tiền thân là mangabuddy",
     "locale": "en-EN",
     "language": "javascript",

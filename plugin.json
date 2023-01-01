@@ -435,10 +435,10 @@
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
-        "version": 9,
-        "source": "https://mangaforest.com",
+        "version": 10,
+        "source": "https://mangaforest.me",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
-        "description": "Đọc truyện trên trang mangaforest.com",
+        "description": "Đọc truyện trên trang mangaforest.me",
         "type": "comic",
         "locale": "en_EN",
         "tag" : "nsfw"

@@ -1,6 +1,6 @@
 function execute(url) {
-    var name = url.replace("https://mangaforest.com/","")
-    let response = fetch("https://mangaforest.com/api/manga/"+name+"/chapters");
+    var name = url.replace("https://mangaforest.me/","")
+    let response = fetch("https://mangaforest.me/api/manga/"+name+"/chapters");
     if (response.ok) {
     var doc = response.html();
     var data =[];
@@ -8,7 +8,7 @@ function execute(url) {
     el.forEach(e => data.push({
             name: e.text(),
             url: e.attr("value"),
-            host: "https://mangaforest.com"
+            host: "https://mangaforest.me"
         }))
     return Response.success(data.reverse());
     }
