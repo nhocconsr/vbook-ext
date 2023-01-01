@@ -3,7 +3,7 @@ function execute(key, page) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
     if (!page) page = '1';
-    let response = fetch("https://hamtruyenmoi.com/tim-kiem/"+key+"/index.html");
+    let response = fetch("https://hamtruyen.info/tim-kiem/"+key+"/index.html");
     if (response.ok) {
         let doc = response.html();
         let comicList = [];
@@ -13,7 +13,7 @@ function execute(key, page) {
                 link: e.select("a").attr("href"),
                 cover: e.select("img").attr("src"),
                 description : cap(e.select(".chap").text()),
-                host: "https://hamtruyenmoi.com"
+                host: "https://hamtruyen.info"
             });
         });
         return Response.success(comicList);

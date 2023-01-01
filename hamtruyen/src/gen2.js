@@ -3,7 +3,7 @@ function execute(id, page) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
     if (!page) page = '1';
-    let response = fetch("https://hamtruyenmoi.com/danh-muc-truyen-chu/P"+page+"/index.html", {
+    let response = fetch("https://hamtruyen.info/danh-muc-truyen-chu/P"+page+"/index.html", {
         method: "GET",
         queries: {
             o : id,
@@ -20,7 +20,7 @@ function execute(id, page) {
                 link: e.select("a").attr("href"),
                 cover: e.select("img").attr("src"),
                 description : cap(e.select(".chap-truyenchu").text().split(':').shift()),
-                host: "https://hamtruyenmoi.com"
+                host: "https://hamtruyen.info"
             });
         });
 

@@ -13,7 +13,7 @@ function execute(url) {
                 list.push({
                     name: cap(e.text()),
                     url: e.attr("href"),
-                    host: "https://hamtruyenmoi.com"
+                    host: "https://hamtruyen.info"
                 })
             }
             return Response.success(list);
@@ -26,7 +26,7 @@ function cap(string) {
 }
 
 function fetchTruyenchu(sid) {
-    let response = fetch("https://hamtruyenmoi.com/Webservice.asmx/getlistchuongtieuthuyet", {
+    let response = fetch("https://hamtruyen.info/Webservice.asmx/getlistchuongtieuthuyet", {
         method: "POST",
         body: "{ 'sid': '" + sid + "'}"
     });
@@ -39,7 +39,7 @@ function fetchTruyenchu(sid) {
             data.push({
                 name: cap(e.text()),
                 url: e.attr("href"),
-                host: "https://hamtruyenmoi.com"
+                host: "https://hamtruyen.info"
             })
         }
         return data;
