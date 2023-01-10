@@ -2,9 +2,9 @@
   "metadata": {
     "name": "YuShuGu 【御书网】",
     "author": "Nhocconsr",
-    "version": 7,
-    "source": "https://www.yushugu.cc/",
-    "regexp": "(www.)?(m.)?yushugu.cc/book_\\d+.html",
+    "version": 8,
+    "source": "https://www.yushugu.net/",
+    "regexp": "(www.)?(m.)?yushugu.net/book_\\d+.html",
     "description": "Nếu extention có vấn đề vui lòng liên hệ email : phamgiavang@gmail.com<br>Tiền thân web yushubo.",
     "locale": "zh-CN",
     "language": "javascript",

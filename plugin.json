@@ -302,10 +302,10 @@
         "name": "YuShuGu 【御书网】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/plugin.zip",
-        "version": 7,
-        "source": "https://www.yushugu.cc",
+        "version": 8,
+        "source": "https://www.yushugu.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/yushubo/icon.png",
-        "description": "Đọc truyện trên trang yushugu.cc, tiền thân yushubo",
+        "description": "Đọc truyện trên trang yushugu.net, tiền thân yushubo",
         "type": "chinese_novel",
         "locale": "zh_CN"
       },
