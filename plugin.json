@@ -221,6 +221,17 @@
         "locale": "vi_VN"
       },
       {
+        "name": "Truyện Cool",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/plugin.zip",
+        "version": 2,
+        "source": "https://truyencool.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/icon.png",
+        "description": "Đọc truyện trên trang truyencool.net",
+        "type": "comic",
+        "locale": "vi_VN"
+      },
+      {
         "name": "Truyện Dịch",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
@@ -491,24 +502,6 @@
         "description": "Đọc truyện trên trang w.linovelib.com"
       },
       {
-        "name": "Truyện 3S",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen3s/plugin.zip",
-        "version": 1,
-        "source": "https://truyen3s.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyen3s/icon.png",
-        "description": "Đọc truyện trên trang truyen3s.com"
-      },
-      {
-        "name": "Truyện Cool",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/plugin.zip",
-        "version": 1,
-        "source": "https://truyencool.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/icon.png",
-        "description": "Đọc truyện trên trang truyencool.net"
-      },
-      {
         "name": "Fast Manhwa",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastmanhwa/plugin.zip",
@@ -634,15 +627,6 @@
         "source": "https://truyentiki.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyentiki/icon.png",
         "description": "Đọc truyện trên trang Truyentiki.com"
-      },
-      {
-        "name": "Truyện Hay TV",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenhaytv/plugin.zip",
-        "version": 3,
-        "source": "https://truyenhaytv.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenhaytv/icon.png",
-        "description": "Đọc truyện trên trang Truyenhaytv.com"
       },
       {
         "name": "Truyện Tranh LH",

@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Truyện Cool",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyencool.net",
     "regexp": "(www.)?truyencool.net/truyen/[0-9a-z-]+/?$",
     "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },
