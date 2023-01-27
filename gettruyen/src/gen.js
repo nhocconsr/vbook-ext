@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch('https://gettruyen.com/search', {
+    let response = fetch('https://taitruyen.org/search', {
         method: "GET",
         queries: {
             quality : url,
@@ -17,7 +17,7 @@ function execute(url, page) {
                 link: e.select("a").first().attr("href"),
                 cover: e.select("div.bg-cover").first().attr("style").split(/[()]/)[1],
                 description: e.select(".text-white").first().text(),
-                host: "https://gettruyen.com"
+                host: "https://taitruyen.org"
             });
         });
 

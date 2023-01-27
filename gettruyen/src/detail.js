@@ -8,7 +8,7 @@ function execute(url) {
             author: doc.select(".text-gray-200 div").text().replace(/Nguồn(.+)?: /g,'') || 'Unknow',
             description: doc.select(".leading-normal p").html(),
             detail: doc.select(".text-gray-200 div").html().replace(/\n/g,'<br>'),
-            host: "https://gettruyen.com"
+            host: "https://taitruyen.org"
         });
     }
     return null;
