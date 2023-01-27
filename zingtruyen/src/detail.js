@@ -8,6 +8,6 @@ function execute(url) {
         description: doc.select("[itemprop=description]").text(),
         detail: doc.select("[itemprop=author]").text() +'<br>'+doc.select(".infos p").get(3).text(),
         category: doc.select("[itemprop=genre]").html(),
-        host: "https://zingtruyen.net"
+        host: "https://zingtruyen.com"
     });
 }

@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://zingtruyen.net/tag/'+key+'/'+page+'.html').html();
+    const doc = Http.get('https://zingtruyen.com/tag/'+key+'/'+page+'.html').html();
 
     var next = doc.select(".pagination").select("li.active + li").text()
     const el = doc.select(".grid-stories .story-grid")
@@ -12,7 +12,7 @@ function execute(key, page) {
             link: e.select("h3 a").first().attr("href"),
             cover: e.select("img").first().attr("src"),
             description: e.select(".info meta").attr('content'),
-            host: "https://zingtruyen.net"
+            host: "https://zingtruyen.com"
         })
     }
     return Response.success(data, next)
