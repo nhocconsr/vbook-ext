@@ -210,17 +210,6 @@
         "locale": "vi_VN"
       },
       {
-        "name": "VComi",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/plugin.zip",
-        "version": 3,
-        "source": "https://vcomi.co",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vcomi/icon.png",
-        "description": "Đọc truyện trên trang vcomi.co",
-        "type": "comic",
-        "locale": "vi_VN"
-      },
-      {
         "name": "Giáng Thế",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/giangthe/plugin.zip",
@@ -228,6 +217,17 @@
         "source": "https://giangthe.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/giangthe/icon.png",
         "description": "Đọc truyện trên trang giangthe.com",
+        "type": "novel",
+        "locale": "vi_VN"
+      },
+      {
+        "name": "Hố Truyện",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/plugin.zip",
+        "version": 3,
+        "source": "https://hotruyen.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/icon.png",
+        "description": "Đọc truyện trên trang Hotruyen.com",
         "type": "novel",
         "locale": "vi_VN"
       },
@@ -699,15 +699,6 @@
         "description": "Đọc truyện trên trang truyenwiki.com"
       },
       {
-        "name": "Hố Truyện",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/plugin.zip",
-        "version": 2,
-        "source": "https://hotruyen.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/icon.png",
-        "description": "Đọc truyện trên trang Hotruyen.com"
-      },
-      {
         "name": "Truyện Z",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/plugin.zip",
@@ -715,15 +706,6 @@
         "source": "https://truyenz.info",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenz/icon.png",
         "description": "Đọc truyện trên trang Truyenz.info"
-      },
-      {
-        "name": "Việt Comic",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietcomic/plugin.zip",
-        "version": 2,
-        "source": "https://vietcomic.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vietcomic/icon.png",
-        "description": "Đọc truyện trên trang Vietcomic.net"
       },
       {
         "name": "Wuxia World",

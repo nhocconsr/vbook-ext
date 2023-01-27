@@ -7,7 +7,7 @@ function execute(url) {
         var e = el.get(i);
         data.push({
             name: e.text(),
-            url: e.attr("onclick").split("'")[1].replace('..',''),
+            url: e.attr("href").replace('..',''),
             host: "https://hotruyen.com"
         })
     }
