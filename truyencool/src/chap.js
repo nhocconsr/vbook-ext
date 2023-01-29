@@ -1,14 +1,20 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-    var el = doc.select(".reading-content img");
-    
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        var img = e.attr("src")
-            .replace(/[\t\n]/g,'')
-            .replace(/\?data=.*/,'')
-        data.push(img);
+    let response = fetch(url);
+    if (response.ok) {
+        let doc = response.html();
+        let content = doc.select('.reading-content .text-left').text()
+        if (content) {
+            return Response.success(doc.select(".reading-content .text-left").html().replace(/&nbsp;/g, ""));
+        } else {
+            let imgs = [];
+            doc.select(".reading-content img").forEach(e => {
+                var imgUrl = e.attr("src")
+                    .replace(/[\t\n]/g,'')
+                    .replace(/\?data=.*/,'');
+                imgs.push(imgUrl);
+            });
+            return Response.success(imgs);    
+        }
     }
-    return Response.success(data);
+    return null;
 }

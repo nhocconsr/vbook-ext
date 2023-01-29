@@ -224,7 +224,7 @@
         "name": "Truyện Cool",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://truyencool.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyencool/icon.png",
         "description": "Đọc truyện trên trang truyencool.net",
@@ -654,15 +654,6 @@
         "source": "https://truyennhieu.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyennhieu/icon.png",
         "description": "Đọc truyện trên trang Truyennhieu.com"
-      },
-      {
-        "name": "Truyện Thôi",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenthoi/plugin.zip",
-        "version": 2,
-        "source": "https://truyenthoi.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenthoi/icon.png",
-        "description": "Đọc truyện trên trang Truyenthoi.net"
       },
       {
         "name": "Truyện Wiki Com",
