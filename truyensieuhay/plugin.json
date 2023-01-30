@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Truyện Siêu Hay",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://truyensieuhay.com",
+    "regexp": "(www.)?(m.)?truyensieuhay.com/[0-9a-z-]+.html",
+    "description": "đọc truyện trên truyensieuhay.com",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "comic"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
