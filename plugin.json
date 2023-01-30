@@ -505,10 +505,12 @@
         "name": "Fast Manhwa",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastmanhwa/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://fastmanhwa.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/fastmanhwa/icon.png",
-        "description": "Đọc truyện trên trang fastmanhwa.net"
+        "description": "Đọc truyện trên trang fastmanhwa.net",
+        "type": "comic",
+        "locale": "en_EN"
       },
       {
         "name": "WebToonXYZ",

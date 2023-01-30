@@ -20,7 +20,7 @@ function execute(url, page) {
         data.push({
             name: e.select("h3.h5 a").first().text(),
             link: e.select("h3.h5 a").first().attr("href"),
-            cover: e.select(".item-thumb img").first().attr("data-src"),
+            cover: e.select(".item-thumb img").attr("src"),
             description: e.select(".list-chapter > div:nth-child(1) a").text(),
             host: "https://fastmanhwa.net"
         })
