@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Thiên Hà Truyện",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://thienhatruyen.com",
     "regexp": "(www.)?thienhatruyen.com/[0-9a-z-]+.html",
     "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
   },

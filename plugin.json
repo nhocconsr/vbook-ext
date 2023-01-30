@@ -478,10 +478,12 @@
         "name": "Thiên Hà Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thienhatruyen/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://thienhatruyen.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/thienhatruyen/icon.png",
-        "description": "Đọc truyện trên trang thienhatruyen.com"
+        "description": "Đọc truyện trên trang thienhatruyen.com",
+        "type" : "comic",
+        "locale" : "vi_VN"
       },
       {
         "name": "SachHayOnline",
