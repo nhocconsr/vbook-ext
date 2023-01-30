@@ -2,7 +2,7 @@
   "metadata": {
     "name": "ManhwaHentai",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://manhwahentai.me",
     "regexp": "(www.)?manhwahentai.me/webtoon/[^/]+/?",
     "description": "Đọc truyện trên trang manhwahentai.me",

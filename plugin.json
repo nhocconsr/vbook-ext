@@ -704,10 +704,12 @@
         "name": "ManhwaHentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://manhwahentai.me",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/icon.png",
         "description": "Đọc truyện trên trang Manhwahentai.me",
+        "type": "comic",
+        "locale": "en_EN",
         "tag": "nsfw"
       },
       {

@@ -5,7 +5,7 @@ function execute(url) {
     var data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
-        data.push(e.attr("src"));
+        data.push(e.attr("src").replace(/[\t\n]/g,''));
         
     }
     return Response.success(data);
