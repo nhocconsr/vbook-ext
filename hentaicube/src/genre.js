@@ -1,5 +1,5 @@
 function execute() {
-    const doc = Http.get("https://hentaicb.top/the-loai-genres").html();
+    const doc = Http.get("https://hentaicb.xyz/the-loai-genres").html();
     const el = doc.select(".genres a");
     const data = [];
     for (var i = 0; i < el.size(); i++) {
