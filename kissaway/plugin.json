@@ -2,11 +2,11 @@
   "metadata": {
     "name": "KissAway (Raw)",
     "author": "Nhocconsr",
-    "version": 2,
-    "source": "https://kissaway.net",
-    "regexp": "(www.)?kissaway.net/[a-z-]+.html",
-    "description": "Đọc truyện trên trang kissaway.net. Nếu bị lỗi extention bạn có thể báo cáo qua email: phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "version": 3,
+    "source": "https://klmanga.com",
+    "regexp": "(www.)?klmanga.com/[a-z-]+.html",
+    "description": "Đọc truyện trên trang klmanga.com. Nếu bị lỗi extention bạn có thể báo cáo qua email: phamgiavang@gmail.com",
+    "locale": "en-EN",
     "language": "javascript",
     "type": "comic"
   },

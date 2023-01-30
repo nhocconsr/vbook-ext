@@ -9,7 +9,7 @@ function execute(url) {
         var linkImg = e.attr("data-aload").replace('\n\r','')
         data.push({
         "link": linkImg,
-        "referer": "https://kissaway.net"
+        "referer": "https://klmanga.com"
     });
     }
     return Response.success(data);

@@ -686,10 +686,12 @@
         "name": "KissAway (Raw)",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/plugin.zip",
-        "version": 2,
-        "source": "https://kissaway.net",
+        "version": 3,
+        "source": "https://klmanga.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/kissaway/icon.png",
-        "description": "Đọc truyện trên trang Kissaway.net"
+        "description": "Đọc truyện trên trang klmanga.com",
+        "type": "comic",
+        "locale": "en_EN"
       },
       {
         "name": "Manhwa Manga",

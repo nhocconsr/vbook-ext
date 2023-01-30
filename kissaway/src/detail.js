@@ -9,6 +9,6 @@ function execute(url) {
         detail: doc.select("ul.manga-info > li:nth-child(4)").html(),
         category: doc.select("ul.manga-info > li:nth-child(6)").html(),
         ongoing: doc.select("ul.manga-info > li:nth-child(5)").html().indexOf("On going") > 0,
-        host: "https://kissaway.net",
+        host: "https://klmanga.com",
     });
 }

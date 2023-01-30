@@ -8,7 +8,7 @@ function execute(url) {
         data.push({
             name: e.select("a").text(),
             url: e.attr("href"),
-            host: "https://kissaway.net"
+            host: "https://klmanga.com"
         })
     }
 

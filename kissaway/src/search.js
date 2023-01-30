@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    const doc = Http.get('https://kissaway.net/manga-list.html').params({
+    const doc = Http.get('https://klmanga.com/manga-list.html').params({
         listType: 'pagination',
         page : page,
         name: key,
@@ -19,7 +19,7 @@ function execute(key, page) {
             link: e.select(".series-title a").first().attr("href"),
             cover: e.select(".a6-ratio div").first().attr("data-bg"),
             description: e.select(".thumb-detail a").first().text(),
-            host: "https://kissaway.net"
+            host: "https://klmanga.com"
         })
     }
 
