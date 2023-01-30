@@ -696,26 +696,6 @@
         "locale": "en_EN"
       },
       {
-        "name": "Manhwa Manga",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwamanga/plugin.zip",
-        "version": 1,
-        "source": "https://manhwamanga.net",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwamanga/icon.png",
-        "description": "Đọc truyện trên trang Manhwamanga.net",
-        "tag": "nsfw"
-      },
-      {
-        "name": "Read Manhwa",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/readmanhwa/plugin.zip",
-        "version": 1,
-        "source": "https://readmanhwa.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/readmanhwa/icon.png",
-        "description": "Đọc truyện trên trang Readmanhwa.com",
-        "tag": "nsfw"
-      },
-      {
         "name": "ManhwaHentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/manhwahentai/plugin.zip",
