@@ -591,10 +591,13 @@
         "name": "Hentai Dexy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaidexy/plugin.zip",
-        "version": 2,
-        "source": "https://hentaidexy.com",
+        "version": 3,
+        "source": "https://hentaidexy.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaidexy/icon.png",
-        "description": "Đọc truyện trên trang hentaidexy.com"
+        "description": "Đọc truyện trên trang hentaidexy.net",
+        "type": "comic",
+        "locale": "en_EN",
+        "tag" : "nsfw"
       },
       {
         "name": "Fanqie Novel",

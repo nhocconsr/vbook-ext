@@ -2,13 +2,14 @@
   "metadata": {
     "name": "Hentai Dexy",
     "author": "Nhocconsr",
-    "version": 2,
-    "source": "https://hentaidexy.com",
-    "regexp": "(www.)?hentaidexy.com/read/[0-9a-z-]+/?",
+    "version": 3,
+    "source": "https://hentaidexy.net",
+    "regexp": "(www.)?hentaidexy.net/manga/[0-9a-z-]+/?",
     "description": "Nếu có lỗi vui lòng liên hệ email : phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "locale": "en-EN",
     "language": "javascript",
-    "type": "comic"
+    "type": "comic",
+    "tag" : "nsfw"
   },
   "script": {
     "home": "home.js",

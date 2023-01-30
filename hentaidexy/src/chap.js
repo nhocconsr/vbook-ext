@@ -1,11 +1,8 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-    var el = doc.select(".reading-content img");
-    var data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        var linkImg = e.attr('src').replace(/\n|\t/g, '')
-        data.push(linkImg);
+    let cid = url.split('/').pop();
+    let response = fetch('https://hentaibackend.vercel.app/api/v1/chapters/'+cid);
+    if (response.ok){
+        let imgs =  response.json().chapter.images
+        return Response.success(imgs);
     }
-    return Response.success(data);
 }

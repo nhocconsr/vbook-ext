@@ -1,19 +1,28 @@
-function execute(url, page) {
+function execute(sort, page) {
+    const BASE_URL = 'https://www.hentaidexy.net/manga/'
     if (!page) page = '1';
-    const doc = Http.get(url+'/page/'+page).html();
-    var next = doc.select(".wp-pagenavi").select("span.current + a").text()
-    const el = doc.select("#loop-content .manga")
-    const data = [];
-    for (var i = 0; i < el.size(); i++) {
-        var e = el.get(i);
-        data.push({
-            name: e.select("h3").first().text(),
-            link: e.select("h3 a").first().attr("href"),
-            cover: e.select("img").first().attr("src"),
-            description: e.select(".chapter").first().text(),
-            host: "https://hentaidexy.com"
-        })
+    const options = {
+        method: 'GET',
+        queries : {
+            page : page,
+            limit : '24',
+            sort : sort
+        }
+    };
+    let response = fetch('https://hentaibackend.vercel.app/api/v1/mangas', options)
+    if (response.ok){
+        let data = response.json();
+        let mangas = data.mangas;
+        let next = (data.page + 1).toString()
+        let list = [];
+        mangas.forEach( e => list.push({
+            name: e.title,
+            link: BASE_URL+e._id,
+            cover: e.coverImage,
+            description: e.type,
+            host: "https://hentaidexy.net"
+        }));
+        return Response.success(list,next)
     }
-
-    return Response.success(data, next)
+    return Response.error('message') // Trả về response thất bại với nội dung lỗi
 }

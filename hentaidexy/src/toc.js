@@ -1,15 +1,17 @@
 function execute(url) {
-    var doc = Http.post(url+'/ajax/chapters/').html();
-    doc.select('.chapter-release-date').remove();
-    var el = doc.select("li.wp-manga-chapter a")
-    const list = [];
-    for (var i = el.size() - 1; i >= 0; i--) {
-        var e = el.get(i);
-        list.push({
-            name: e.text().replace(/(c|C)h(ap)? /g,'Chapter '),
-            url: e.attr("href"),
-            host: "https://hentaidexy.com"
+    let mid = url.split('/').pop();
+    let response = fetch('https://hentaibackend.vercel.app/api/v1/mangas/'+mid+'/chapters?fields=_id,serialNumber&sort=serialNumber&limit=999999');
+    if (response.ok){
+        let list_chap = [];
+        let allChap = response.json().chapters
+        Object.keys(allChap).forEach(key => { 
+            var chap = allChap[key]
+            list_chap.push({
+                name: 'Chap '+chap.serialNumber,
+                url: url+'/chapter/'+chap._id,
+                host: "https://www.hentaidexy.net"
+            })
         })
+        return Response.success(list_chap);
     }
-    return Response.success(list);
 }
