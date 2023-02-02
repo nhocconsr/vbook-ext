@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 7,
+    "version": 8,
     "source": "https://tienvuc.vn",
     "regexp": "(www.)?tienvuc.vn/[0-9a-z-]+/?$",
-    "description": "V6: Fix lỗi load chương VIP",
+    "description": "V7: Fix tên chap",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"

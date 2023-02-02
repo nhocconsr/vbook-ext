@@ -9,7 +9,7 @@ function execute(url) {
             if (chap.coins > 0) var vip = '【VIP】 ';
             else var vip = '';
             list.push({
-                name: vip+chap.name,
+                name: vip+'Chương '+chap.num+': '+chap.name,
                 url: url+'/chuong-'+chap.num,
                 host: "https://tienvuc.vn"
             })
