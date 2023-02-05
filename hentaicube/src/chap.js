@@ -1,6 +1,6 @@
 function execute(url) {
     var doc = Http.get(url).html();
-    var el = doc.select(".reading-content noscript img");
+    var el = doc.select(".doc-truyen img");
     
     var data = [];
     for (var i = 0; i < el.size() - 2; i++) {
