@@ -1,5 +1,4 @@
 function execute(url) {
-    url = url.replace("truyendichz.com","truyendichz.net")
     let response = fetch(url);
     if (response.ok){
         let doc = response.html();
@@ -9,7 +8,7 @@ function execute(url) {
             author: doc.select(".name-author").first().text(),
             description: doc.select(".box-show-des").text(),
             detail: 'Tác giả : '+doc.select(".name-author").text() + '<br>Trạng thái : '+doc.select(".status-chapter").text(),
-            host: "https://truyendichz.net"
+            host: "https://www.truyendichh.com"
         });
     }  
 }

@@ -235,10 +235,10 @@
         "name": "Truyện Dịch",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/plugin.zip",
-        "version": 5,
-        "source": "https://truyendichz.net",
+        "version": 6,
+        "source": "https://www.truyendichh.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyendich/icon.png",
-        "description": "Đọc truyện trên trang Truyendichz.net",
+        "description": "Đọc truyện trên trang www.truyendichh.com",
         "type": "novel",
         "locale": "vi_VN"
       },

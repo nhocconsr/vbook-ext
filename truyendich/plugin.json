@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Truyện Dịch",
     "author": "Nhocconsr",
-    "version": 5,
-    "source": "https://truyendichz.net",
-    "regexp": "(www.)?truyendichz.net/[0-9a-z-]+",
-    "description": "Đọc truyện trên trang truyendichz.net",
+    "version": 6,
+    "source": "https://truyendichh.com",
+    "regexp": "(www.)?truyendichh.com/[0-9a-z-]+",
+    "description": "Đọc truyện trên trang truyendichh.com",
     "locale": "vi-VN",
     "language": "javascript",
     "type" : "novel"
