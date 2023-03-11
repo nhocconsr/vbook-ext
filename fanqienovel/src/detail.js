@@ -1,36 +1,24 @@
 function execute(url) {
-    if(url.includes("fanqienovel")){
-        var response = fetch(url, {
-            headers: {
-                'user-agent': UserAgent.android()
-            }
-        })
-            if (response.ok) {
-        let doc = response.html();
-        console.log(doc.select("body"))
-        return Response.success({
-            name: doc.select(".info-name").first().text(),
-            cover: doc.select(".page-header-img").first().attr("src").replace('//','https://'),
-            author: doc.select(".info-author").first().text(),
-            description: doc.select(".abstract-content-text").first().text(),
-            detail: doc.select(".category-list").html()
-        });
-         }
-    } 
-    else{
-        var response = fetch(url, {
-            headers: {
-                'user-agent': UserAgent.android()
-            }
-        });
+    if (url.includes("fanqienovel")) {
+        var bookid = url.match(/\d+/g)[0]
     }
-
+    if (url.includes("fqnovel")) {
+        bookid = url.match(/\d+/g)[1]
+    }
+    let newurl = "https://api3-normal-lf.fqnovel.com/reading/bookapi/directory/all_items/v/?need_version=true&book_id=" + bookid + "&iid=2159861899465991&aid=1967&app_name=novelapp&version_code=311"
+    let response = fetch(newurl, {
+        headers: {
+            'user-agent': UserAgent.android()
+        }
+    });
     if (response.ok) {
         let res_json = response.json();
-        const timenew = res_json.data.book_info.last_chapter_update_time
-        const milliseconds = timenew * 1000// 1575909015000
-        const dateObject = new Date(milliseconds)
-        const humanDateFormat = dateObject.toISOString(); //2019-12-9 10:30:15
+        const last_chapter_update_time = res_json.data.book_info.last_chapter_update_time
+        const last_chapter_update_time_string = new Date(last_chapter_update_time * 1000).toLocaleDateString("vi-VN", {
+            day: "2-digit",
+            month: "2-digit",
+            year: "2-digit"
+        });
         let authorInfo = res_json.data.book_info.original_authors;
         let detailinfo = res_json.data.book_info.sub_info;
         let author = JSON.parse(authorInfo)[0].AuthorName;
@@ -41,13 +29,12 @@ function execute(url) {
         coverImg = "http://p3-novel.byteimg.com/origin/" + coverImg + ".png";
         return Response.success({
             name: bookname,
-            cover: coverImg,           
-            author: author ,
-            description: humanDateFormat +"<br>" + description +"<br>" +"https://sangtacviet.pro/truyen/fanqie/1/"+bookid +"/",
-            detail: detailinfo,
-            host: "https://novel.snssdk.com",
-            
+            cover: coverImg,
+            author: author,
+            description: description,
+            detail: "作者： " + author + "<br/>" + detailinfo + "<br/>" + last_chapter_update_time_string,
         });
+
     }
     return null;
 }
