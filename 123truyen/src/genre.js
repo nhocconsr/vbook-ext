@@ -1,5 +1,6 @@
+load('config.js');
 function execute() {
-    let response = fetch('https://123truyenz.com');
+    let response = fetch(BASE_URL);
     if (response.ok) {
         let doc = response.html();
         let data = [];
