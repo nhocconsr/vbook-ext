@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url, page) {
     if (!page) page = '1';
     let response = fetch(url, {
@@ -16,7 +17,7 @@ function execute(url, page) {
                 link: e.select("a").first().attr("href"),
                 cover: e.select(".thumb img").first().attr("src").replace('-thumbw',''),
                 description: e.select(".chapter-text").first().text(),
-                host: "https://123truyenz.com"
+                host: BASE_URL
             });
         });
 

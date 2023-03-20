@@ -1,5 +1,8 @@
+load('config.js');
 function execute() {
-    const doc = Http.get("https://zingtruyen.com").html();
+   // let response = fetch(BASE_URL);
+
+    const doc = Http.get(BASE_URL).html();
     const el = doc.select(".categories a");
     const data = [];
     for (var i = 4; i < el.size(); i++) {

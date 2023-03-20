@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     let response = fetch(url);
     if (response.ok){
@@ -8,7 +9,7 @@ function execute(url) {
             list.push({
                 name: "Chương " + i,
                 url: url+'/chuong-'+i,
-                host: "https://123truyenz.com"
+                host: BASE_URL
             })
         }
         return Response.success(list);
