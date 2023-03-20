@@ -1,4 +1,7 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
+
     var doc = Http.get(url).html();
     var el = doc.select("#chapters a")
     const data = [];
@@ -7,7 +10,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://zingtruyen.com"
+            host: BASE_URL
         })
     }
     return Response.success(data);

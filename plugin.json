@@ -246,7 +246,7 @@
         "name": "Zing Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://zingtruyen.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/zingtruyen/icon.png",
         "description": "Đọc truyện trên trang Zingtruyen.com",
