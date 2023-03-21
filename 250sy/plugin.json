@@ -2,9 +2,9 @@
   "metadata": {
     "name": "250sy 【二五零书院】",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://www.250sy.net",
-    "regexp": "(www.)?(m.)?250sy.net/book/\\d+.(html|html)",
+    "regexp": "(www.)?(m.)?250sy.net/(book|xiaoshuo)/\\d+[.](html|htm)",
     "description": "Đọc truyện tại trang www.250sy.net",
     "locale": "zh-CN",
     "language": "javascript",
