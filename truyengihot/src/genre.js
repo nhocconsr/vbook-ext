@@ -1,5 +1,5 @@
 function execute() {
-    let doc = fetch("https://truyengihotne.net/truyen-tranh.html").html();
+    let doc = fetch("https://truyengihotne.com/truyen-tranh.html").html();
     let el = doc.select("#list_genres a");
     let data = [];
     for (let i = 1; i < el.size() - 1; i++) {

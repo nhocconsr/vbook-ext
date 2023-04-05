@@ -31,10 +31,10 @@
       "name": "Truyện Gì Hot",
       "author": "Nhocconsr",
       "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/plugin.zip",
-      "version": 6,
-      "source": "https://truyengihotne.net",
+      "version": 7,
+      "source": "https://truyengihotne.com",
       "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyengihot/icon.png",
-      "description": "Đọc truyện trên trang truyengihotne.net",
+      "description": "Đọc truyện trên trang truyengihotne.com",
       "type": "comic",
       "locale": "vi_VN",
       "tag": "nsfw"
