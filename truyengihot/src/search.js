@@ -1,6 +1,6 @@
 function execute(key, page) {
     if (!page) page = '1';
-    let response = fetch('https://truyengihotne.net/danh-sach-truyen-tranh.html',{ 
+    let response = fetch('https://truyengihotne.com/danh-sach-truyen-tranh.html',{ 
         method: "GET",
         queries: {
             listType : 'thumb',
@@ -16,7 +16,7 @@ function execute(key, page) {
         var last_page = gtext.match("last_page = '(.+)'")[1]
         var slug_type = gtext.match("slug_type = '(.+)'")[1]
         var token = gtext.match('_token = "(.+)"')[1]
-        let gpage = fetch("https://truyengihotne.net/frontend_controllers/list/pagi.php", {
+        let gpage = fetch("https://truyengihotne.com/frontend_controllers/list/pagi.php", {
             method : "POST",
             body : {
                 "action": "manga_pagi",
@@ -36,7 +36,7 @@ function execute(key, page) {
                 link: item.select('.title a').attr('href'),
                 cover: item.select('.thumb').attr('style').split(/['']/)[1],
                 description: 'Chap '+item.select('.chapter-link').last().text(),
-                host: "https://truyengihotne.net"
+                host: "https://truyengihotne.com"
             })
         });
         return Response.success(list,next)

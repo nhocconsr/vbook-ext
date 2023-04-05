@@ -1,5 +1,5 @@
 function execute(url) {
-    const base = 'https://truyengihotne.net';
+    const base = 'https://truyengihotne.com';
     let response = fetch(url);
     if(response.ok){
         let gtext = response.text();
@@ -9,7 +9,7 @@ function execute(url) {
         var cid = gtext.match('cid = "(.+)"')[1];
         var chapter = gtext.match('chapter = "(.+)"')[1];
         var token = gtext.match('_token = "(.+)"')[1];
-        let gimg = fetch("https://truyengihotne.net/frontend_controllers/chapter/content.php", {
+        let gimg = fetch("https://truyengihotne.com/frontend_controllers/chapter/content.php", {
             method : "POST",
             body: {
                 token: token,
