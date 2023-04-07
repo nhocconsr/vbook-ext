@@ -10,7 +10,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://cmangaac.com"
+            host: "https://cmangaad.com"
         })
     }
     return Response.success(data);
