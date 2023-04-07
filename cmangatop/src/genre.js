@@ -1,5 +1,5 @@
 function execute() {
-    const doc = fetch("https://cmangaac.com").html();
+    const doc = fetch("https://cmangaad.com").html();
     const el = doc.select(".book_tags_content a");
     const data = [];
     el.forEach(e => data.push({
