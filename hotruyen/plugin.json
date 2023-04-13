@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Hố Truyện",
     "author": "Nhocconsr",
-    "version": 3,
+    "version": 4,
     "source": "https://hotruyen.com",
     "regexp": "(www.)?hotruyen.com/truyen/[^/+]+",
-    "description": "Đọc truyện trên trang Hotruyen.net",
+    "description": "Đọc truyện trên trang Hotruyen.com",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
