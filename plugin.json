@@ -213,7 +213,7 @@
         "name": "Hố Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://hotruyen.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hotruyen/icon.png",
         "description": "Đọc truyện trên trang Hotruyen.com",
