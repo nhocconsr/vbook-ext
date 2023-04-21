@@ -1,6 +1,13 @@
 function execute(url) {
-    const doc = fetch(url).html();
+    if (!page) var page = '1';
+    var doc = fetch(url, {
+        method: "GET",
+        queries: {
+            "paged": page
+        }
+    }).html()
     const el = doc.select(".box-cate-list ul li")
+    var next = doc.select(".pagination").select("li:has(a.active) + li").text()
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
@@ -12,5 +19,5 @@ function execute(url) {
             host: "https://ztruyen.vn"
         })
     }
-    return Response.success(data)
+    return Response.success(data,next)
 }

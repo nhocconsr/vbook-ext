@@ -2,7 +2,7 @@
   "metadata": {
     "name": "zTruyen",
     "author": "fusornat",
-    "version": 3,
+    "version": 4,
     "source": "https://ztruyen.vn",
     "regexp": "https://ztruyen.vn/truyen/[0-9a-z-]+/?$",
     "description": "zTruyen.vn",
