@@ -1,11 +1,10 @@
 function execute(url) {
-    const doc = Http.get(url).html()
-
+    const doc = fetch(url).html()
     return Response.success({
-        name: doc.select(".font-weight-bold").text(),
-        cover: doc.select(".bg-blur img").attr('src'),
-        description: doc.select(".content-story").text(),
-        detail: doc.select(".col-12 .text-left").text(),
+        name: doc.select("h1 a").text(),
+        cover: doc.select(".img img").attr('src'),
+        description: doc.select(".box-show-des").text(),
+        detail: doc.select(".name-author").text(),
         host: "https://ztruyen.vn"
     });
 }

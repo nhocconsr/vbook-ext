@@ -1,7 +1,8 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-    var content =doc.select(".content-post").select("p").html();
+    var doc = fetch(url).html();
+    var content = doc.select("#read-content").select("p").html();
     content = content.replace(/\n/g,'<br>')
-    content = content.replace(/&nbsp;/g,'')
+                .replace(/&(nbsp|amp|quot|lt|gt);/g,'')
+                .replace(/(<br\/?>)+/g,"<br>");
     return Response.success(content);
 }

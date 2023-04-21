@@ -1,6 +1,6 @@
 function execute(url) {
-    const doc = Http.get(url).html();
-    const el = doc.select(".content .box-story .item")
+    const doc = fetch(url).html();
+    const el = doc.select(".box-cate-list ul li")
     const data = [];
     for (var i = 0; i < el.size(); i++) {
         var e = el.get(i);
@@ -8,10 +8,9 @@ function execute(url) {
             name: e.select("a").attr("title"),
             link: e.select("a").attr("href"),
             cover: e.select("a img").attr("src"),
-            description: null,
+            description: e.select(".name-author").text(),
             host: "https://ztruyen.vn"
         })
     }
-
     return Response.success(data)
 }
