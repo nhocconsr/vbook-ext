@@ -446,7 +446,7 @@
         "name": "Manga Buddy",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/plugin.zip",
-        "version": 10,
+        "version": 11,
         "source": "https://mangaforest.me",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/mangabuddy/icon.png",
         "description": "Đọc truyện trên trang mangaforest.me",
