@@ -6,7 +6,7 @@ function execute(url) {
             "paged": page
         }
     }).html()
-    const el = doc.select(".box-cate-list ul li")
+    var el = doc.select(".box-cate-list ul li")
     var next = doc.select(".pagination").select("li:has(a.active) + li").text()
     const data = [];
     for (var i = 0; i < el.size(); i++) {
