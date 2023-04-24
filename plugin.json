@@ -288,6 +288,17 @@
         "tag": "nsfw"
         },
         {
+        "name": "Qimao",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/qimao/plugin.zip",
+        "version": 1,
+        "source": "https://www.qimao.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/qimao/icon.png",
+        "description": "Đọc truyện trên trang qimao.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+        },
+        {
         "name": "230Book",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/230book/plugin.zip",
