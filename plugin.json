@@ -190,10 +190,10 @@
         "name": "Hentai Cube",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/plugin.zip",
-        "version": 4,
-        "source": "https://hentaicb.xyz",
+        "version": 5,
+        "source": "https://hentaicb.top",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hentaicube/icon.png",
-        "description": "Đọc truyện trên trang hentaicb.xyz",
+        "description": "Đọc truyện trên trang hentaicb.top",
         "tag": "nsfw",
         "type": "comic",
         "locale": "vi_VN"

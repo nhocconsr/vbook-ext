@@ -7,7 +7,7 @@ function execute(url) {
         data.push({
             name: e.select("a").text(),
             url: e.attr("href"),
-            host: "https://hentaicb.xyz"
+            host: "https://hentaicb.top"
         })
     }
 

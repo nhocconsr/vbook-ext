@@ -1,5 +1,5 @@
 function execute() {
     return Response.success([
-        {title: "Cập nhật", input: "https://hentaicb.xyz", script: "gen.js"},
+        {title: "Cập nhật", input: "https://hentaicb.top", script: "gen.js"},
     ]);
 }

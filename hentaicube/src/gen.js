@@ -15,7 +15,7 @@ function execute(url, page) {
             link: e.select("a").first().attr("href"),
             cover: img,
             description: e.select(".chapter a").first().text(),
-            host: "https://hentaicb.xyz"
+            host: "https://hentaicb.top"
         })
     }
 

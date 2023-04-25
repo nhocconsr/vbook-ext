@@ -8,6 +8,6 @@ function execute(url) {
         description: doc.select(".summary__content > p").text(),
         detail: doc.select("div.post-status > div:nth-child(1)").html()+ "<br>" + doc.select("div.post-status > div:nth-child(2)").html(),
         category: doc.select("div.genres-content").html(),
-        host: "https://hentaicb.xyz"
+        host: "https://hentaicb.top"
     });
 }
