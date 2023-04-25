@@ -1,6 +1,6 @@
 function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch('https://www.truyendichh.com/danh-sach/'+url,  {
+    let response = fetch('https://www.truyendichh.net/danh-sach/'+url,  {
         method: "GET",
         queries: {
             page : page
@@ -18,7 +18,7 @@ function execute(url, page) {
                 link: e.select("h3 a").first().attr("href"),
                 cover: e.select("img").attr("src"),
                 description: e.select(".name-chapter").first().text(),
-                host: "https://www.truyendichh.com"
+                host: "https://www.truyendichh.net"
             })
         }
         return Response.success(data,next)

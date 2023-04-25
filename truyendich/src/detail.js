@@ -8,7 +8,7 @@ function execute(url) {
             author: doc.select(".name-author").first().text(),
             description: doc.select(".box-show-des").text(),
             detail: 'Tác giả : '+doc.select(".name-author").text() + '<br>Trạng thái : '+doc.select(".status-chapter").text(),
-            host: "https://www.truyendichh.com"
+            host: "https://www.truyendichh.net"
         });
     }  
 }

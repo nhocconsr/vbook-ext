@@ -1,7 +1,7 @@
 function execute(url) {
     let res = fetch(url).html();
     let truyen_id = res.select('#truyen-id').attr('value');
-    let response = fetch('https://www.truyendichh.com/api/chapter-list', {
+    let response = fetch('https://www.truyendichh.net/api/chapter-list', {
         method: "GET",
         queries: {
             'truyen-id' : truyen_id,
@@ -14,7 +14,7 @@ function execute(url) {
         allChap.forEach(e =>listChap.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://www.truyendichh.com"
+            host: "https://www.truyendichh.net"
         }));
         return Response.success(listChap);
     }
