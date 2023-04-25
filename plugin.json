@@ -179,10 +179,10 @@
         "name": "CManga",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/plugin.zip",
-        "version": 6,
+        "version": 7,
         "source": "https://cmangaac.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/cmangatop/icon.png",
-        "description": "Đọc truyện trên trang cmangaac.com",
+        "description": "Đọc truyện trên trang cmangaad.com",
         "type": "comic",
         "locale": "vi_VN"
         },

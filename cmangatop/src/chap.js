@@ -1,7 +1,7 @@
 load('crypto.js');
 function execute(url) {
     const chapID = url.split('/').pop();
-    let data = decrypt_data(fetch('https://cmangaac.com/api/chapter_content?opt1='+chapID).text())
+    let data = decrypt_data(fetch('https://cmangaad.com/api/chapter_content?opt1='+chapID).text())
     let chapter_content = JSON.parse(data)[0].content
     return Response.success(chapter_content);
 }

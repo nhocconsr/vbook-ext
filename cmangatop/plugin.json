@@ -2,7 +2,7 @@
   "metadata": {
     "name": "CManga",
     "author": "Nhocconsr",
-    "version": 6,
+    "version": 7,
     "source": "https://cmangaad.com",
     "regexp": "(www.)?cmangaad.com/[0-9a-z-]+",
     "description": "Fix domain<br><br>Site mã hoá nên load chậm hơn bình thường đừng có kêu ca",
