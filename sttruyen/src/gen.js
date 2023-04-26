@@ -4,8 +4,9 @@ function execute(url, page) {
         method : 'GET',
         queries: {
             page : page
-        }
+        },
     });
+    Console.log(response.headers)
     if(response.ok){
         let doc = response.html();
         let next = doc.select('.pagination').first().select('li.active + li').text();
@@ -25,7 +26,7 @@ function execute(url, page) {
                 host: "https://sttruyen.com"
             })
         }
-        return Response.success(data, next)
+        return Response.success(response.headers, next)
     }
     return null;
 }

@@ -1,6 +1,6 @@
 function execute(url) {
-    url = url.replace("khotruyentranhz.com","khotruyentranhvip.com")
-    url = url.replace("khotruyentranhhot.com","khotruyentranhvip.com")
+    url = url.replace("khotruyentranhz.com","khotruyentranhonline.com")
+    url = url.replace("khotruyentranhhot.com","khotruyentranhonline.com")
     var doc = fetch(url).html();
     var el = doc.select(".chapter-list a")
     const data = [];
@@ -9,7 +9,7 @@ function execute(url) {
         data.push({
             name: e.select("a").text(),
             url: e.attr("href"),
-            host: "https://khotruyentranhvip.com"
+            host: "https://khotruyentranhonline.com"
         })
     }
     return Response.success(data);
