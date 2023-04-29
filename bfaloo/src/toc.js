@@ -1,20 +1,20 @@
 function execute(url) {
-    const nUrl = url.replace('wap','b');
-    var doc = Http.get(nUrl).html();
-    var el = doc.select(".DivTable .DivTd a")
-    const data = [];
-    for (var i = 0;i < el.size(); i++) {
-        var e = el.get(i);
-        var blink = e.attr("href");
-        if (blink.startsWith("//")) {
-            blink = "https:" + blink;
-        }
-        data.push({
-            name: e.select("a").text(),
-            url: blink,
+    let bid = url.match(/\d+/);
+    let response = fetch(`https://client4xcx.faloo.com/V4.1/Xml4android_novel_listPage.aspx`,{
+        method : 'POST',
+        body:`id=${bid}`
+    })
+    let $ = response.json()
+    let list = []
+    $.data.vols.forEach((booklet) => {
+        //list.push({ name: booklet.name })
+        booklet.chapters.forEach((chapter) => {
+        list.push({
+            name: chapter.name,
+            url: `id=${bid}&n=${chapter.id}`,
             host: "https://b.faloo.com"
         })
-    }
-
-    return Response.success(data);
+        })
+    })
+    return Response.success(list);
 }

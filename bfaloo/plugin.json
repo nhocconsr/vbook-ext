@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "bFaloo",
+    "name": "bFaloo (飞卢小说)",
     "author": "Nhocconsr",
-    "version": 4,
+    "version": 5,
     "source": "https://b.faloo.com",
     "regexp": "(www.)?((b.faloo.com/\\d+.html)|(wap.faloo.com/\\d+.html))",
-    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com<br><br>v4 : Update thông báo nếu là chương VIP",
-    "local": "cn-CN",
+    "description": "Nếu có lỗi bạn có thể liên hệ tới Email: phamgiavang@gmail.com",
+    "locale": "zh-CN",
     "language": "javascript",
     "type": "chinese_novel"
   },

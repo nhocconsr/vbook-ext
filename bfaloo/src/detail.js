@@ -1,12 +1,19 @@
 function execute(url) {
-    const nUrl = url.replace('wap','b');
-    const doc = Http.get(nUrl).html();
-    return Response.success({
-        name: doc.select("h1#novelName").text(),
-        cover: doc.select(".T-L-T-Img img").first().attr("src"),
-        author: doc.select(".T-L-O-Z-Box1 a").first().text(),
-        description: doc.select(".T-L-T-C-Box1").text(),
-        detail: doc.select(".T-R-T-B2-Box1").html(),
+    let bid = url.match(/\d+/);
+    let response = fetch(`https://client4xcx.faloo.com/V4.1/Xml4Android_relevantPage.aspx`,{
+        method : 'POST',
+        body:`id=${bid}`
+    })
+    let $ = response.json()
+    let book = {
+        name: $.data.name,
+        cover : $.data.cover,
+        author : $.data.author,
+        ongoing: $.data.finish == 0 ? true : false,
+        category: $.data.tags.map((item)=>{ return item.name}).join(" "),
+        detail: $.data.update,
+        description: $.data.intro,
         host: "https://b.faloo.com"
-    });
+    }
+    return Response.success(book)
 }
