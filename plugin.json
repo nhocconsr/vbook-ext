@@ -563,15 +563,6 @@
         "tag": "nsfw"
         },
         {
-        "name": "Wusanzw 【五三】",
-        "author": "Nhocconsr",
-        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wusanzw/plugin.zip",
-        "version": 2,
-        "source": "https://www.wusanzw.com",
-        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/wusanzw/icon.png",
-        "description": "Đọc truyện trên trang www.wusanzw.com"
-        },
-        {
         "name": "PTWXC 【飄天文學】",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/ptwxc/plugin.zip",
