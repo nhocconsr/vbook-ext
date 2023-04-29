@@ -2,11 +2,11 @@
   "metadata": {
     "name": "Hetushu 【和图书】",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://www.hetushu.com",
     "regexp": "(www.)?(m.)?hetushu.com/book/\\d+/index.html",
     "description": "Lỗi extension liên hệ email: phamgiavang@gmail.com",
-    "local": "vi-VN",
+    "locale": "zh-CN",
     "language": "javascript",
     "type": "chinese_novel"
   },

@@ -409,6 +409,17 @@
         "locale": "zh_CN"
         },
         {
+        "name": "Hetushu 和图书",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hetushu/plugin.zip",
+        "version": 2,
+        "source": "https://www.hetushu.com",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hetushu/icon.png",
+        "description": "Đọc truyện trên trang hetushu.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+        },
+        {
         "name": "DouJins",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doujins/plugin.zip",
