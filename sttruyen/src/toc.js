@@ -1,17 +1,13 @@
 function execute(url) {
-    let nUrl = url.split('|');
-    let response = fetch(nUrl[1]);
-    let chapters = [];
-    if(response.ok){
-        let data = response.json();
-        data.data.forEach(chapter => {
-                chapters.push({
-                    name: chapter.name,
-                    url: "https://sttruyen.com/render/"+nUrl[0]+'/'+chapter.alias,
-                    host: 'https://sttruyen.com'
-                })
-            })
-        return Response.success(chapters);
+    let last_chapter = fetch(url).html().select('#readMore').attr('onclick').split('-').pop().replace("'",'');
+    let baseChap = url.replace('story','render');
+    let list = [];
+    for(var i = 1;i <=last_chapter;i++){
+        list.push({
+            name: `Chương ${i}`,
+            url: `${baseChap}/chuong-${i}`,
+            host: "https://sttruyen.com"
+        })
     }
-    return null;
+    return Response.success(list);
 }
