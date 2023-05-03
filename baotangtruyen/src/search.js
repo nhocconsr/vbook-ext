@@ -1,5 +1,5 @@
 function execute(key) {
-    const doc = Http.get('https://baotangtruyenhot.com/tim-truyen?keyword='+ key).html();
+    const doc = Http.get('https://baotangtruyengo.com/tim-truyen?keyword='+ key).html();
     var el = doc.select('.container .row .row .item')
     var data =[]
     for (var i = 0; i < el.size(); i++) {
@@ -9,7 +9,7 @@ function execute(key) {
             link: e.select("h3 a").first().attr("href"),
             cover: e.select("a img").first().attr("data-src"),
             description: e.select(".chapter ").first().text(),
-            host: "https://baotangtruyenhot.com"
+            host: "https://baotangtruyengo.com"
         })
     }
 

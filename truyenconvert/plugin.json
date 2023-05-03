@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Truyện Convert",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://truyenconvert.net",
     "regexp": "(www.)?truyenconvert.net/truyen/[0-9a-z-]+",
-    "description": "Đọc truyện tại truyenconvert.net",
+    "description": "V2: fix tên chương. Nếu bị overload thì báo làm cái khác",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
@@ -14,6 +14,7 @@
     "home": "home.js",
     "genre": "genre.js",
     "detail": "detail.js",
+    "page": "page.js",
     "search": "search.js",
     "toc": "toc.js",
     "chap": "chap.js"

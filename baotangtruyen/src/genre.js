@@ -1,5 +1,5 @@
 function execute() {
-    const doc = Http.get("https://baotangtruyenhot.com/home").html()
+    const doc = Http.get("https://baotangtruyengo.com/home").html()
     var list = doc.select('body > nav > div > div > ul > li:nth-child(4) > ul > li > div .nav li a')
     var data = []
     list.forEach(e => data.push({

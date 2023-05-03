@@ -6,6 +6,6 @@ function execute(url) {
         description: doc.select("#summary").text(),
         detail: doc.select(".list-info .status").html(),
         category: doc.select(".col-xs-12 .tr-theloai").html(),
-        host: "https://baotangtruyenmoi.com"
+        host: "https://baotangtruyengo.com"
     });
 }

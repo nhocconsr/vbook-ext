@@ -10,7 +10,7 @@ function execute(url, page) {
             link: e.select("h3 a").first().attr("href"),
             cover: e.select("a img").first().attr("data-src"),
             description: e.select(".chapter ").first().text(),
-            host: "https://baotangtruyenhot.com"
+            host: "https://baotangtruyengo.com"
         })
     }
     return Response.success(data,next)
