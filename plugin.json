@@ -141,6 +141,17 @@
         "locale": "vi_VN"
         },
         {
+        "name": "Truyện Convert",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenconvert/plugin.zip",
+        "version": 1,
+        "source": "https://truyenconvert.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenconvert/icon.png",
+        "description": "Đọc truyện trên trang truyenconvert.net",
+        "type": "novel",
+        "locale": "vi_VN"
+        },
+        {
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
