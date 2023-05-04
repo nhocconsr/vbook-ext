@@ -1,14 +1,18 @@
 function execute(url) {
-    var doc = Http.get(url).html();
-    var el =doc.select("#nt_listchapter ul li a");
+    let sid = url.split('-').pop()
+    let response = fetch("https://baotangtruyengo.com/Story/ListChapterByStoryID", {
+        "method": "POST",
+        "body": {StoryID: sid},
+    });
+    var doc = response.html();
+    var el = doc.select(".chapter a");
     const data = [];
-    for (var i = el.size() - 1; i >= 0;i--) {
-        var e = el.get(i);
+    el.forEach(e =>
         data.push({
             name: e.text(),
             url:  e.select('a' ).attr("href"),
             host: "https:/baotangtruyengo.com"
         })
-    }
-    return Response.success(data); 
+    )
+    return Response.success(data.reverse()); 
 }

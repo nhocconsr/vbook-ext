@@ -1,10 +1,11 @@
-function execute(key, page) {
+function execute(url, page) {
     if (!page) page = '1';
-    const doc = fetch('https://baotangtruyengo.com/tim-truyen',{
+    const doc = fetch('https://baotangtruyengo.com/tim-truyen/'+url,{
         method : "GET",
         queries : {
             page : page,
-            keyword : key,
+            status : -1,
+            sort : 0
         }
     }).html()
     var el = doc.select('#ctl00_divCenter .item')

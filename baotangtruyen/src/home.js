@@ -1,12 +1,6 @@
 function execute() {
-    const doc = Http.get("https://baotangtruyengo.com/home").html()
-    var list = doc.select('.dropdown-menu .tr-full-truyen2 a')
-    var data = []
-    list.forEach(e => data.push({
-        title: e.text(),
-        input: e.select('a').attr('href') ,
-        script: 'gen.js'
-    
-    }))
-    return Response.success(data)
+    return Response.success([
+        {title: "Mới Cập Nhật", input: "0", script: "gen.js"},
+        {title: "Truyện Web Làm", input: "1", script: "gen.js"},
+    ]);
 }

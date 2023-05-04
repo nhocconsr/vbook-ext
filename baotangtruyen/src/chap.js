@@ -1,7 +1,12 @@
 function execute(url) {
-    var doc = Http.get(url).html();
+    var doc = fetch(url).html();
     var imgs = []
-    content = doc.select('.reading-detail  img').forEach(e => imgs.push(e.attr("data-src")));
+    content = doc.select('.reading-detail img')
+        .forEach(e => {
+            let img = e.attr("src");
+            if(img.indexOf('top.jpg') == -1)
+                imgs.push(img)
+        });
     return Response.success(imgs);
 
 }
