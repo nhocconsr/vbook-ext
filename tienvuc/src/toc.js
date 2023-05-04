@@ -6,11 +6,11 @@ function execute(url) {
         let allChap = json.docs
         let list = [];
         allChap.forEach(chap => {
-            if (chap.coins > 0) var vip = '【VIP】 ';
-            else var vip = '';
+            let buy = chap.coins > 0 & chap.isBought == false ? true : false;
             list.push({
-                name: vip+'Chương '+chap.num+': '+chap.name,
+                name: 'Chương '+chap.num+': '+chap.name,
                 url: url+'/chuong-'+chap.num,
+                pay: buy,
                 host: "https://tienvuc.vn"
             })
         });

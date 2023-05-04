@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Tiên Vực",
     "author": "Nhocconsr",
-    "version": 8,
+    "version": 9,
     "source": "https://tienvuc.vn",
     "regexp": "(www.)?tienvuc.vn/[0-9a-z-]+/?$",
-    "description": "V7: Fix tên chap",
+    "description": "V9: update vip",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"
