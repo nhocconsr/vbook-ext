@@ -1,6 +1,6 @@
 function execute(url) {
-    url = url.replace("khotruyentranhz.com","khotruyentranhonline.com")
-    url = url.replace("khotruyentranhhot.com","khotruyentranhonline.com")
+    url = url.replace("khotruyentranhz.net","khotruyentranhonline.net")
+    url = url.replace("khotruyentranhhot.net","khotruyentranhonline.net")
     var doc = fetch(url).html();
     var el = doc.select(".box-chapter-content img");
     var data = [];

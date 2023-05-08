@@ -1,6 +1,6 @@
 function execute(url) {
-    url = url.replace("khotruyentranhz.com","khotruyentranhonline.com")
-    url = url.replace("khotruyentranhhot.com","khotruyentranhonline.com")
+    url = url.replace("khotruyentranhz.net","khotruyentranhonline.net")
+    url = url.replace("khotruyentranhhot.net","khotruyentranhonline.net")
     const doc = fetch(url).html()
     return Response.success({
         name: doc.select(".headline h1").text(),
@@ -9,6 +9,6 @@ function execute(url) {
         description: doc.select(".showless").first().text(),
         detail: doc.select(".manga-col-item > div > div:nth-child(3)").text()+'<br>'+doc.select(".manga-col-item > div > div:nth-child(4)").text()+'<br>'+doc.select(".manga-col-item > div > div:nth-child(5)").text(),
         ongoing: doc.select(".meta-data").html().indexOf("On going") > 0,
-        host: "https://khotruyentranhonline.com",
+        host: "https://khotruyentranhonline.net",
     });
 }

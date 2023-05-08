@@ -301,10 +301,10 @@
         "name": "Kho Truyện Tranh",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/plugin.zip",
-        "version": 7,
-        "source": "https://khotruyentranhonline.com",
+        "version": 8,
+        "source": "https://khotruyentranhonline.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/khotruyentranh/icon.png",
-        "description": "Đọc truyện trên trang khotruyentranhonline.com",
+        "description": "Đọc truyện trên trang khotruyentranhonline.net",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
