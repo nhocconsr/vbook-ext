@@ -3,21 +3,16 @@ function execute(url) {
     let list = [];
     if (response.ok) {
         let doc = response.html();
-        if (url.indexOf("/truyen/") > 0) {
-            let sid = doc.select('#wrap_theodoi a').attr('onclick').split(/['']/)[1];
-            return Response.success(fetchTruyenchu(sid));
-        } else {
-            let el = doc.select(".chap-item .name").select("a");
-            for (let i = el.size() - 1; i >= 0; i--) {
-                var e = el.get(i);
-                list.push({
-                    name: cap(e.text()),
-                    url: e.attr("href"),
-                    host: "https://hamtruyen.info"
-                })
-            }
-            return Response.success(list);
+        let el = doc.select(".lst-chapter .chap-item").select("a");
+        for (let i = el.size() - 1; i >= 0; i--) {
+            var e = el.get(i);
+            list.push({
+                name: cap(e.text()),
+                url: e.attr("href"),
+                host: "https://hamtruyen.info"
+            })
         }
+        return Response.success(list);
     }
     return null;
 }

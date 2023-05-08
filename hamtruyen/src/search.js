@@ -7,12 +7,12 @@ function execute(key, page) {
     if (response.ok) {
         let doc = response.html();
         let comicList = [];
-        doc.select(".list-story .story-item").forEach(e => {
+        doc.select(".lst_story .story_item").forEach(e => {
             comicList.push({
-                name: e.select(".story-name").text(),
+                name: e.select(".story_title").text(),
                 link: e.select("a").attr("href"),
-                cover: e.select("img").attr("src"),
-                description : cap(e.select(".chap").text()),
+                cover: e.select(".story_img").attr('style').split(/[","]/)[1],
+                description : cap(e.select(".linkchap").text()),
                 host: "https://hamtruyen.info"
             });
         });

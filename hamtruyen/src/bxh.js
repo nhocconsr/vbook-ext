@@ -3,23 +3,23 @@ function execute(id, page) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     }
     if (!page) page = '1';
-    let response = fetch("https://hamtruyen.info/danh-muc-truyen-chu/P"+page+"/index.html", {
+    let response = fetch("https://hamtruyen.info/danhsach/P"+page+"/index.html", {
         method: "GET",
         queries: {
-            o : id,
-            st: '-1'
+            status : '0',
+            sort: id
         }
     });
     if (response.ok) {
         let doc = response.html();
         let comicList = [];
-        let next = doc.select(".pagination").select('li.active + li').text()
-        doc.select(".list-story .story-item").forEach(e => {
+        let next = doc.select(".list-pager").select('li.active + li').text()
+        doc.select(".lst_story .story_item").forEach(e => {
             comicList.push({
-                name: e.select(".story-name").text(),
+                name: e.select(".story_title").text(),
                 link: e.select("a").attr("href"),
-                cover: e.select("img").attr("src"),
-                description : cap(e.select(".chap-truyenchu").text().split(':').shift()),
+                cover: e.select(".story_img").attr('style').split(/[","]/)[1],
+                description : cap(e.select(".linkchap").text()),
                 host: "https://hamtruyen.info"
             });
         });

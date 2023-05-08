@@ -6,7 +6,7 @@ function execute(url) {
             return Response.success(doc.select('.content-chap').text().replace(/[?\.]\s/g,'.<br>'))
         } else {
             let imgs = [];
-            doc.select(".list-images img").forEach(e => imgs.push(e.attr("data-original")));
+            doc.select("#lst_content img").forEach(e => imgs.push(e.attr("data-original")));
             return Response.success(imgs);
         }
     }

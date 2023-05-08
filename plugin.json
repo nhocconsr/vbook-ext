@@ -111,7 +111,7 @@
         "name": "Ham Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/plugin.zip",
-        "version": 9,
+        "version": 10,
         "source": "https://hamtruyen.info",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/hamtruyen/icon.png",
         "description": "Đọc truyện trên trang hamtruyen.info",

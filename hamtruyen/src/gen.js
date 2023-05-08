@@ -6,20 +6,20 @@ function execute(id, page) {
     let response = fetch("https://hamtruyen.info/danhsach/P"+page+"/index.html", {
         method: "GET",
         queries: {
-            o : id,
-            st: '-1'
+            status : id,
+            sort: '2'
         }
     });
     if (response.ok) {
         let doc = response.html();
         let comicList = [];
-        let next = doc.select(".pagination").select('li.active + li').text()
-        doc.select(".list-story .story-item").forEach(e => {
+        let next = doc.select(".list-pager").select('li.active + li').text()
+        doc.select(".lst_story .story_item").forEach(e => {
             comicList.push({
-                name: e.select(".story-name").text(),
+                name: e.select(".story_title").text(),
                 link: e.select("a").attr("href"),
-                cover: e.select("img").attr("src"),
-                description : cap(e.select(".chap").text()),
+                cover: e.select(".story_img").attr('style').split(/[","]/)[1],
+                description : cap(e.select(".linkchap").text()),
                 host: "https://hamtruyen.info"
             });
         });

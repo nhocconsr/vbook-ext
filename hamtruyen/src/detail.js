@@ -3,12 +3,12 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html();
         return Response.success({
-            name: doc.select("h3.story-name").first().text(),
-            cover: doc.select(".story-avatar img").first().attr("src"),
-            author: doc.select(".author span").first().text(),
-            description: doc.select(".desc p").html(),
-            detail: doc.select(".chap").first().text()+'<br>'+doc.select(".author").text(),
-            ongoing: doc.select(".chap").text().indexOf("Đang") != -1,
+            name: doc.select("h1.title").first().text(),
+            cover: doc.select(".wrap-content-image img").first().attr("src"),
+            author: null,
+            description: doc.select("#gioithieutruyen").html(),
+            detail: 'Cập Nhật : '+doc.select(".fa-clock-o + span").first().text()+'<br>Mới Nhất : '+doc.select(".fa-bolt + a").text(),
+            ongoing: doc.select(".contiep").text().indexOf("Đang") != -1,
             host: "https://hamtruyen.info",
             type: url.indexOf("/truyen/") > 0 ? "novel" : "comic"
         });
