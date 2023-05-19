@@ -1,1 +1,1 @@
-const BASE_URL = 'https://123truyenhot.com';
+const BASE_URL = 'https://123truyenzz.com';
