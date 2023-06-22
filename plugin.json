@@ -55,10 +55,10 @@
         "name": "Đọc Truyện 3Q",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doctruyen3q/plugin.zip",
-        "version": 3,
-        "source": "https://doctruyen3qi.online",
+        "version": 4,
+        "source": "https://doctruyen3qtv.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/doctruyen3q/icon.png",
-        "description": "Đọc truyện trên trang doctruyen3qme.com",
+        "description": "Đọc truyện trên trang doctruyen3qtv",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"

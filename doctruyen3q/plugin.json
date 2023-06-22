@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Đọc Truyện 3Q",
     "author": "Nhocconsr",
-    "version": 3,
-    "source": "https://doctruyen3qi.online",
+    "version": 4,
+    "source": "https://doctruyen3qtv.net",
     "regexp": "(www.)?doctruyen3q.*?/truyen-tranh/[0-9a-z-]+/\\d+/?$",
-    "description": "Add new site ^^!",
+    "description": "Có thể tự cập nhật miền tại chỗ Mã bổ sung trong phần mở rộng",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "comic",
