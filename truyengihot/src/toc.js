@@ -1,3 +1,4 @@
+load('config.js')
 function execute(url) {
     let doc = fetch(url).html();
     let el = doc.select("#episode_list li a");
@@ -7,7 +8,7 @@ function execute(url) {
         data.push({
             name: e.select('.no').text(),
             url: e.attr("href"),
-            host: "https://truyengihotne.com"
+            host: BASE_URL
         })
     }
     return Response.success(data);

@@ -1,7 +1,7 @@
 function execute() {
     return Response.success([
         { title: "Cập Nhật", input: "", script: "gen.js" },
-        { title: "18+", input: "18", script: "source.js" },
-        { title: "Harem", input: "harem", script: "source.js" },
+        { title: "#Boys' Love", input: "296", script: "source.js" },
+        { title: "#Girl's Love", input: "297", script: "source.js" },
     ]);
 }

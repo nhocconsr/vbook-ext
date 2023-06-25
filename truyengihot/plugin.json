@@ -2,13 +2,13 @@
   "metadata": {
     "name": "Truyện Gì Hot",
     "author": "Nhocconsr",
-    "version": 7,
-    "source": "https://truyengihotne.com",
-    "regexp": "(www.)?truyengihotne.com/[0-9a-z-]+.html",
-    "description": "Đọc truyện tranh thôi nhé!",
+    "version": 8,
+    "source": "https://truyengihotnhat.com",
+    "regexp": "(www.)?truyengihotnhat.com/[0-9a-z-]+.html",
+    "description": "Nếu mà site đổi domain thì thêm mã bổ sung let CONFIG_URL = 'tên miền mới'",
     "locale": "vi-VN",
     "language": "javascript",
-    "type": "comic",
+    "type": "novel",
     "tag": "nsfw"
   },
   "script": {

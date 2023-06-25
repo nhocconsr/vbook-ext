@@ -1,7 +1,9 @@
+load('config.js')
 function execute(url) {
-    const base = 'https://truyengihotne.com';
-    let response = fetch(url);
-    if(response.ok){
+    if (url.indexOf("tieu-thuyet") > 0) {
+        return Response.success('Hiện tại chưa hỗ trợ lấy truyện chữ. Nếu bạn biết cách lấy truyện chữ có thể inb cho mình ^^!');
+    } else {
+        let response = fetch(url);
         let gtext = response.text();
         var mangaID = gtext.match('mangaID = "(.+)"')[1];
         var mangaSLUG = gtext.match('mangaSLUG = "(.+)"')[1];
@@ -9,7 +11,7 @@ function execute(url) {
         var cid = gtext.match('cid = "(.+)"')[1];
         var chapter = gtext.match('chapter = "(.+)"')[1];
         var token = gtext.match('_token = "(.+)"')[1];
-        let gimg = fetch("https://truyengihotne.com/frontend_controllers/chapter/content.php", {
+        let gimg = fetch(`${BASE_URL}/frontend_controllers/chapter/content.php`, {
             method : "POST",
             body: {
                 token: token,
@@ -29,7 +31,7 @@ function execute(url) {
                 if(img.startsWith('/')){
                     imgs.push(base + img)
                 }else if(img.startsWith('upload')){
-                    imgs.push(base +'/'+ img)
+                    imgs.push(BASE_URL +'/'+ img)
                 }else{
                     imgs.push(img)
                 }
@@ -37,5 +39,4 @@ function execute(url) {
         }
         return Response.success(imgs);
     }
-    return Response.success('https://github.com/nhocconsr/vbook-ext/blob/46879e15852dad5171c65a77e3ac2950bbd58a80/huongdan/taoanhdep_cover_chuky2_18236.jpg');
 }
