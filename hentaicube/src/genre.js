@@ -1,5 +1,6 @@
+load('config.js');
 function execute() {
-    const doc = Http.get("https://hentaicb.top/the-loai-genres").html();
+    const doc = fetch(`${BASE_URL}/the-loai-genres`).html();
     const el = doc.select(".genres a");
     const data = [];
     for (var i = 0; i < el.size(); i++) {
