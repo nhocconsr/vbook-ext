@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Hentai Cube",
     "author": "Nhocconsr",
-    "version": 6,
+    "version": 7,
     "source": "https://hentaicube.net",
     "regexp": "(www.)?hentaicube.net/read/.*",
-    "description": "Đọc truyện trên trang hentaicube.net",
+    "description": "V7 : Fix lỗi thiếu ảnh",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "comic",
