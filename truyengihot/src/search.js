@@ -38,7 +38,7 @@ function execute(key, page) {
             list.push({
                 name: item.select('.title a').text(),
                 link: item.select('.title a').attr('href'),
-                cover: item.select('.thumb').attr('style').split(/['']/)[1],
+                cover: item.select('.thumb img').attr('data-src'),
                 description: 'Chap '+item.select('.chapter-link').last().text(),
                 host: BASE_URL
             })
