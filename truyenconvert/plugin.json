@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Truyện Convert",
     "author": "Nhocconsr",
-    "version": 2,
+    "version": 3,
     "source": "https://truyenconvert.net",
     "regexp": "(www.)?truyenconvert.net/truyen/[0-9a-z-]+",
-    "description": "V2: fix tên chương. Nếu bị overload thì báo làm cái khác",
+    "description": "V3: fix load chuong",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "novel"

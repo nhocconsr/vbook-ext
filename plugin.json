@@ -144,7 +144,7 @@
         "name": "Truyện Convert",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenconvert/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://truyenconvert.net",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/truyenconvert/icon.png",
         "description": "Đọc truyện trên trang truyenconvert.net",
