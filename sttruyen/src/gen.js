@@ -26,7 +26,7 @@ function execute(url, page) {
                 host: "https://sttruyen.com"
             })
         }
-        return Response.success(response.headers, next)
+        return Response.success(data, next)
     }
     return null;
 }

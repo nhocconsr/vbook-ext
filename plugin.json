@@ -290,7 +290,7 @@
         "name": "ST Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/plugin.zip",
-        "version": 6,
+        "version": 7,
         "source": "https://sttruyen.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sttruyen/icon.png",
         "description": "Đọc truyện trên trang sttruyen.com",
