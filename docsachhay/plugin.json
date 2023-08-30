@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Đọc Sách Hay",
+    "author": "Nhocconsr",
+    "version": 1,
+    "source": "https://docsachhay.net",
+    "regexp": "(www.)?docsachhay.net/sach/[0-9a-z-]+/?",
+    "description": "Trang web đọc sách hay",
+    "locale": "vi-VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}

@@ -152,6 +152,17 @@
         "locale": "vi_VN"
         },
         {
+        "name": "Đọc Sách Hay",
+        "author": "Nhocconsr",
+        "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/docsachhay/plugin.zip",
+        "version": 1,
+        "source": "https://docsachhay.net",
+        "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/docsachhay/icon.png",
+        "description": "Đọc truyện trên trang docsachhay.net",
+        "type": "novel",
+        "locale": "vi_VN"
+        },
+        {
         "name": "Bảo Tàng Truyện",
         "author": "fusonat",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/baotangtruyen/plugin.zip",
