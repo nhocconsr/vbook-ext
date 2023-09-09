@@ -1,4 +1,6 @@
+load('config.js');
 function execute(url) {
+    url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
     let doc = fetch(url).html();
     let el = doc.select("ul.box-list-chapter li").select("a");
     let data = [];
@@ -7,7 +9,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url: e.attr("href"),
-            host: "https://sayhentai.me"
+            host: BASE_URL
         })
     }
     return Response.success(data);
