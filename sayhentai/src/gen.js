@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url, page) {
     if (!page) page = '1';
     let response = fetch(url, {
@@ -16,7 +17,7 @@ function execute(url, page) {
                 link: e.select("h3 a").attr("href"),
                 cover: e.select("img.img-responsive").attr("data-src") || e.select("img.img-responsive").attr("src"),
                 description: e.select('.chapter').first().text(),
-                host: "https://sayhentai.me"
+                host: BASE_URL
             });
         });
         return Response.success(comiclist, next);
