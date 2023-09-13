@@ -8,10 +8,10 @@
         "name": "Vlog Truyện",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/plugin.zip",
-        "version": 4,
-        "source": "https://vlogtruyenvip.com",
+        "version": 5,
+        "source": "https://vlogtruyen5.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/vlogtruyen/icon.png",
-        "description": "Đọc truyện trên trang vlogtruyen.net",
+        "description": "Đọc truyện trên trang vlogtruyen",
         "type": "comic",
         "locale": "vi_VN"
         },
