@@ -1,4 +1,4 @@
-let BASE_URL = 'https://123truyenfull.com';
+let BASE_URL = 'https://sayhentai.fun';
 try {
     if (CONFIG_URL) {
         BASE_URL = CONFIG_URL;

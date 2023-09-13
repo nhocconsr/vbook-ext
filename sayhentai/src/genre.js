@@ -1,5 +1,6 @@
+load('config.js');
 function execute() {
-    let response = fetch('https://sayhentai.me');
+    let response = fetch(BASE_URL);
     if (response.ok) {
         let doc = response.html();
         const data = [];
