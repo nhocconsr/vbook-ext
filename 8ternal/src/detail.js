@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     const doc = Http.get(url).html()
     return Response.success({
@@ -6,6 +7,6 @@ function execute(url) {
         description: null,
         detail: doc.select(".movie-rate").html(),
         category: null,
-        host: "https://comic.8ternal.com.vn/"
+        host: BASE_URL
     });
 }

@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url, page) {
     const doc = Http.get(url + '?page=' + page).html()
     var el = doc.select('.container .row .flex-wrap-movielist .movie-item-style-2 ')
@@ -8,9 +9,9 @@ function execute(url, page) {
         data.push({
             name: e.select("h6").first().text(),
             link: e.select("a").first().attr("href"),
-            cover: 'https://comic.8ternal.com.vn/' + e.select(" img").first().attr("src"),
+            cover: BASE_URL + e.select(" img").first().attr("src"),
             description: null,
-            host: "https://comic.8ternal.com.vn"
+            host: BASE_URL
         });
     }
     return Response.success(data,next)
