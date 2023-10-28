@@ -865,6 +865,15 @@
         "source": "https://tuoinung.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/tuoinung/icon.png",
         "description": "Truyện sex hay với đầy đủ các thể loại: phá trinh, loạn luân, ngoại tình, bạo dâm, hiếp dâm, dâm hiệp, học sinh, giáo viên, sinh viên ...."
-        }
+        },
+        {
+          "name": "8ternal",
+          "author": "fusornat",
+          "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/8ternal/plugin.zip",
+          "version": 2,
+          "source": "https://tuoinung.com",
+          "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/8ternal/icon.png",
+          "description": "8ternal tổng hợp truyện dịch từ nhiều nguồn khác nhau, hỗ trợ các bạn đọc comics theo đúng timeline của các sự kiện chính. Hoặc đọc truyện theo timeline nhân vật mà các bạn yêu thích.."
+          }
     ]
 }

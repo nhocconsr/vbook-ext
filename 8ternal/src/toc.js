@@ -1,3 +1,4 @@
+load('config.js');
 function execute(url) {
     var doc = Http.get(url).html();
     var el =doc.select(".row .cast-left ");
@@ -7,7 +8,7 @@ function execute(url) {
         data.push({
             name: e.text(),
             url:  e.select('a' ).attr("href"),
-            host: "https://comic.8ternal.com.vn/"
+            host: BASE_URL
         })
     }
     return Response.success(data); 
