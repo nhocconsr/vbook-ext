@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Qimao (七猫文化)",
     "author": "Nhocconsr",
-    "version": 1,
+    "version": 2,
     "source": "https://www.qimao.com",
     "regexp": "(www.)?(qimao.com/shuku/\\d+/?)|(api-bc.wtzw.com/.*)",
     "description": "Qimao",
@@ -15,6 +15,7 @@
     "detail": "detail.js",
     "search": "search.js",
     "toc": "toc.js",
-    "chap": "chap.js"
+    "chap": "chap.js",
+    "genre": "genre.js"
   }
 }

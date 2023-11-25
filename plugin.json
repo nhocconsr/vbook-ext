@@ -324,7 +324,7 @@
         "name": "Qimao",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/qimao/plugin.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://www.qimao.com",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/qimao/icon.png",
         "description": "Đọc truyện trên trang qimao.com",
