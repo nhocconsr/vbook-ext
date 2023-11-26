@@ -1,6 +1,7 @@
 function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch(`https://www.qimao.com/shuku/${url}-a-a-a-a-a-a-click-${page}/`)
+    let response = fetch(`https://www.qimao.com/shuku/${url}-a-a-a-a-update_time-${page}/`)
+    console.log(url)
     if(response.ok){
         let doc = response.html()
         let el = doc.select(".qm-pic-txt li")
