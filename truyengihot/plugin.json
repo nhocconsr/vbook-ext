@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Truyện Gì Hot",
     "author": "Nhocconsr",
-    "version": 10,
-    "source": "https://truyengihotday.net",
-    "regexp": "(www.)?truyengihotday.net/[0-9a-z-]+.html",
+    "version": 11,
+    "source": "https://truyengihotmoi.net",
+    "regexp": "(www.)?truyengihot(.*?).net/[^/]+.html$",
     "description": "Nếu mà site đổi domain thì thêm mã bổ sung let CONFIG_URL = 'tên miền mới'",
     "locale": "vi-VN",
     "language": "javascript",
