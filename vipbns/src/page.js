@@ -1,13 +1,17 @@
+load("config.js");
+
 function execute(url) {
-    const slug = url.split('/')[4]
-    const bookId = url.split('/').pop().split('.').shift();
-    const json = Http.get('https://api.bachngocsach.vip/api/story/'+ bookId +'/chapter?order_by=asc').string();
-    var allPage = JSON.parse(json).chapters.last_page;
-    var list = [];
-    if (json) {
-        for (var i = 1; i <= allPage; i++)
-            list.push("https://api.bachngocsach.vip/api/story/"+bookId+"/chapter?per_page=50&page=" + i + "&order_by=asc|"+slug);
-        return Response.success(list);
+    const bookId = url.split('/').pop().split('.')[0];
+    let response = fetch(BASE_URL + "/api/story/" + bookId + "/chapter?per_page=50&page=1&order_by=asc");
+    if (response.ok) {
+        let pages = [];
+        let lastPage = response.json().chapters.last_page;
+        for (let i = 1; i <= lastPage; i++) {
+            pages.push(url + "/api/story/" + bookId + "/chapter?per_page=50&page=" + i + "&order_by=asc");
+        }
+
+        return Response.success(pages);
     }
+
     return null;
 }
