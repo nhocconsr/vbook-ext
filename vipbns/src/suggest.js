@@ -1,13 +1,7 @@
 load("config.js");
-function execute(key, page) {
+function execute(url, page) {
     if (!page) page = '1';
-    let response = fetch(BASE_URL + "/api/advanced-search", {
-        queries: {
-            q: key,
-            per_page: "10",
-            page: page,
-        }
-    });
+    let response = fetch(url);
     if (response.ok) {
         let json = response.json();
         let currentPage = json.current_page;
@@ -23,6 +17,7 @@ function execute(key, page) {
             });
         });
         if (currentPage < lastPage) {
+
             return Response.success(books, (currentPage + 1) + "");
         }
 

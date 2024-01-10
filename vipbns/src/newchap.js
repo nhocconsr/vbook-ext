@@ -4,20 +4,20 @@ function execute(url, page) {
     let response = fetch(url + "&page=" + page);
     if (response.ok) {
         let json = response.json();
-        let currentPage = json.current_page;
+        let currentPage = parseInt(page);
         let lastPage = json.last_page;
 
         let books = [];
         json.data.forEach(item => {
+            let story = item.story;
             books.push({
-                name: item.name,
-                link: BASE_HOST + '/truyen/' + item.slug + '/' + item.id + '.html',
-                cover: item.cover,
-                description: item.author.name + ', ' + item.chapters_count + ' chương',
+                name: story.name,
+                link: BASE_HOST + '/truyen/' + story.slug + '/' + story.id + '.html',
+                cover: story.cover,
+                description: item.chapter.name,
             });
         });
         if (currentPage < lastPage) {
-
             return Response.success(books, (currentPage + 1) + "");
         }
 
