@@ -2,10 +2,10 @@
   "metadata": {
     "name": "123 Truyện",
     "author": "Nhocconsr",
-    "version": 10,
-    "source": "https://123truyenfull.com",
+    "version": 11,
+    "source": "https://123truyencv.com/",
     "regexp": "(www.)?123truyen(.*?).com/[0-9a-z-]+",
-    "description": "Đổi domain theo bài hướng dẫn trong Thảo Luận: let CONFIG...",
+    "description": "Đổi domain bằng mã bổ sung",
     "locale": "vi-VN",
     "language": "javascript",
     "type" : "novel"
