@@ -14,14 +14,14 @@ function execute(url) {
             }
         });
         if (response.ok) {
-            let data = response.json()
-            if (!data || data.chapter.price > 0) {
-                return Response.error('Đây là chương mất tiền hoặc bạn chưa đăng nhập nick vào web bằng vbook. Đăng nhập rồi load lại nhé!');
-            } else {
+            let data = response.json();
+            if (data && data.chapter && data.chapter.content) {
                 let content = data.chapter.content.replace(/<!-- (.*?) -->/gm, '')
                     .replace(/<p(.*?)>(.*?)<?p>/g, '')
                     .replace(/\n/g, '<br>');
                 return Response.success(content);
+            } else {
+                return Response.error('Đây là chương mất tiền hoặc bạn chưa đăng nhập nick vào web bằng vbook. Đăng nhập rồi load lại nhé!');
             }
         }
     } else {
