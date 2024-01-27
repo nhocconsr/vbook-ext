@@ -177,10 +177,10 @@
         "name": "Say Hentai",
         "author": "Nhocconsr",
         "path": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/plugin.zip",
-        "version": 6,
-        "source": "https://sayhentai.me",
+        "version": 7,
+        "source": "https://sayhentai.club",
         "icon": "https://raw.githubusercontent.com/nhocconsr/vbook-ext/master/sayhentai/icon.png",
-        "description": "Đọc truyện trên trang Sayhentai.me",
+        "description": "Đọc truyện trên trang Sayhentai.club",
         "type": "comic",
         "locale": "vi_VN",
         "tag": "nsfw"
