@@ -1,15 +1,17 @@
+load("config.js");
+
 function execute() {
-    const json = Http.get("https://api.bachngocsach.vip/api/categories?per_page=24").string();
-    const el = JSON.parse(json);
-    var es = el.data;
-    const data = [];
-    for (var i = 0; i < es.length; i++) {
-        var e = es[i];
-        data.push({
-           title: e['name'],
-           input: e['id'],
-           script: 'cat.js'
+    let response = fetch(BASE_URL + "/api/categories-sorted-by-alphabet?per_page=200");
+    if (response.ok) {
+        let genres = [];
+        response.json().data.forEach(item => {
+            genres.push({
+                title: item.name,
+                input: BASE_URL + "/api/category/" + item.id + "/story?per_page=10",
+                script: 'source.js'
+            });
         });
+        return Response.success(genres);
     }
-    return Response.success(data);
+    return null;
 }
