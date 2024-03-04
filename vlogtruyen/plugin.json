@@ -2,10 +2,10 @@
   "metadata": {
     "name": "Vlog Truyện",
     "author": "Nhocconsr",
-    "version": 5,
-    "source": "https://vlogtruyen5.com",
+    "version": 6,
+    "source": "https://vlogtruyen11.net",
     "regexp": "(www.)?vlogtruyen5.*?/[^/]+.html",
-    "description": "Đọc truyện tại https://vlogtruyen5.com/",
+    "description": "Đọc truyện tại https://vlogtruyen11.net/",
     "locale": "vi-VN",
     "language": "javascript",
     "type": "comic"
