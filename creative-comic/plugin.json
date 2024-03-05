@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "name": "Vlog Truyện",
+    "name": "Creative-comic",
     "author": "Nhocconsr",
-    "version": 7,
-    "source": "https://vlogtruyen11.net",
-    "regexp": "(www.)?vlogtruyen11.*?/[^/]+.html",
-    "description": "Đọc truyện tại https://vlogtruyen11.net",
-    "locale": "vi-VN",
+    "version": 1,
+    "source": "https://www.creative-comic.tw",
+    "regexp": "(www.)?creative-comic.tw/en/book/\\d+/content",
+    "description": "Đọc truyện tại https://www.creative-comic.tw",
+    "local": "zh-CN",
     "language": "javascript",
     "type": "comic"
   },

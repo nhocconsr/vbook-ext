@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "name": "Vlog Truyện",
+    "name": "VIP Truyện Full",
     "author": "Nhocconsr",
-    "version": 7,
-    "source": "https://vlogtruyen11.net",
-    "regexp": "(www.)?vlogtruyen11.*?/[^/]+.html",
-    "description": "Đọc truyện tại https://vlogtruyen11.net",
+    "version": 1,
+    "source": "https://viptruyenfull.com",
+    "regexp": "(www.)?viptruyenfull.com/[0-9a-z-]+/?$",
+    "description": "Để đọc cần đăng nhập nhé!",
     "locale": "vi-VN",
     "language": "javascript",
-    "type": "comic"
+    "type": "novel"
   },
   "script": {
     "home": "home.js",

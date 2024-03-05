@@ -4,7 +4,8 @@ function execute(url) {
     let response = fetch(url);
     if(response.ok){
         let doc = response.html();
-        let el = doc.select(".comicDetails img");    
+        let el = doc.select(".comicDetails img");
+        Console.log(el)    
         let data = [];
         for (var i = 0; i < el.size(); i++) {
             var e = el.get(i);
