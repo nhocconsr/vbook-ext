@@ -1,1 +1,1 @@
-const BASE_URL = 'https://vlogtruyen11.net';
+const BASE_URL = 'https://vlogtruyen12.com';
