@@ -1,1 +1,7 @@
-const BASE_URL = 'https://lxmanga.net';
+const BASE_URL = 'https://lxmanga88.com';
+try {
+    if (CONFIG_URL) {
+        BASE_URL = CONFIG_URL;
+    }
+} catch (error) {
+}
