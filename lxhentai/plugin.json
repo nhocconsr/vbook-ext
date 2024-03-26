@@ -2,7 +2,7 @@
   "metadata": {
     "name": "LxHentai",
     "author": "Nhocconsr",
-    "version": 6,
+    "version": 7,
     "source": "https://lxmanga.net",
     "regexp": "(www.)?(lxmanga|lxhentai).*?/truyen/.*",
     "description": "Đọc truyện trên trang lxmanga.com",
